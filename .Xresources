@@ -1,0 +1,24 @@
+URxvt.font: xft:Hack:size=12
+URxvt.scrollBar: false
+URxvt.iso14755: false
+URxvt.iso14755_52: false
+URxvt.perl-ext-common: tabbedex,keyboard-select
+
+! keyboard-select
+URxvt.keysym.M-s: perl:keyboard-select:activate
+URxvt.keysym.M-r: perl:keyboard-select:search
+
+URxvt.url-launcher:      dwb
+URxvt.matcher.button:   1
+URxvt.colorUL: #4682B4
+URxvt.tabbed.tabbar-fg: 2
+URxvt.tabbed.tabbar-bg: 0
+URxvt.tabbed.tab-fg: 2
+URxvt.tabbed.tab-bg: 0
+URxvt.tabbed.autohide:  yes
+URxvt.tabbed.new-button:  no
+URxvt.tabbed.title: yes
+
+URxvt*depth: 32
+URxvt*background: [75]#000000
+URxvt.fading: 20 
