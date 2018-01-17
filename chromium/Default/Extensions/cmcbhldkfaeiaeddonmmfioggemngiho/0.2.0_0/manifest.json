@@ -1,0 +1,24 @@
+{
+   "background": {
+      "scripts": [ "jquery.js", "downloader.js" ]
+   },
+   "content_scripts": [ {
+      "js": [ "jquery.js", "grabContent.js" ],
+      "matches": [ "http://*.pandora.com/*", "https://*.pandora.com/*" ],
+      "run_at": "document_start"
+   } ],
+   "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
+   "description": "Extend the functions of Pandora web listener for free!",
+   "icons": {
+      "128": "PandoraExtensionsLogo128.png",
+      "16": "Icons/PandoraExtensionsLogo16.png",
+      "48": "Icons/PandoraExtensionsLogo48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA3zaZ8oIGVgCPClU/gE3WCgi0CZEnU33rLePsWgpdtC4kJODiqWLAcRiU7S5RbiZDLbp8MLU7rJOrtnogpyCv8ayq/5kL+5yl9wgMqEreDhvrymCmDBI6EO8zbD+CWUB8L37b6E/ZOy5mbEtJF+0qnQ5PJBcMe604rwDOVUT3Dtc/kqtWsmfvbTkLFqIoku6G4yIiCFHxrKFsO3jQh1Derm5Ie/5VyPGi2potj90M2IJJZjlD4Warry/Uxshca+oWeJ1QBzPC/SwgED5GYicnDt7cKdGcHGtnTol5uQJrMo8J56ckDFQdqqXK7T8Cal/W25MZg39pl8QfSRVmXj+TnQIDAQAB",
+   "manifest_version": 2,
+   "name": "Pandora Extensions",
+   "permissions": [ "webRequest", "webRequestBlocking", "http://*.pandora.com/", "https://*.pandora.com/", "tabs" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.2.0",
+   "web_accessible_resources": [ "WebFiles/downloadIcon.png", "WebFiles/youtubeIcon.png", "WebFiles/downloadButton.html", "WebFiles/youtubeButton.html" ]
+}

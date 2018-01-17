@@ -1,0 +1,10 @@
+{
+   "desc": {
+      "description": "App Description",
+      "message": "Pon a prueba y analizar las fuentes de la web: las fuentes de Google, las fuentes del sistema y fuentes personalizadas."
+   },
+   "title": {
+      "description": "App Name",
+      "message": "webfont|test"
+   }
+}

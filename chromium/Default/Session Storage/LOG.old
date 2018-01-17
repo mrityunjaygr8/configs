@@ -1,0 +1,13 @@
+2018/01/11-15:34:11.139 3353 Reusing MANIFEST /home/mrityunjaygr8/.config/chromium/Default/Session Storage/MANIFEST-000001
+2018/01/11-15:34:11.139 3353 Recovering log #144
+2018/01/11-15:34:11.139 3353 Reusing old log /home/mrityunjaygr8/.config/chromium/Default/Session Storage/000144.log 
+2018/01/11-17:53:46.419 4093 Level-0 table #148: started
+2018/01/11-17:53:46.422 4093 Level-0 table #148: 26792 bytes OK
+2018/01/11-17:53:46.424 4093 Delete type=0 #144
+2018/01/11-20:43:40.458 4093 Compacting 2@0 + 1@1 files
+2018/01/11-20:43:40.472 4093 Generated table #149@0: 3950 keys, 152861 bytes
+2018/01/11-20:43:40.473 4093 Compacted 2@0 + 1@1 files => 152861 bytes
+2018/01/11-20:43:40.474 4093 compacted to: files[ 0 1 1 0 0 0 0 ]
+2018/01/11-20:43:40.475 4093 Delete type=2 #142
+2018/01/11-20:43:40.475 4093 Delete type=2 #145
+2018/01/11-20:43:40.475 4093 Delete type=2 #148

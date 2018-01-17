@@ -1,0 +1,47 @@
+VirtualBox XPCOM Server 5.1.30_SUSE r118389 linux.amd64 (openSUSE Buildservice) release log
+00:00:00.000284 main     Log opened 2018-01-08T16:37:39.305029000Z
+00:00:00.000286 main     Build Type: release
+00:00:00.000290 main     OS Product: Linux
+00:00:00.000290 main     OS Release: 4.14.8-1-default
+00:00:00.000291 main     OS Version: #1 SMP PREEMPT Wed Dec 20 10:40:41 UTC 2017 (674981b)
+00:00:00.000313 main     DMI Product Name: GL552VW
+00:00:00.000324 main     DMI Product Version: 1.0       
+00:00:00.000365 main     Host RAM: 15942MB (15.5GB) total, 13975MB (13.6GB) available
+00:00:00.000369 main     Executable: /usr/lib/virtualbox/VBoxSVC
+00:00:00.000370 main     Process ID: 4046
+00:00:00.000371 main     Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.001667 main     IPC socket path: /tmp/.vbox-mrityunjaygr8-ipc/ipcd
+00:00:00.105719 nspr-2   VirtualBox: object creation starts
+00:00:00.105899 nspr-2   Home directory: '/home/mrityunjaygr8/.config/VirtualBox'
+00:00:00.106812 nspr-2   Loading settings file "/home/mrityunjaygr8/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:00.108587 nspr-2   USB: Unknown USB device detected (idVendor: 0x8087, idProduct: 0x0a2b)
+00:00:00.108684 nspr-2   Successfully initialised host USB using sysfs
+00:00:00.116843 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp2s0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:00.125240 nspr-2   NAT: resolv.conf: nameserver 8.8.8.8
+00:00:00.125272 nspr-2   NAT: resolv.conf: nameserver 4.2.2.2
+00:00:00.125312 nspr-2   HostDnsMonitor: old information
+00:00:00.125320 nspr-2     no server entries
+00:00:00.125326 nspr-2     no domain set
+00:00:00.125331 nspr-2     no search string entries
+00:00:00.125336 nspr-2   HostDnsMonitor: new information
+00:00:00.125341 nspr-2     server 1: 8.8.8.8
+00:00:00.125348 nspr-2     server 2: 4.2.2.2
+00:00:00.125353 nspr-2     domain: iitbhu.ac.in
+00:00:00.125359 nspr-2     search string 1: iitbhu.ac.in
+00:00:00.125370 nspr-2   HostDnsMonitorProxy::notify
+00:00:00.132137 nspr-2   VD: VDInit finished
+00:00:00.132320 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={0eb668d2-495e-5a36-8890-29999b5f030c} aComponent={SystemPropertiesWrap} aText={Cannot determine default Guest Additions ISO location. Most likely they are not available}, preserve=false aResultDetail=0
+00:00:00.141034 nspr-2   Loading settings file "/home/mrityunjaygr8/VirtualBox VMs/kali/kali.vbox" with version "1.16-linux"
+00:00:00.142021 nspr-2   VirtualBox: object created
+00:00:15.498962 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={b2547866-a0a1-4391-8b86-6952d82efaa0} aComponent={MachineWrap} aText={This machine does not have any snapshots}, preserve=false aResultDetail=0
+00:00:17.529860 nspr-4   Load [/usr/lib/virtualbox/ExtensionPacks/Oracle_VM_VirtualBox_Extension_Pack/linux.amd64/VBoxHostWebcam.so] rc VINF_SUCCESS
+00:00:17.759205 nspr-4   ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={b2547866-a0a1-4391-8b86-6952d82efaa0} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=0
+00:00:17.777102 nspr-5   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp2s0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:47.720849 nspr-4   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp2s0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:47.726727 nspr-4   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp2s0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:01:18.392546 nspr-4   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={4afe423b-43e0-e9d0-82e8-ceb307940dda} aComponent={MediumWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:07:18.391261 main     VirtualBox: object deletion starts
+00:07:18.391339 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={4afe423b-43e0-e9d0-82e8-ceb307940dda} aComponent={MediumWrap} aText={Medium '/home/mrityunjaygr8/VirtualBox VMs/kali/kali.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:07:18.421179 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={0169423f-46b4-cde9-91af-1e9d5b6cd945} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:07:23.398588 main     {00007fb4e4019290} HostPowerServiceLinux::~HostPowerServiceLinux: RTThreadWait() for 5000 ms failed with VERR_TIMEOUT
+00:07:23.399354 main     VirtualBox: object deleted

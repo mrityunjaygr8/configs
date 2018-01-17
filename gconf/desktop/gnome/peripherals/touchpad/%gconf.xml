@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="off" mtime="1513088731" type="bool" value="false"/>
+	<entry name="horiz_scroll_delta" mtime="1513088724" type="int" value="75"/>
+	<entry name="vert_scroll_delta" mtime="1513088724" type="int" value="75"/>
+	<entry name="max_tap_time" mtime="1513088724" type="int" value="180"/>
+</gconf>

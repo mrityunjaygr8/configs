@@ -1,0 +1,22 @@
+{
+   "background_page": "background.html",
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "content.js", "jquery/jquery-1.4.2.min.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_start"
+   } ],
+   "description": "Block widely installed 3rd party social/web 2.0 widgets to make pages load faster.",
+   "icons": {
+      "128": "widget-block-128.png",
+      "16": "widget-block-16.png",
+      "48": "widget-block-48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCusF35vnxxGsEPffc0WovVyJS8c2xRV3Y4f835YhFScTy7ESseUtKzxFPOnfQ51rOQUwe0luATADeCO3k65QqMpJAapdnaARVG/9VPyY4ieGIzSf1+II1tJy/xuT7z5lSM4wQJ8RuURM1tLmzv0ZpNrLccIBO/bOHklaPgxwIEUwIDAQAB",
+   "minimum_chrome_version": "6",
+   "name": "WidgetBlock",
+   "options_page": "options.html",
+   "permissions": [  ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "0.1.14"
+}

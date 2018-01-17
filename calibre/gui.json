@@ -1,0 +1,127 @@
+{
+  "quick_start_guide_added": true, 
+  "library_usage_stats": {
+    "/home/mrityunjaygr8/Calibre Library": 8
+  }, 
+  "quickview visible": false, 
+  "grid view visible": false, 
+  "search bar visible": true, 
+  "ask_to_manage_device": [
+    "122005ae"
+  ], 
+  "book_details_splitter_horizontal_state": [
+    true, 
+    200
+  ], 
+  "cover_browser_splitter_vertical_state": [
+    false, 
+    300
+  ], 
+  "duplicates-question-dialog-geometry": {
+    "__class__": "bytearray", 
+    "__value__": "AdnQywACAAAAAAQXAAAApAAABBcAAACkAAAEFwAAAKQAAAYqAAACIAAAAAAAAAAAB4A="
+  }, 
+  "tag_browser_splitter_horizontal_state": [
+    true, 
+    200
+  ], 
+  "custom_colors_for_color_dialog": [
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ], 
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ], 
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ], 
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ], 
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ], 
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ], 
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ], 
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ], 
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ], 
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ], 
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ], 
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ], 
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ], 
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ], 
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ], 
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ]
+  ], 
+  "tag browser search box visible": false
+}

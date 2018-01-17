@@ -1,0 +1,29 @@
+{
+   "background": {
+      "page": "background.html",
+      "persistent": true
+   },
+   "browser_action": {
+      "default_title": "🔎 Find music 🎶 on this site with Audius."
+   },
+   "content_scripts": [ {
+      "js": [ "content.js" ],
+      "matches": [ "http://*/*", "https://*/*", "file://*/*", "*://*/*" ],
+      "run_at": "document_end"
+   } ],
+   "description": "Audius - the ultimate streaming music player.",
+   "icons": {
+      "128": "img/audius.logo128.png",
+      "16": "img/audius.logo16.png",
+      "48": "img/audius.logo48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAi993/BvZejhoA5TyY4QVqLBXBZteZ4uKVm5SBt7kBLtL9b2+q7oQ9JKBIPqCAatCkSkjEIDNl3nEX2dpbwG4lbqmMUEs8Hr/rxJpCpBntrg3slqPu8GZrHAH4aIO+uDuC/vs5YLVPQSdJR4YF9LdFfCPCkrsTt66flCdli4gp6ay4e/0t477RNBpGboli2HqiiLkkN2hWch1+8Zmti24ASFkzLG20WUQTF8H2pZ351XZvl2/0RmeF1ioyXmfjHP3aGb2IOoZC9l0nX+ztkSFxoUk+g60Xs2NPL46voD4hdEoxlRriISJbeufDQRz/tyAB5+p3bLhJRFg8TqSeUTC5wIDAQAB",
+   "manifest_version": 2,
+   "name": "Audius",
+   "permissions": [ "tabs", "activeTab", "notifications" ],
+   "sandbox": {
+      "pages": [ "plugins-sandbox.html" ]
+   },
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.0.11"
+}

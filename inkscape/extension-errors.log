@@ -1,0 +1,12 @@
+Extension "LaTeX" failed to load because a dependency was not met.
+Dependency:
+  type: executable
+  location: path
+  string: latex
+
+Extension "LaTeX" failed to load because a dependency was not met.
+Dependency:
+  type: executable
+  location: path
+  string: dvips
+

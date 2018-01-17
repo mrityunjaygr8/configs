@@ -1,0 +1,441 @@
+/* make modbar play nice with reddit chat */
+
+.tb-modbar-shown .pinned-to-bottom {
+    bottom: 24px;
+}
+
+body.mod-toolbox #tb-bottombar {
+    bottom: 0;
+    z-index: 2147483646 !important;
+    position: fixed;
+    text-align: left;
+    margin-left: 0;
+    margin-right: 0;
+    height: 22px;
+    background-color: rgba(206, 227, 248, 0.86);
+    font-size:11px;
+    color: #696969;
+    padding: 0 !important;
+    border-top: solid 1px #B6C9DD;
+    left: 0;
+    right: 0;
+    box-sizing: initial !important;
+}
+body.mod-toolbox #tb-bottombar span {
+    display: inline-block;
+    vertical-align: top;
+    height: 22px;
+    line-height: 22px;
+}
+body.mod-toolbox #tb-bottombar #tb-bottombar-contentright {
+    float: right;
+}
+
+.mod-toolbox #tb-bottombar-hidden {
+    bottom: 0;
+    z-index: 6000;
+    position: fixed;
+    text-align: left;
+    margin-left: 0;
+    margin-right: 0;
+    width: auto;
+    height: 22px;
+    background-color: rgba(206, 227, 248, 0.86);
+    font-size: 11px;
+    color: #696969;
+    padding: 0 !important;
+    border-top: solid 1px #B6C9DD;
+    border-right: solid 1px #B6C9DD;
+    left: 0;
+}
+
+/* Icons in the bottom bar */
+.mod-toolbox #tb-bottombar .tb-bottombar-hide,
+.mod-toolbox #tb-bottombar-hidden .tb-bottombar-unhide,
+.mod-toolbox #tb-bottombar .tb-toolbar-new-settings,
+.mod-toolbox #tb-toggle-console,
+.mod-toolbox #tb-reload-link {
+    display: inline-block;
+    height: 16px;
+    padding: 3px;
+}
+
+.mod-toolbox #tb-mail.nohavemail {
+    background-image: url("https://s3.amazonaws.com/b.thumbs.redditmedia.com/woYtFG4lfF5h5VMhKJ-b-djnzdr5_sR2aNqdZfd7RmI.png");
+    background-position: -16px -645px;
+    background-repeat: no-repeat;
+}
+
+.mod-toolbox #tb-mail.havemail {
+    background-image: url("https://s3.amazonaws.com/b.thumbs.redditmedia.com/woYtFG4lfF5h5VMhKJ-b-djnzdr5_sR2aNqdZfd7RmI.png");
+    background-position: 0 -645px;
+    background-repeat: no-repeat;
+}
+
+.mod-toolbox #tb-mail {
+    top: 2px;
+    background-repeat: no-repeat;
+    line-height: 8px;
+    position: relative;
+    display: inline-block;
+    text-indent: -9999px;
+    overflow: hidden;
+    width: 15px;
+    height: 10px;
+}
+
+.mod-toolbox #tb-modmail,
+.mod-toolbox #tb-new_modmail {
+	top: 2px;
+    display: inline-block;
+    height: 16px;
+    overflow: hidden;
+    position: relative;
+    text-indent: -9999px;
+    width: 16px;
+}
+
+.mod-toolbox #tb-modmail.havemail {
+    background-image: url("https://s3.amazonaws.com/b.thumbs.redditmedia.com/woYtFG4lfF5h5VMhKJ-b-djnzdr5_sR2aNqdZfd7RmI.png");
+    background-position: -85px -577px;
+    background-repeat: no-repeat;
+}
+
+.mod-toolbox #tb-modmail.nohavemail {
+    background-image: url("https://s3.amazonaws.com/b.thumbs.redditmedia.com/woYtFG4lfF5h5VMhKJ-b-djnzdr5_sR2aNqdZfd7RmI.png");
+    background-position: -102px -577px;
+    background-repeat: no-repeat;
+}
+
+.mod-toolbox #tb-new_modmail.havemail {
+    background-image: url("https://www.redditstatic.com/sprite-reddit.6Om8v6KMv28.png");
+    background-position: -102px -1435px;
+    background-repeat: no-repeat;
+}
+
+
+.mod-toolbox #tb-new_modmail.nohavemail {
+    background-image: url("https://www.redditstatic.com/sprite-reddit.6Om8v6KMv28.png");
+    background-position: -126px -1323px;
+    background-repeat: no-repeat;
+}
+
+.mod-toolbox #tb-new_modmail {
+    width: 13px;
+}
+
+
+.mod-toolbox #tb-new-modmail-tooltip {
+    display:none;
+    z-index: 9999;
+    position: fixed;
+    height: initial;
+    width: initial;
+    right: 55px;
+    margin-bottom: 15px;
+    bottom: 15px;
+    background-color: #FFF;
+    box-shadow: rgba(160, 177, 193, 0.4) 0px 1px 3px 1px;
+    border: solid 10px rgb(206, 227, 248);
+    padding: 5px;
+}
+
+
+.mod-toolbox #tb-new-modmail-tooltip tr:nth-child(2n) {
+    background: rgba(162, 162, 162, 0.2);
+}
+
+.mod-toolbox #tb-new-modmail-tooltip td {
+    padding: 3px;
+}
+
+.mod-toolbox #tb-new-modmail-tooltip td.tb-new-mm-count {
+    font-weight: bold;
+}
+
+.mod-toolbox #tb-modqueue {
+    background-image: url("https://s3.amazonaws.com/b.thumbs.redditmedia.com/woYtFG4lfF5h5VMhKJ-b-djnzdr5_sR2aNqdZfd7RmI.png");
+    background-position: -102px -595px;
+    background-repeat: no-repeat;
+    line-height: 8px;
+    position: relative;
+    top: 2px;
+    display: inline-block;
+    text-indent: -9999px;
+    overflow: hidden;
+    width: 16px;
+    height: 16px;
+}
+
+.mod-toolbox #tb-unmoderated {
+    background-image: url("https://s3.amazonaws.com/b.thumbs.redditmedia.com/woYtFG4lfF5h5VMhKJ-b-djnzdr5_sR2aNqdZfd7RmI.png");
+    background-position: -51px -612px;
+    background-repeat: no-repeat;
+    line-height: 8px;
+    position: relative;
+    top: 3px;
+    display: inline-block;
+    text-indent: -9999px;
+    overflow: hidden;
+    width: 17px;
+    height: 15px;
+}
+
+.mod-toolbox #tb-toolbarcounters,
+.mod-toolbox #tb-toggle-console {
+    float: right;
+    display: inline-block;
+    margin-right: 25px;
+    font-weight: bold;
+}
+
+.mod-toolbox #tb-reload-link {
+    float: right;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.mod-toolbox #tb-my-subreddits {
+    max-height: 65vh;
+    width: 265px;
+    padding: 0;
+    overflow: auto;
+    font-size: 11px;
+    color: #696969;
+    text-align: center;
+}
+
+.mod-toolbox .subreddits-you-mod-popup .tb-popup-footer {
+    height: 10px;
+}
+
+#tb-my-subreddit-list {
+text-align: left;
+}
+
+.mod-toolbox #tb-my-subreddits a {
+    font-size: 11px;
+}
+
+.mod-toolbox #tb-my-subreddits h1 {
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.mod-toolbox #tb-my-subreddits table {
+    width: 100%;
+}
+
+.mod-toolbox #tb-my-subreddits table td {
+    padding: 3px;
+}
+
+.mod-toolbox #tb-my-subreddits tr:nth-child(even) {
+    background: rgba(162, 162, 162, 0.2);
+}
+
+.mod-toolbox #tb-my-subreddits tr:nth-child(even):hover, .mod-toolbox #tb-my-subreddits tr:hover {
+    background-color: rgba(80, 123, 167, 0.2);
+}
+
+.mod-toolbox #tb-my-subreddits .generic-modqueue, .mod-toolbox #tb-my-subreddits .generic-unmoderated, .mod-toolbox #tb-my-subreddits .generic-mail {
+    margin-right: 3px;
+}
+
+.mod-toolbox .generic-modqueue {
+    background-image: url("https://s3.amazonaws.com/b.thumbs.redditmedia.com/woYtFG4lfF5h5VMhKJ-b-djnzdr5_sR2aNqdZfd7RmI.png");
+    background-position: -102px -595px;
+    background-repeat: no-repeat;
+    line-height: 8px;
+    position: relative;
+    top: 2px;
+    display: inline-block;
+    text-indent: -9999px;
+    overflow: hidden;
+    width: 16px;
+    height: 16px;
+}
+
+.mod-toolbox .generic-unmoderated {
+    background-image: url("https://s3.amazonaws.com/b.thumbs.redditmedia.com/woYtFG4lfF5h5VMhKJ-b-djnzdr5_sR2aNqdZfd7RmI.png");
+    background-position: -51px -612px;
+    background-repeat: no-repeat;
+    line-height: 8px;
+    position: relative;
+    top: 2px;
+    display: inline-block;
+    text-indent: -9999px;
+    overflow: hidden;
+    width: 17px;
+    height: 15px;
+}
+
+.mod-toolbox .generic-mail {
+    background-image: url("https://s3.amazonaws.com/b.thumbs.redditmedia.com/woYtFG4lfF5h5VMhKJ-b-djnzdr5_sR2aNqdZfd7RmI.png");
+    background-position: -102px -577px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 16px;
+    overflow: hidden;
+    position: relative;
+    text-indent: -9999px;
+    width: 16px;
+}
+
+
+
+.mod-toolbox #tb-notification-alert {
+    left: 5px;
+    bottom: 30px;
+    z-index: 10001;
+    position: fixed;
+    text-align: left;
+    width: 500px;
+    height: 70px;
+    background-color: rgba(206, 227, 248, 1);
+    font-size: 14px;
+    color: #000;
+    padding: 2px !important;
+    border: solid 2px #B83E3E;
+    top: auto;
+    box-shadow: rgba(209, 209, 209, 0.47) 0 1px 3px 1px;
+    cursor: pointer;
+}
+
+.mod-toolbox #tb-notification-alert span {
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+}
+
+.mod-toolbox #tb-tooltip {
+    z-index: 9999;
+    position: fixed;
+    text-align: left;
+    background-color: rgba(206, 227, 248, 0.86);
+    font-size: 11px;
+    color: #000;
+    padding: 2px !important;
+    border: solid 1px #B6C9DD;
+    top: auto;
+    box-shadow: rgba(209, 209, 209, 0.47) 0 1px 3px 1px;
+}
+
+
+.tb-first-run {
+    display: none;
+    color: red;
+    vertical-align: top;
+    height: 22px;
+    line-height: 22px;
+}
+
+
+/* Okay...*/
+a[href*="#?tbsettings"]:not(.tb-no-gustavobc):after {
+    height:16px;
+    width:16px;
+    display:inline-block;
+    background: transparent url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAoJJREFUeNqkU01oE1EQnk02iTFQE7QihUKRkKTF1iU9+FdQCoWYgAcPegkIeiiIWiHgwUvpQXs1Ggo99OYlFwUhWAhYhZJWUmhMxJbYYk1LFDcmJraSv911vjQbevPgg9kZ5vu+eW9n3hM0TaP/WSI+gUCADAYDmUwmEgSBUNRoNJ5jaKjNSyuKsqRjjUaDVFWlWCy2X0BfDJ5nd5r9KxZI0Wh0BuRgMHibcznGrrD/wD6hawwHxBdcLte12dnZGYfDcYOFhkJBpnL5F3Y0IAcMHHB1nYAj+Xw+xHeZ8FSWf1BPTw+trqY2JElyAkilUhsej8dZKhWpu/s4jY+P3+P0s/n5+f0TVCoVqlarL0Oh0KTZbCZZlmlgoN+pqgrBEO/u/iZg4IALTecX+BQX6/X69Xw+v8e7bYqiSMvLy+t+f2AGhhg5YOCAC43+7+T1eh+srCS1hYU32tJSQkun09rg4NA0TwLTIMTIAQMHXGigbU2hVqsZq9UaNZsKKYrKoxRZKDYwKizEyAEDB1xoOk3kzo6xP4PExMT9WyMjl/q2t7+npqYevkBucvLx1d7eE9Li4tutcPjJXEsoCO+z2WxcP0GcC3zmDt8ZHj7bVyyWyO32SLHYOwl4ufyTdna+ELCuriN2nlSEC2x1mshdRZGbkchcSJaLfCOtFI+//prLbRIMMXLAwAEXmk4T+ZLALo+Ojj1PJtc1t7s/bLfbHyUSGQ2GGDlg4IALTesd6Y8JY7JarX6bzTZtsVhOwq+tfdMymZx2MAcOuPrmrSYKaDHRUbZjbIcA8sM6xQ9sADFP4xNf54/t21tnk9kKrG3qBdCLw20T//GCFbY9tj+sVf8KMAACOoVxz9PPRwAAAABJRU5ErkJggg==") 0px 0px no-repeat;
+    margin-left:3px;
+    content: "";
+}
+
+
+/* console stuff */
+.mod-toolbox .tb-debug-window .CodeMirror {
+    width: 800px;
+    height: 600px;
+    font-family: Monaco, Menlo, "Ubuntu Mono", Consolas, source-code-pro, monospace;
+}
+
+.mod-toolbox  #tb-toolbar-mysubs:hover, .mod-toolbox  #tb-personal-notes-button:hover {
+    background: #9FBAD6;
+
+}
+
+.mod-toolbox  #tb-toolbar-mysubs,
+.mod-toolbox  #tb-personal-notes-button {
+    background: rgba(199, 214, 230, 0.8);
+    border-left: 1px dotted #A8B5C2;
+    border-right: 1px dotted #A8B5C2;
+    display: inline-block;
+    vertical-align: top;
+    height: 22px;
+    padding: 0 3px;
+}
+
+.mod-toolbox  #tb-toolbar-mysubs:hover,
+.mod-toolbox  #tb-personal-notes-button:hover {
+    background: #9FBAD6;
+}
+
+.backup-warning {
+    margin-left: 6px;
+    color: #EAC117;
+}
+
+.backup-warning.happy {
+    color: #54c355;
+}
+
+.backup-warning.sad {
+    color: #FF0000;
+}
+
+.edit-settings {
+    width: 99%;
+    font: normal small verdana,arial,helvetica,sans-serif;
+    -webkit-appearance: textarea;
+    background-color: white;
+    border: 1px solid;
+    -webkit-rtl-ordering: logical;
+    -webkit-user-select: text;
+    -webkit-flex-direction: column;
+    cursor: auto;
+    padding: 2px !important;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    background-color: white;
+}
+
+.mod-toolbox span.tb-settings-display {
+    max-width: 59em;
+}
+
+
+/* not really sure if it belongs here, but about tab styling */
+.mod-toolbox  .tb-window-tab.about .tb-window-content {
+    text-align: center;
+}
+
+.mod-toolbox  table.tb-about-credits {
+
+    border-collapse: separate;
+    border-spacing: 10px;
+    display: inline-block;
+}
+
+.mod-toolbox  table.tb-about-credits td {
+    border-bottom: solid 1px #F3F3F3;
+    width: 33.3%;
+    min-width: 140px;
+    text-align: center;
+    padding: 2px;
+}
+
+.mod-toolbox  .tb-window-tab.about h1#tb-random-about-quote {
+    font-style: italic;
+    font-family: non-serif;
+    font-size: 25px
+}
+
+.mod-toolbox  .tb-window-tab.about h3{
+    margin-top: 10px;
+    margin-bottom: 4px;
+    border-top: solid 1px #DCDCDC;
+    padding-top: 5px;
+}

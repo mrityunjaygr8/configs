@@ -1,0 +1,22 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "js/background.js" ]
+   },
+   "chrome_url_overrides": {
+      "newtab": "index.html"
+   },
+   "content_security_policy": "script-src 'self' https://ssl.google-analytics.com http://localhost:35729/livereload.js; object-src 'self'",
+   "default_locale": "en",
+   "description": "Beautiful photos from Unsplash in your new tabs.",
+   "homepage_url": "https://instant.unsplash.com",
+   "icons": {
+      "128": "img/icons/icon128.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlMheE4OcsQer/sLU+X39J7N5vFAMG/ErY0HZKqTaVJiAnkqAHQBzV9vC1+2SeHnoFKEW5DtMlIZHc+GNNrN/m5jITKJ2mIXJVCLvLocnewBTIWIgfa417XbGJqvC2NJmrg5VuxLMShn8GSrlkQcAavtmQj2mHMAHexmuS8nmnH5Wru4z25i67JgnV5k6BBRBfCZfllfoMfn7ICuOy8YNFehPIssE/EK33v7OnjE3n6mXWlGBxJ643NVIkMFRJ4RxFbYF24TCasV7XB0TTT+TWeDTCjUNrTr446n14IN40UkHmDutsH3AifUXfVj2y/7UFd1ZgCQ5TqpMpzR42GdCbQIDAQAB",
+   "manifest_version": 2,
+   "name": "Unsplash Instant",
+   "permissions": [ "cookies", "storage", "unlimitedStorage", "https://unsplash.com/", "https://proxy.unsplash.com/" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "3.0.1"
+}

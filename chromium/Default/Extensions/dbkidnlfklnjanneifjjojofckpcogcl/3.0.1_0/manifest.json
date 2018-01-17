@@ -1,0 +1,27 @@
+{
+   "api_console_project_id": "1031094922298",
+   "app": {
+      "launch": {
+         "web_url": "https://app.luminpdf.com/"
+      }
+   },
+   "container": [ "DOMAIN_INSTALLABLE", "GOOGLE_DRIVE" ],
+   "description": "Open, edit and share PDF and Office files in your browser. Simple, fast, and easy to use",
+   "gdrive_mime_types": {
+      "http://drive.google.com/intents/opendrivedoc": [ {
+         "disposition": "window",
+         "href": "https://app.luminpdf.com/open/google/",
+         "title": "Open",
+         "type": [ "application/pdf", "application/docx", "application/vnd.openxmlformats-officedocument.wordprocessingml.document", "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", "application/vnd.google.drive.ext-type.doc", "application/vnd.google.drive.ext-type.docx", "application/vnd.google.drive.ext-type.xls", "application/vnd.google.drive.ext-type.xlsx", "application/vnd.google.drive.ext-type.pdf" ]
+      } ]
+   },
+   "icons": {
+      "128": "icon-128.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDlX23nN7kulCgjgW1aH60sbn3ofuawveSOXf7OMLD37C95q6E1eeXGeUeQOYvyPG6yoQDku0iMq9r1YPfMeUNMMvHjY0CTco+1wm1+nOGJzBiB0CygcBmNlbAdlEc3gpfmOhfkYcWLmV3cAz4hYFxZPWq7DS0V/0xGYmt43FhqCwIDAQAB",
+   "manifest_version": 2,
+   "name": "Lumin PDF - Beautiful PDF Editor",
+   "short_name": "Lumin PDF",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "3.0.1"
+}

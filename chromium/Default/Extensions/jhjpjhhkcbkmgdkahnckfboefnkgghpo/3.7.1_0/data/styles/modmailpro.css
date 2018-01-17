@@ -1,0 +1,726 @@
+/* START OF NEW MODMAIL CSS
+---------------------------
+*/
+
+.mod-toolbox div#tb-search-result {
+    position: fixed;
+    left: 283px;
+    right: 0;
+    background-color: #efefee;
+    overflow: auto;
+    bottom: 0;
+    padding-bottom: 50px;
+    top: 122px;
+    display:none;
+}
+
+.mod-toolbox div#tb-search-header {
+    margin-left: 10px;
+    float: left;
+}
+
+/* nightmode for regular browser
+*/
+html.tb-nightmode,
+.tb-nightmode img,
+.tb-nightmode video,
+.tb-nightmode .ThreadTitle__communityImage
+{
+    -webkit-filter: invert(1)hue-rotate(180deg);
+    filter: invert(90%)hue-rotate(180deg);
+}
+.tb-nightmode body {
+    background: #000000
+}
+
+/* nightmode for firefox. Thanks to /u/tizorres
+*/
+
+.tb-nightmode-firefox body {
+    background: #000000
+}
+.tb-nightmode-firefox .App__header {
+    border-bottom: 1px solid #353535;
+    background-color: #000;
+}
+.tb-nightmode-firefox .Sidebar__title {
+    color: #9E9E9E;
+    border-bottom: 1px solid #000;
+}
+.tb-nightmode-firefox .App__sidebar {
+    border-right: 1px solid #353535;
+    background-color: #000;
+}
+.tb-nightmode-firefox .Sidebar__communities {
+    border-top: 1px solid #353535;
+}
+.tb-nightmode-firefox .SidebarNav__top {
+    border-bottom: 1px solid #353535;
+}
+.tb-nightmode-firefox .SidebarCommunity__name.tb-nightmode-firefox .m-selected {
+    color: #00BCD4;
+}
+.tb-nightmode-firefox .SidebarCommunity__name {
+    color: #2196f3;
+}
+.tb-nightmode-firefox .App__sidebarFooter {
+    background-color: #000;
+    border-top: 1px solid #353535;
+}
+.tb-nightmode-firefox .App__sidebarFooterLink~.tb-nightmode-firefox .App__sidebarFooterLink {
+    border-left: 1px solid #353535;
+}
+.tb-nightmode-firefox .ThreadPreviewViewer__header {
+    background-color: #000;
+    border-bottom: 1px solid #353535;
+}
+.tb-nightmode-firefox .ThreadPreviewViewer__threads {
+    background-color: #191919;
+}
+
+.tb-nightmode-firefox .ThreadPreviewViewer__pendingoverlay,
+.tb-nightmode-firefox .ThreadPreviewViewer__pending {
+    background-color: #191919;
+}
+
+
+.tb-nightmode-firefox .ThreadPreviewViewer__thread.tb-nightmode-firefox .m-read {
+    background-color: #323232;
+}
+.tb-nightmode-firefox .ThreadPreviewViewerHeader__select {
+    color: #9E9E9E;
+}
+.tb-nightmode-firefox .ThreadPreviewViewerHeader__iconLabel {
+    color: #9E9E9E;
+}
+.tb-nightmode-firefox .ThreadPreviewViewer__thread {
+    background-color: #4c4c4c;
+}
+.tb-nightmode-firefox .ThreadViewer__header {
+    background-color: #000;
+    border-bottom: 1px solid #353535;
+}
+.tb-nightmode-firefox .ThreadViewerHeader__back,
+.tb-nightmode-firefox .ThreadViewerHeader__back:visited,
+.tb-nightmode-firefox .ThreadViewerHeader__controlText,
+.tb-nightmode-firefox .ThreadViewerHeader__controlText:visited {
+    color: #9E9E9E;
+}
+.tb-nightmode-firefox .Thread__title {
+    border-bottom: 1px solid #353535;
+    background: #000;
+}
+.tb-nightmode-firefox .ThreadTitle__community,
+.tb-nightmode-firefox .ThreadTitle__title {
+    color: #9E9E9E;
+}
+.tb-nightmode-firefox .Thread__message~.tb-nightmode-firefox .Thread__message,
+.tb-nightmode-firefox .Thread__message~.tb-nightmode-firefox .Thread__modAction,
+.tb-nightmode-firefox .Thread__modAction~.tb-nightmode-firefox .Thread__message,
+.tb-nightmode-firefox .Thread__modAction~.tb-nightmode-firefox .Thread__modAction {
+    border-top: 1px solid #353535;
+    background: #191919;
+}
+.tb-nightmode-firefox .Thread__message {
+    background: #191919;
+}
+.tb-nightmode-firefox .ThreadViewer__replyContainer {
+    background: #000;
+    border-top: 1px solid #353535;
+}
+.tb-nightmode-firefox .FancySelect__value.tb-nightmode-firefox .m-nocolor,
+.tb-nightmode-firefox .FancySelect__value.tb-nightmode-firefox .m-nocolor .tb-nightmode-firefox .FancySelect__valueIcon,
+.tb-nightmode-firefox .FancySelect__value.tb-nightmode-firefox .m-nocolor .tb-nightmode-firefox .FancySelect__valueText {
+    color: #9E9E9E;
+}
+.tb-nightmode-firefox .Textarea,
+.tb-nightmode-firefox textarea {
+    border: 1px solid #353535;
+    background: #191919!important;
+    color: #9E9E9E;
+}
+.tb-nightmode-firefox .ThreadViewer__infobarContainer {
+    background: #000;
+    border-left: 1px solid #353535;
+}
+.tb-nightmode-firefox .InfoBar__controlText {
+    color: #9E9E9E;
+}
+.tb-nightmode-firefox .InfoBar__username,
+.tb-nightmode-firefox .InfoBar__username:visited {
+    color: #9E9E9E;
+}
+.tb-nightmode-firefox .StyledHtml {
+    color: #cfd0ca;
+}
+.tb-nightmode-firefox .ThreadPreview__author,
+.tb-nightmode-firefox .ThreadPreview__author:visited,
+.tb-nightmode-firefox .Message__author,
+.tb-nightmode-firefox .Message__author:visited {
+    color: #9E9E9E;
+}
+.tb-nightmode-firefox .ThreadPreview__time,
+.tb-nightmode-firefox .ThreadPreview__time:visited,
+.tb-nightmode-firefox .ThreadPreview__replyCount {
+    color: #000;
+}
+.tb-nightmode-firefox .StyledHtml a {
+    color: #24a0ed;
+}
+.tb-nightmode-firefox .Thread__grouped {
+    background-color: #000;
+    border-top: 1px solid #353535;
+}
+.tb-nightmode-firefox .Thread__groupedDivider {
+    border-top: 1px solid #353535;
+}
+.tb-nightmode-firefox .Thread__groupedText {
+    background-color: #000;
+}
+.tb-nightmode-firefox .Thread__groupedTextActions,
+.tb-nightmode-firefox .Thread__groupedTextMessages {
+    color: #353535;
+}
+.tb-nightmode-firefox .StyledHtml blockquote,
+.tb-nightmode-firefox .StyledHtml code,
+.tb-nightmode-firefox .StyledHtml pre,
+.tb-nightmode-firefox .StyledHtml pre code {
+    background-color: #000;
+}
+.tb-nightmode-firefox .ThreadPreviewViewer__noMessages {
+    background-color: #000;
+    border-bottom: 1px solid #191919;
+}
+.tb-nightmode-firefox .ThreadViewer__threadContainer {
+    background: #000;
+}
+
+/* Below is also nightmode but for toolbox specific stuff, exactly the same css we use for res nightmode. */
+
+
+.mod-toolbox.tb-nightmode-firefox #tb-my-subreddits {
+    background-color: #6E7A86;
+    color: #B5B5B5;
+    border: 1px solid #A8B5C2;
+    box-shadow: rgba(214, 214, 214, 0.47) 0 1px 3px 1px;
+}
+
+
+.mod-toolbox.tb-nightmode-firefox #tb-my-subreddits td a {
+    color: #2C4C6C;
+}
+
+.mod-toolbox.tb-nightmode-firefox .thing.spam, .mod-toolbox.tb-nightmode-firefox .thing.spam {
+    background-color: #621c1c;
+}
+
+.mod-toolbox.tb-nightmode-firefox .comment.spam>.child, .mod-toolbox.tb-nightmode-firefox .message.spam>.child {
+    background-color: #1f1f1f;
+}
+
+.mod-toolbox.tb-nightmode-firefox .tb-page-overlay select,
+.mod-toolbox.tb-nightmode-firefox .tb-page-overlay input,
+.mod-toolbox.tb-nightmode-firefox .tb-page-overlay textarea {
+    background: #969696 !important;
+}
+
+.mod-toolbox.tb-nightmode-firefox .tb-highlight {
+    background-color: #97971b;
+}
+
+.mod-toolbox.tb-nightmode-firefox #tb-bottombar {
+    background-color: rgba(7, 7, 7, 0.89);
+    color: #696969;
+    border-top: solid 1px #111;
+
+}
+
+.mod-toolbox.tb-nightmode-firefox #tb-bottombar-hidden {
+    background-color: rgba(7, 7, 7, 0.89);
+    border-top: solid 1px #111;
+    border-right: solid 1px #111;
+}
+
+
+.mod-toolbox.tb-nightmode-firefox .articleFrame {
+    border: solid 1px #808080;
+}
+
+.mod-toolbox.tb-nightmode-firefox .tb-page-overlay {
+    background-color: rgba(135, 135, 135, 0.84);
+}
+
+.mod-toolbox.tb-nightmode-firefox .tb-overlay-label {
+
+    text-shadow: 0 0 4px #878787;
+}
+
+.mod-toolbox.tb-nightmode-firefox .tb-window-wrapper {
+    background-color: #878787;
+    border: solid 1px #808080;
+    box-shadow: 0 1px 3px 1px rgba(83, 83, 83, 0.61);
+    font-size: small;
+}
+
+.tb-nightmode-firefox .tb-window-wrapper-two {
+    background-color: #878787;
+    border: solid 1px #808080;
+    box-shadow: 0 1px 3px 1px rgba(83, 83, 83, 0.61);
+}
+
+.mod-toolbox.tb-nightmode-firefox .tb-window-wrapper a:hover,
+.mod-toolbox.tb-nightmode-firefox .tb-window-tabs a.active,
+.mod-toolbox.tb-nightmode-firefox .tb-window-tabs a:hover {
+    color: #000 !important;
+}
+
+.mod-toolbox.tb-nightmode-firefox .tb-window-header {
+    background-color: #6E7A86;
+    border-bottom: solid 1px #111;
+}
+
+.mod-toolbox.tb-nightmode-firefox .tb-window-header-options a,
+.mod-toolbox.tb-nightmode-firefox .buttons a,
+.mod-toolbox.tb-nightmode-firefox .tb-debug-header a {
+    color: #393E44;
+}
+
+.mod-toolbox.tb-nightmode-firefox .tb-window-tabs {
+    border-bottom: solid 1px #39526b;
+    background-color: #828B96;
+}
+
+.mod-toolbox.tb-nightmode-firefox .tb-window-tabs a {
+    background-color: #828B96;
+    border-right: dotted 1px #39526b;
+    color: #393E44;
+}
+
+.mod-toolbox.tb-nightmode-firefox .tb-window-spacer {
+    background-color: #8d9caa;
+    border-right: dotted 1px #39526b;
+}
+
+.mod-toolbox.tb-nightmode-firefox .tb-window-tabs a.active,
+.mod-toolbox.tb-nightmode-firefox .tb-window-tabs a:hover {
+    background-color: #5D7186;
+}
+
+.tb-nightmode-firefox .tb-window-footer {
+    background-color: #6e7a86;
+    border-top: solid 1px #39526b;
+}
+
+.mod-toolbox.tb-nightmode-firefox .tb-window-content p {
+    border-bottom: 1px dotted #E0E0E0;
+}
+.mod-toolbox.tb-nightmode-firefox .tb-mark-unread {
+    color: #369;
+}
+
+.mod-toolbox.tb-nightmode-firefox .tb-settings .tb-window-content {
+    background-color: #878787;
+}
+
+.mod-toolbox.tb-nightmode-firefox .tb-window-tab span.tb-module-disabled {
+    background-color: #B8B8B8;
+}
+
+div.sticky {
+    background-color: rgba(206, 227, 248, 0.86);
+    color: #696969;
+}
+
+.mod-toolbox.tb-nightmode-firefox #tb-notification-alert {
+    background-color: rgba(206, 227, 248, 1);
+    color: #000;
+    padding: 2px !important;
+    border: solid 2px #B83E3E;
+    box-shadow: rgba(209, 209, 209, 0.47) 0 1px 3px 1px;
+}
+
+.mod-toolbox.tb-nightmode-firefox #tb-tooltip {
+    background-color: rgba(206, 227, 248, 0.86);
+    color: #000;
+    border: solid 1px #39526b;
+    box-shadow: rgba(209, 209, 209, 0.47) 0 1px 3px 1px;
+}
+
+.tb-nightmode-firefox .tb-first-run {
+    color: red;
+}
+
+.tb-nightmode-firefox .dtagger-popup {
+    background-color: #878787;
+    border: solid 1px #808080;
+    box-shadow: 0 1px 3px 1px rgba(83, 83, 83, 0.61);
+}
+
+.tb-nightmode-firefox .dtagger-popup-header {
+    background-color: #6e7a86;
+    border-bottom: solid 1px #39526b;
+}
+
+.tb-nightmode-firefox .dtagger-popup-footer {
+    background-color: #6e7a86;
+    border-top: solid 1px #39526b;
+}
+
+.tb-nightmode-firefox .dtagger-popup tbody tr {
+    border-bottom: 1px solid gray;
+}
+
+
+.tb-nightmode-firefox .utagger-notes td {
+    border: solid 1px #C1BFBF;
+}
+
+.tb-nightmode-firefox .utagger-notes-td3 a {
+    color: #C92A2A;
+}
+.tb-nightmode-firefox .utagger-type {
+    border-top: 1px dotted #C1BFBF;
+}
+
+.mod-toolbox.tb-nightmode-firefox .mod-popup {
+    background-color: #878787;
+    border: solid 1px #808080;
+    box-shadow: 0 1px 3px 1px rgba(83, 83, 83, 0.61);
+}
+
+.mod-toolbox.tb-nightmode-firefox .mod-popup-header {
+    background-color: #6e7a86;
+    border-bottom: solid 1px #39526b;
+}
+
+.mod-toolbox.tb-nightmode-firefox .mod-popup-tabs {
+    border-bottom: 1px solid #39526b;
+    background-color: #828B96;
+}
+
+.mod-toolbox.tb-nightmode-firefox .mod-popup-tabs a {
+    background-color: #828B96;
+    border-right: 1px dotted #39526b;
+    color: #393E44;
+}
+
+.mod-toolbox.tb-nightmode-firefox .mod-popup-tabs a:hover,
+.mod-toolbox.tb-nightmode-firefox .mod-popup-tabs a.active {
+    background-color: #5D7186;
+}
+
+.mod-toolbox.tb-nightmode-firefox .mod-popup-footer {
+    background-color: #6e7a86;
+    border-top: solid 1px #39526b;
+}
+
+.mod-toolbox.tb-nightmode-firefox .mod-popup .status {
+}
+
+.mod-toolbox.tb-nightmode-firefox .mod-popup .add-sub-link {
+    text-decoration: none;
+}
+
+.mod-toolbox.tb-nightmode-firefox .mod-popup .remove-sub-link {
+    text-decoration: none;
+}
+
+.mod-toolbox.tb-nightmode-firefox .mod-popup .global-button {
+    color: red;
+}
+
+.mod-toolbox.tb-nightmode-firefox .mod-popup .current-sub,
+.mod-toolbox.tb-nightmode-firefox .mod-popup .saved-subs div,
+.mod-toolbox.tb-nightmode-firefox .mod-popup div.other-sub,
+.mod-toolbox.tb-nightmode-firefox .mod-popup .ban-note-container {
+    border-bottom: 1px dotted gray;
+    padding: 5px;
+}
+
+
+.mod-toolbox.tb-nightmode-firefox .tb-popup-header {
+    background-color: #6e7a86;
+    border-bottom: solid 1px #39526b;
+}
+
+.mod-toolbox.tb-nightmode-firefox .tb-popup-tabs {
+    border-bottom: 1px solid #39526b;
+    background-color: #828B96;
+}
+
+.mod-toolbox.tb-nightmode-firefox .tb-popup-tabs a {
+    background-color: #828B96;
+    border-right: 1px dotted #39526b;
+    color: #393E44;
+}
+
+.mod-toolbox.tb-nightmode-firefox .tb-popup-footer {
+    background-color: #6e7a86;
+    border-top: solid 1px #39526b;
+}
+
+.mod-toolbox.tb-nightmode-firefox .tb-popup {
+    background-color: #878787;
+}
+
+.mod-toolbox.tb-nightmode-firefox #tb-personal-notes-button, .mod-toolbox.tb-nightmode-firefox #tb-personal-notes-button:hover {
+    background: none;
+}
+
+.mod-toolbox.tb-nightmode-firefox #tb-search-suggest tr {
+    background: #A3A3A3;
+}
+
+.mod-toolbox.tb-nightmode-firefox .menuarea.modtools {
+    background-color: rgba(110, 122, 134, 0.86);
+    border-color: #808080;
+}
+
+.mod-toolbox.tb-nightmode-firefox .mod-popup .current-sub {
+    border-bottom: 1px solid gray;
+}
+
+
+.mod-toolbox.tb-nightmode-firefox .mod-action-positive {
+    background-color: #E5F0E1;
+}
+
+.mod-toolbox.tb-nightmode-firefox .mod-action-negative {
+    background-color: #FA8072;
+}
+
+
+.mod-toolbox.tb-nightmode-firefox .tb-debug-window {
+    background-color: #878787;
+    border: solid 1px #808080;
+    box-shadow: 0 1px 3px 1px rgba(83, 83, 83, 0.61);
+
+}
+
+.mod-toolbox.tb-nightmode-firefox .tb-debug-header {
+    background-color: #6e7a86;
+    border-bottom: solid 1px #39526b;
+}
+
+.mod-toolbox.tb-nightmode-firefox .tb-debug-footer {
+    background-color: #6e7a86;
+    border-top: solid 1px #39526b;
+}
+
+
+
+
+/* misc fixes.
+*/
+
+.mod-toolbox.tb-new-modmail.tb-modbar-shown .App {
+    bottom: 20px;
+}
+
+.mod-toolbox.tb-new-modmail .tb-settings .tb-window-tabs {
+    display: inline-block;
+    width: 135px;
+    height: inherit;
+    border-bottom: 0px;
+}
+
+.mod-toolbox.tb-new-modmail .tb-settings a {
+    text-decoration: none;
+}
+
+
+/* END OF NEW MODMAIL CSS
+-------------------------
+*/
+
+/* Subject area */
+
+.tb-modmail-pro .message.message-parent.mmp-collapsed .subject {
+    margin-bottom: 0;
+}
+
+.tb-modmail-pro .message .subject .correspondent {
+    line-height: 17px;
+}
+
+.tb-modmail-pro .message .subject .correspondent:first-child {
+    margin-right: 0;
+
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.tb-modmail-pro .message .subject .subreddit-name:hover {
+    color: rgba(51, 102, 153, 0.7);
+}
+
+.tb-modmail-pro .message .subject .expand-btn:hover {
+    text-decoration: underline;
+}
+
+/* Collapsing thing */
+
+.message .subject .tb-collapse-link {
+    display: none;
+}
+
+.tb-collapse .message .subject .tb-collapse-link {
+    display: inline-block;
+    margin-right: 6px;
+}
+
+.tb-collapse .message .tb-collapse-link::before {
+    content: "[";
+    position: relative;
+}
+
+.tb-collapse .message .tb-collapse-link:hover::before {
+    right: 1px;
+}
+
+.tb-collapse .message  .tb-collapse-link::after {
+    content: "]";
+    position: relative;
+}
+
+.tb-collapse .message .tb-collapse-link:hover::after {
+    left: 1px;
+}
+
+/* Info area */
+
+.message-parent > .subject .info-area {
+    display: none !important;
+}
+
+.tb-modmail-pro .message-parent > .subject .info-area {
+    display: inline-block !important;
+    height: 17px;
+    padding: 2px 4px;
+
+    border-bottom-right-radius: 7px;
+    border-left: medium none !important;
+    border-top-right-radius: 7px;
+}
+
+.tb-modmail-pro .message-parent.has-replies > .subject .info-area {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+/* Message count */
+
+.tb-modmail-pro .message-parent:not(.has-replies) .tb-message-count {
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.tb-modmail-pro .message-parent .tb-replied-tag {
+    font-size: 12px;
+    font-weight: normal;
+}
+
+/* New messages */
+
+.tb-modmail-pro .message.new-messages .new-highlight {
+    background-color: lightgreen;
+}
+
+.tb-modmail-pro .message.new-message > .entry > .tagline > .head::before {
+    content: "[NEW]";
+    display: inline;
+    margin-right: 4px;
+    padding: 1px;
+
+    background-color: lightgreen;
+    color: black;
+}
+
+.tb-modmail-pro .message.most-recent > .entry > .tagline > .head::before {
+    content: "[LATEST]";
+    display: inline;
+    margin-right: 4px;
+}
+
+/* No red mod mail! */
+
+.tb-no-red-modmail .message.spam,
+.tb-no-red-modmail .message.spam .entry {
+    background-color: transparent !important;
+}
+
+.tb-no-red-modmail .message.spam p.subject,
+.tb-no-red-modmail .message.spam > div.entry > .tagline > .head {
+    color: red !important;
+}
+
+/* Recipient fading */
+
+.tb-fade-recipient .message .entry .tb-recipient {
+    background-color: rgba(0, 0, 0, 0) !important;
+    color: #888 !important;
+    font-weight: bold;
+}
+
+.tb-fade-recipient .message .entry .tb-recipient.moderator {
+    color: #588858 !important;
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.tb-fade-recipient .message .entry .tb-recipient.admin {
+    color: #B20606 !important;
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+
+
+/* MMP remove res stuff if needed */
+/* I give up on this shit.  CSS is a fucking joke. */
+.tb-fade-recipient .recipient .RESUserTag,
+.tb-fade-recipient .recipient .voteWeight
+{
+    display: none !important;
+}
+
+.tb-separator {
+    margin-left: 3px;
+}
+
+/* Threaded modmail css enhancements */
+
+body.tb-mmp-thread .message-parent.threaded .most-recent {
+    border-left: solid 5px #D0D0D0;
+}
+
+
+body.tb-mmp-thread .message-parent.threaded  .child>.sitetable>.thing>.entry,
+body.tb-mmp-thread .message-parent.threaded  .child .child .child>.sitetable>.thing>.entry,
+body.tb-mmp-thread .message-parent.threaded  .child .child .child .child .child>.sitetable>.thing>.entry,
+body.tb-mmp-thread .message-parent.threaded  .child .child .child .child .child .child .child>.sitetable>.thing>.entry,
+body.tb-mmp-thread .message-parent.threaded  .child .child .child .child .child .child .child .child .child>.sitetable>.thing>.entry
+{
+    background-color: #F5F5F5 !important;
+    border-radius: 0 !important;
+}
+
+body.tb-mmp-thread .message-parent.threaded  .child {
+    border: 0;
+}
+
+body.tb-mmp-thread .message.message-parent .entry {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #E6E6E6;
+    padding-top: 5px;
+    margin-top: 2px;
+    padding-left: 5px;
+
+}
+
+body.tb-mmp-thread .message-parent.threaded  .child .child>.sitetable>.thing>.entry,
+body.tb-mmp-thread .message-parent.threaded  .child .child .child .child>.sitetable>.thing>.entry,
+body.tb-mmp-thread .message-parent.threaded  .child .child .child .child .child .child>.sitetable>.thing>.entry,
+body.tb-mmp-thread .message-parent.threaded  .child .child .child .child .child .child .child .child>.sitetable>.thing>.entry,
+body.tb-mmp-thread .message-parent.threaded  .child .child .child .child .child .child .child .child .child .child>.sitetable>.thing>.entry {
+    background-color: #fff !important;
+    border-radius: 0 !important;
+}

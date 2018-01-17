@@ -1,0 +1,137 @@
+.mod-toolbox #tb-modmail.nohavemail.custom,
+#modmail.nohavemail.custom {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAKCAMAAABcxfTLAAAAulBMVEW+vr7TuIXUwY/a2trew5Thz6LsyX3tz47vizHvmyrv16bwz3Pw16Pw2JLx0XLx2Jvx2Zrx257y0lDy2Zfz01vz14Xz2Inz3bf02Xj03pj04bf04b/0473048b1ji/1oSr14KD14qf14rL23oP234D24Zr243/247D25pj25q/25rn26Zn26tH35Z345qj46Lr468356pP564X57dT67rr679H68dT79IH9+/n9/Pv+/fz/VwD/hgD///8T9eC2AAAAAWJLR0QAiAUdSAAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB98KBAsZCHPgRWcAAABnSURBVAjXY2DAALa2+qZawkoGUra2YC6DrZiippmCABuQBZZmUNfTNZEQ5WGwhfBtmVSVDUX4GG1hfFZJFSMhbhYYn9mYX8NcjV2WGcIHUjKC2rzilkAWkA/k2lrpcElbAGlmDMcAANrsD7yKGWjgAAAAAElFTkSuQmCC');
+}
+
+.mod-toolbox #tb-modmail.havemail.custom,
+#modmail.havemail.custom {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAKCAMAAABcxfTLAAAAulBMVEW+vr7TuIXUwY/a2trew5Thz6LsyX3tz47vizHvmyrv16bwz3Pw16Pw2JLx0XLx2Jvx2Zrx257y0lDy2Zfz01vz14Xz2Inz3bf02Xj03pj04bf04b/0473048b1ji/1oSr14KD14qf14rL23oP234D24Zr243/247D25pj25q/25rn26Zn26tH35Z345qj46Lr468356pP564X57dT67rr679H68dT79IH9+/n9/Pv+/fz/VwD/hgD///8T9eC2AAAAAWJLR0QAiAUdSAAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB98KBAsYLSH/oGEAAABtSURBVAjXY7BGBQzW1ra2+qZawkoGUra2IL6tta2YoqaZggAbkAXi21qr6+maSIjygJggvq2cqrKhCB+HLYwvL6liJMTNCePbGPNrmKuxy9pA+EBKRlCbV9wSyALygVxbKx0uaQsgbQOyHwUAABv1HVBj/19nAAAAAElFTkSuQmCC');
+}
+
+.mod-toolbox #modmail.custom {
+    background-position: 0 4px;
+}
+
+.mod-toolbox #tb-modmail.custom {
+    background-position: 0 5px;
+}
+
+.mod-toolbox div.tb-sticky-queue {
+    position: fixed;
+    border: 0;
+    width: 300px;
+    z-index: 5000;
+}
+
+.mod-toolbox div.tb-sticky-note {
+    padding: 10px;
+    z-index: 5000;
+}
+
+.mod-toolbox div.tb-sticky {
+    font-size: 11px;
+    cursor: pointer;
+    margin-bottom: 5px;
+    background-color: #FFFFFF;
+    box-shadow: 0 1px 3px 1px #D6D6D6;
+    color: #000;
+    display: none;
+    padding: 0px !important;
+    position: relative;
+    z-index: 5000;
+}
+
+.mod-toolbox .tb-sticky-button {
+    display: inline-block;
+    position: absolute;
+    right: 0 !important;
+    top: 0 !important;
+    background-color: #C7D6E6;
+    line-height: 26px;
+    border: 0;
+    margin-left: 1px;
+}
+
+.mod-toolbox .tb-sticky-button:hover {
+    background-color: #9FBAD6;
+}
+
+.mod-toolbox a.tb-sticky-close {
+    padding: 0px 11px;
+    color: rgb(51, 102, 153);
+    box-sizing: initial;
+    font-size: small;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.mod-toolbox .tb-sticky-header {
+    right: 0;
+    left: 0;
+    text-align: left;
+    position: relative;
+    height: 20px;
+    line-height: 20px;
+    display: block;
+    background-color: #CEE3F8;
+    font-weight: bold;
+    font-size: small;
+    border: 0;
+    padding: 3px;
+}
+.tb-popup-header .tb-sticky-title {
+    position: relative;
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: center;
+    width: 100%;
+    padding: 0px 33px 0px 5px;
+}
+
+img.note-close {
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    height: 14px;
+    width: 14px;
+    cursor: pointer;
+    z-index: 9999;
+}
+
+.top-right {
+    right: 20px;
+    z-index: 5000;
+}
+
+.top-left {
+    left: 20px;
+    z-index: 5000;
+}
+
+.top-right, .top-left {
+    top: -2px;
+    z-index: 5000;
+}
+
+.bottom-right {
+    right: 20px;
+    z-index: 5000;
+}
+
+.bottom-left {
+    left: 20px;
+    z-index: 5000;
+}
+
+.bottom-right, .bottom-left {
+    bottom: 25px;
+    z-index: 5000;
+}
+
+.border-top-right, .border-top-left {
+    border-top: 0;
+}
+
+.border-bottom-right, .border-bottom-left {
+    border-bottom: 0;
+}

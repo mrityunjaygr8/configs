@@ -1,0 +1,16 @@
+VirtualBox GUI VM Selector Window 5.1.30_SUSE r118389 linux.amd64 (openSUSE Buildservice) release log
+00:00:00.150336 Log opened 2018-01-12T06:38:57.789788000Z
+00:00:00.150337 Build Type: release
+00:00:00.150339 OS Product: Linux
+00:00:00.150340 OS Release: 4.14.8-1-default
+00:00:00.150340 OS Version: #1 SMP PREEMPT Wed Dec 20 10:40:41 UTC 2017 (674981b)
+00:00:00.150353 DMI Product Name: GL552VW
+00:00:00.150358 DMI Product Version: 1.0       
+00:00:00.150387 Host RAM: 15942MB (15.5GB) total, 14068MB (13.7GB) available
+00:00:00.150390 Executable: /usr/lib/virtualbox/VirtualBox
+00:00:00.150390 Process ID: 6026
+00:00:00.150391 Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.150405 Qt version: 5.10.0
+00:00:00.164949 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:00.273826 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 0x0 x 1920x1044
+00:00:00.274104 GUI: UIMediumEnumerator: Medium-enumeration finished!

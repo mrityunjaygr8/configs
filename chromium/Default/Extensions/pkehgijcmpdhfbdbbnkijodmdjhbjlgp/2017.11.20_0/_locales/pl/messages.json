@@ -1,0 +1,418 @@
+{
+   "add_domain_button": {
+      "description": "",
+      "message": "Dodaj domenę"
+   },
+   "badger_status_allow": {
+      "description": "",
+      "message": "Odblokowany"
+   },
+   "badger_status_block": {
+      "description": "",
+      "message": "Zablokowany"
+   },
+   "badger_status_cookieblock": {
+      "description": "",
+      "message": "Zablokowano ciasteczka z"
+   },
+   "badger_status_noaction": {
+      "description": "",
+      "message": "Nie szpieguje"
+   },
+   "data_settings": {
+      "description": "This is an options page tab heading.",
+      "message": "Zarządzaj danymi"
+   },
+   "description": {
+      "description": "",
+      "message": "Privacy Badger chroni Cię przed szpiegami podczas gdy Ty przeglądasz Sieć!"
+   },
+   "disabled_for_these_domains": {
+      "description": "",
+      "message": "Privacy Badger jest zablokowany dla poniższych domen. Możesz dodać domenę albo poprzez ikonę Prvacy Badgera na pasku adresu albo poprzez ręczne wpisanie domeny (nie pełnego adresu) w pole poniżej i kliknięciu przycisku „dodaj domenę”."
+   },
+   "dnt_tooltip": {
+      "description": "",
+      "message": "Ta domena obiecuje Ci nie szpiegować."
+   },
+   "domain_slider_allow_tooltip": {
+      "description": "Tooltip shown when you hover over the rightmost part of a slider shown for each domain in the domain list.",
+      "message": "Kliknij tutaj, aby odblokować tę domenę"
+   },
+   "domain_slider_block_tooltip": {
+      "description": "Tooltip shown when you hover over the leftmost part of a slider shown for each domain in the domain list.",
+      "message": "Kliknij tutaj, aby całkowicie zablokować tę domenę"
+   },
+   "domain_slider_cookieblock_tooltip": {
+      "description": "Tooltip shown when you hover over the center part of a slider shown for each domain in the domain list.",
+      "message": "Kliknij tutaj, aby uniemożliwić tej domenie ustawiać ciasteczka"
+   },
+   "donate_to_eff": {
+      "description": "",
+      "message": "Darowizna na EFF"
+   },
+   "download": {
+      "description": "",
+      "message": "Pobierz"
+   },
+   "error_input": {
+      "description": "",
+      "message": "Co się zepsuło?"
+   },
+   "export_user_data": {
+      "description": "",
+      "message": "Eksport danych użytkownika"
+   },
+   "feed_the_badger_title": {
+      "description": "",
+      "message": "kliknij, aby Privacy Badger zdecydował za Ciebie jak obchodzić się z tą domeną"
+   },
+   "firstRun_title": {
+      "description": "",
+      "message": "Dziękujemy za zainstalowanie Privacy Badgera!"
+   },
+   "first_run_text": {
+      "description": "",
+      "message": "Więcej informacji o tym jak Privacy Badger chroni Twoją prywatność."
+   },
+   "import": {
+      "description": "",
+      "message": "Import"
+   },
+   "import_select_file": {
+      "description": "",
+      "message": "Wybierz plik do zaimportowania."
+   },
+   "import_successful": {
+      "description": "",
+      "message": "Pomyślnie zaimportowano ustawienia i listę szpiegów!"
+   },
+   "import_user_data": {
+      "description": "",
+      "message": "Import danych użytkownika"
+   },
+   "intro1": {
+      "description": "firstRun.html intro to Privacy Badger",
+      "message": "Privacy Badger blokuje szpiegujące reklamy i niewidzialne śledziki. Jego zadaniem jest zapewnienie, aby korporacje nie mogły śledzić Cię w Sieci bez Twojej zgody."
+   },
+   "intro2": {
+      "description": "",
+      "message": "To rozszerzenie zostało zaprojektowane, aby automatycznie chronić Twoją prywatność przed śledzikami stron trzecich ładującymi się niewidzialnie podczas serfowania. Wysyłamy nagłówek „nie śledź” (DNT) do każdej domeny i oszacowujemy prawdopodobieństwo bycia śledzonym. Jeżeli algorytm oszacuje prawdopodobieństwo na zbyt wysokie, automatycznie zostanie zablokowane wysyłanie żądań do tej strony. Prosimy zrozumieć, że Privacy Badger jest w fazie rozwojowej i jego algorytm nie jest w stanie jednoznacznie stwierdzić czy dana domena szpieguje."
+   },
+   "intro_3_states": {
+      "description": "",
+      "message": "Nasze rozszerzenie ma trzy stany."
+   },
+   "intro_by_eff": {
+      "description": "",
+      "message": "Projekt Electronic Frontier Foundation"
+   },
+   "intro_cookie_blocked": {
+      "description": "",
+      "message": "oznacza, że ta domena jest uważana za szpiega i jednocześnie jest niezbędna do działania strony, więc Privacy Badger nie zablokuje jej, ale zablokuje jej ciasteczka."
+   },
+   "intro_green": {
+      "description": "",
+      "message": "Zielony"
+   },
+   "intro_has_blocked": {
+      "description": "",
+      "message": "oznacza, że Privacy Badger uważa tę domenę za szpiega i ją zablokował."
+   },
+   "intro_hungry": {
+      "description": "",
+      "message": "Nic nie powstrzyma Privacy Badgera od zjadania ciasteczek kiedy jest głodny!"
+   },
+   "intro_no_tracker": {
+      "description": "",
+      "message": "oznacza, że Privacy Badger nie uważa go za szpiega. Możesz kliknąć w ikonę Privacy Badgera na pasku przeglądarki, aby zmienić domyślne ustawienia. Albo możesz też spokojnie serfować podczas gdy Privacy Badger w tle będzie wykrywał i zjadał śledziki jeden po drugim."
+   },
+   "intro_red": {
+      "description": "",
+      "message": "Czerwony"
+   },
+   "intro_social_share": {
+      "description": "",
+      "message": "Niech cały świat wie, że sprzeciwiasz się szpiegowaniu w Sieci"
+   },
+   "intro_text": {
+      "description": "",
+      "message": "Jesteś obecnie ochroniony przez Privacy Badgera. Aby dowiedzieć się więcej o tym jak działa Privacy Badger, kliknij poniżej po krótki przewodnik."
+   },
+   "intro_yellow": {
+      "description": "",
+      "message": "Żółty"
+   },
+   "invalid_domain": {
+      "description": "",
+      "message": "Wprowadź poprawną domenę lub URL."
+   },
+   "invalid_json": {
+      "description": "",
+      "message": "Nieprawidłowy plik JSON."
+   },
+   "name": {
+      "description": "",
+      "message": "Privacy Badger"
+   },
+   "non_tracker": {
+      "description": "",
+      "message": "Poniższe domeny chyba Cię nie szpiegują"
+   },
+   "non_tracker_tip": {
+      "description": "",
+      "message": "Obecnie Privacy Badger sprawdza tylko czy strony trzecie używają ciasteczek, pamięci podręcznej HTML5 lub odcisku palca canvas, aby śledzić Twoją historię przeglądania. Niektóre z tych domen mogą śledzić metodami, których Privacy Badger nie potrafi wykryć."
+   },
+   "options_dnt_policy_learn_more": {
+      "description": "",
+      "message": "Więcej informacji"
+   },
+   "options_dnt_policy_setting": {
+      "description": "",
+      "message": "Sprawdź, czy strony są zgodne z polityką o nieszpiegowaniu EFF."
+   },
+   "options_domain_list_tab": {
+      "description": "This is an options page tab heading.",
+      "message": "Szpiegujące domeny"
+   },
+   "options_domain_search": {
+      "description": "",
+      "message": "Szukaj domen"
+   },
+   "options_general_settings": {
+      "description": "This is an options page tab heading.",
+      "message": "Ogólne ustawienia"
+   },
+   "options_loading": {
+      "description": "",
+      "message": "Ładowanie…"
+   },
+   "options_pb_has_detected": {
+      "description": "",
+      "message": "Privacy Badger wykrył"
+   },
+   "options_potential": {
+      "description": "",
+      "message": "potencjalne"
+   },
+   "options_remove_origin_confirm": {
+      "description": "",
+      "message": "Czy na pewno chcesz usunąć tę domenę z Privacy Badgera?"
+   },
+   "options_slider_text": {
+      "description": "",
+      "message": "Privacy Badger chroni Cię w Sieci! Te suwaki pozwalają kontrolować sposób w jaki Privacy Badger postępuje z każdym śledzikiem wykrytym podczas serfowania."
+   },
+   "options_so_far": {
+      "description": "",
+      "message": "do tej pory. Te suwaki umożliwiają kontrolę na tym jak Privacy Badger postępuje z każdym szpiegiem."
+   },
+   "options_social_widgets_checkbox": {
+      "description": "",
+      "message": "Zastąp widżety sieci społecznościowych"
+   },
+   "options_title": {
+      "description": "",
+      "message": "Ustawienia Privacy Badger"
+   },
+   "options_tracking_domains": {
+      "description": "",
+      "message": "szpiegujących domen"
+   },
+   "options_webrtc_setting": {
+      "description": "",
+      "message": "Zapobiegnij wyciekowi lokalnego IP przez WebRTC *"
+   },
+   "options_webrtc_warning": {
+      "description": "",
+      "message": "* WebRTC może ujawnić lokalny adres IP. Domyślne ustawienia Privacy Badgera mogą Cię chronić, ale dla dodatkowej ochrony możesz włączyć tę opcję. Zauważ, że może to zmniejszyć wydajność niektórych narzędzi, np. Google Hangouts."
+   },
+   "pb_detected": {
+      "description": "",
+      "message": "Privacy Badger wykrył"
+   },
+   "popup_blocked": {
+      "description": "",
+      "message": "Brak zasobów stron trzecich na tej stronie."
+   },
+   "popup_disable_for_site": {
+      "description": "",
+      "message": "Wyłącz Privacy Badgera dla tej strony"
+   },
+   "popup_enable_for_site": {
+      "description": "",
+      "message": "Włącz Privacy Badgera na tej stronie"
+   },
+   "popup_help_button": {
+      "description": "Tooltip that comes up when you hover over the question mark button in the upper right corner of the popup.",
+      "message": "Pomoc"
+   },
+   "popup_instructions": {
+      "description": "",
+      "message": "potencjalnych \u003Ca target='_blank' href='https://www.eff.org/privacybadger#faq-What-is-a-third-party-tracker?'>szpiegów\u003C/a> na tej stronie. Te suwaki pozwolą Ci kontrolować jak ma z nimi postępować Privacy Badger. Nie powinieneś nimi kręcić jeżeli wszystko działa."
+   },
+   "popup_noblocked": {
+      "description": "",
+      "message": "Czemu nic jest zablokowane?"
+   },
+   "popup_options_button": {
+      "description": "",
+      "message": "Ustawienia"
+   },
+   "privacy_badger_what_is": {
+      "description": "",
+      "message": "Czym jest Privacy Badger?"
+   },
+   "remove_button": {
+      "description": "This is the label for the 'Remove selected' buttons.",
+      "message": "Usuń zaznaczone"
+   },
+   "report_broken_site": {
+      "description": "",
+      "message": "Czy Privacy Badger zepsuł tę stronę? Zgłoś to nam!"
+   },
+   "report_button": {
+      "description": "",
+      "message": "Zgłoś problem"
+   },
+   "report_cancel": {
+      "description": "",
+      "message": "Anuluj"
+   },
+   "report_close": {
+      "description": "",
+      "message": "Zamknij"
+   },
+   "report_fail": {
+      "description": "",
+      "message": "O nie, coś się schrzaniło."
+   },
+   "report_input_label": {
+      "description": "",
+      "message": "Opis"
+   },
+   "report_success": {
+      "description": "",
+      "message": "Dzięki! Zajmiemy się sprawą."
+   },
+   "report_terms": {
+      "description": "",
+      "message": "Następujące informacje zostaną automatycznie wysłane do EFF: odwiedzana strona, wersja przeglądarki, wersja Privacy Badgera i stan wszystkich suwaków na tej stronie."
+   },
+   "report_text": {
+      "description": "",
+      "message": "Zwięźle opisz problem poniżej."
+   },
+   "report_title": {
+      "description": "",
+      "message": "Zgłoś problem"
+   },
+   "share_button_title_facebook": {
+      "description": "Tooltips that come up when you hover over the social sharing buttons on the introductory slideshow page.",
+      "message": "Udostępnij na Facebooku"
+   },
+   "share_button_title_google": {
+      "description": "Tooltips that come up when you hover over the social sharing buttons on the introductory slideshow page.",
+      "message": "Udostępnij na Google Plus"
+   },
+   "share_button_title_twitter": {
+      "description": "Tooltips that come up when you hover over the social sharing buttons on the introductory slideshow page.",
+      "message": "Udostępnij na Twitterze"
+   },
+   "show_counter_checkbox": {
+      "description": "",
+      "message": "Wyświetl liczbę zablokowanych obiektów"
+   },
+   "slideshow_1": {
+      "description": "",
+      "message": "Siemka, jestem Privacy Badger! Dzięki za zainstalowanie mnie. Jestem tutaj, aby dać Ci kilka użytecznych wskazówek, abyśmy mogli razem pracować."
+   },
+   "slideshow_10": {
+      "description": "",
+      "message": "Jeżeli uważasz, że pomyliłem się odnośnie tego śledzika, możesz ustawić suwak na czerwono aby go zablokować, na żółto aby częściowo go zablokować i na zielono aby go odblokować."
+   },
+   "slideshow_11": {
+      "description": "",
+      "message": "Jeżeli zmienisz ustawienie ustawione przeze mnie, zawsze możesz z powrotem pozwolić mi zdecydować poprzez kliknięcie strzałki cofania."
+   },
+   "slideshow_12": {
+      "description": "",
+      "message": "Jeżeli masz problem z tą stroną i uważasz że to moja wina, możesz nacisnąć ten przycisk. Zapadnę w sen i nie będę blokował czegokolwiek na tej stronie."
+   },
+   "slideshow_13": {
+      "description": "",
+      "message": "Jeżeli zepsułem jakąś stronę, proszę powiadomić moich programistów, aby mogli naprawić problem! Możesz to zrobić za pomocą tego przycisku."
+   },
+   "slideshow_14": {
+      "description": "",
+      "message": "Jeżeli chcesz zmienić inne ustawienia, kliknij w ikonę zębatki."
+   },
+   "slideshow_15": {
+      "description": "",
+      "message": "Oczywiście możesz nie ruszać tych ustawień i będę sobie po cichu zjadał wszystkich napotkanych szpiegów."
+   },
+   "slideshow_16": {
+      "description": "",
+      "message": "Dziękujemy za poczynienie ważnego i łatwego kroku na drodze do ochrony prywatności! Możesz kliknąć tutaj, jeżeli ponownie będziesz potrzebował pomocy, i możesz kliknąć poniżej, aby świat wiedział, że jesteś przeciwko szpiegowaniu w Sieci."
+   },
+   "slideshow_2": {
+      "description": "",
+      "message": "Będę sobie tutaj siedział i obserwował szpiegujące reklamy i śledzie rejestrujące co porabiasz w Sieci."
+   },
+   "slideshow_3": {
+      "description": "",
+      "message": "Jeżeli odnajdę coś co zachowuje się jak szpieg, spróbują to coś zablokować."
+   },
+   "slideshow_4": {
+      "description": "",
+      "message": "Po kliknięciu mojej ikony, możesz zobaczyć listę potencjalnych śledzików w obecnej karcie."
+   },
+   "slideshow_5": {
+      "description": "",
+      "message": "Jeżeli suwak jest czerwony, oznacza to że całkowicie zablokowałem tego szpiega! Ten podglądacz nie będzie Cię już nękał."
+   },
+   "slideshow_6": {
+      "description": "",
+      "message": "Jeżeli suwak jest na żółto, oznacza to że częściowo zablokowałem tego szpiega. Zrobię co w mojej mocy, aby Cię nie szpiegował zjadając jego ciasteczka, ale całkowite zablokowanie go może uszkodzić stronę."
+   },
+   "slideshow_7": {
+      "description": "",
+      "message": "Jeżeli suwak jest na zielono, oznacza to że nie mogę jeszcze stwierdzić czy ta domena Cię szpieguje. Może nie szpiegować, ale w dalszym ciągu będę miał ją na oku."
+   },
+   "slideshow_8": {
+      "description": "",
+      "message": "Początkowo po kliknięciu mojej ikony wszystkie śledziki są oznaczone na zielono – nie panikuj! Jestem inny niż pozostałe oprogramowanie chroniące prywatność – zamiast posiadać listę obiektów do zablokowania, uczę się co blokować podczas gdy Ty surfujesz. Jeżeli jeszcze czegoś nie blokuję, spróbuj poserfować po 4 czy 5 różnych stronach. Po tym powinienem zacząć blokować najbardziej popularnych szpiegów."
+   },
+   "slideshow_9": {
+      "description": "",
+      "message": "Uczę się podczas działania, więc im dłużej mnie używasz, tym lepiej będę chronił Twoją prywatność przed wstrętnymi szpiegami!"
+   },
+   "tooltip_allow": {
+      "description": "",
+      "message": "Przesuń suwak w prawo, aby odblokować domenę"
+   },
+   "tooltip_block": {
+      "description": "",
+      "message": "Przesuń suwak w lewo, aby zablokować domenę"
+   },
+   "tooltip_cookieblock": {
+      "description": "",
+      "message": "Wycentruj suwak, aby zablokować ciasteczka"
+   },
+   "version": {
+      "description": "",
+      "message": "wersja"
+   },
+   "what_is_a_tracker": {
+      "description": "Tooltip that comes up when you hover over the 'tracking domains' link under the Tracking Domains tab on the options page.",
+      "message": "Czym jest szpieg/śledzik?"
+   },
+   "whitelist_form_domain_input_placeholder": {
+      "description": "Placeholder text for the Add domain input under the Whitelisted Domains tab on the options page.",
+      "message": "np. www.domena.com, *.domena.net, domena.pl"
+   },
+   "whitelisted_domains": {
+      "description": "This is an options page tab heading.",
+      "message": "Wykluczone domeny"
+   }
+}

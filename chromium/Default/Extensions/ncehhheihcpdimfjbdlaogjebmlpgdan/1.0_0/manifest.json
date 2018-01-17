@@ -1,0 +1,19 @@
+{
+   "app": {
+      "launch": {
+         "web_url": "http://www.colorhexa.com/"
+      },
+      "urls": [ "http://www.colorhexa.com/" ]
+   },
+   "default_locale": "en",
+   "description": "__MSG_description__",
+   "icons": {
+      "128": "images/128x128_2.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAh3YDwyG73dTP8+vBVB7mjMwhJqfy/D55ynh8q0oB7nmOHe3H5YaHDA5WOKutHfw2/xdrAfX/evV9CwSEvGJ6yeS6cHXRN/d9P3rwBKwpnX/D0/NArArNSVSSlB/H+wB9zK3VqS7K4wnK+uYnEgRcC3izl9de4VDPe3xowI6porjID6MT9Q42efDtdopSuS3F96DFKg4lI9ktQmNWyiFKF2ibg81bMwDpBJUxAFQS6IC4fmMPQsl48UhyV0gI8B2l6w/lnP8RFTZiyRQBHyE3/vYNFnemi96yoGSQP0rCJfYm/m3O/Jxb9hZGWv4wQMbUz9Owsnq6PZsK8Jt0wnh5NwIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_name__",
+   "short_name": "ColorHexa",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0"
+}

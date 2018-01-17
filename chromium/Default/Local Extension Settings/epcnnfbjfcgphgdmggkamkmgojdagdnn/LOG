@@ -1,0 +1,17 @@
+2018/01/12-10:53:46.247 3176 Reusing MANIFEST /home/mrityunjaygr8/.config/chromium/Default/Local Extension Settings/epcnnfbjfcgphgdmggkamkmgojdagdnn/MANIFEST-000001
+2018/01/12-10:53:46.247 3176 Recovering log #80
+2018/01/12-10:53:46.247 3176 Reusing old log /home/mrityunjaygr8/.config/chromium/Default/Local Extension Settings/epcnnfbjfcgphgdmggkamkmgojdagdnn/000080.log 
+2018/01/12-12:01:46.003 5705 Level-0 table #84: started
+2018/01/12-12:01:46.036 5705 Level-0 table #84: 2039473 bytes OK
+2018/01/12-12:01:46.038 5705 Delete type=0 #80
+2018/01/12-12:01:46.039 5705 Compacting 4@0 + 2@1 files
+2018/01/12-12:01:46.087 5705 Generated table #85@0: 13 keys, 3236810 bytes
+2018/01/12-12:01:46.136 5705 Generated table #86@0: 7 keys, 2254252 bytes
+2018/01/12-12:01:46.137 5705 Compacted 4@0 + 2@1 files => 5491062 bytes
+2018/01/12-12:01:46.141 5705 compacted to: files[ 0 2 1 0 0 0 0 ]
+2018/01/12-12:01:46.142 5705 Delete type=2 #72
+2018/01/12-12:01:46.142 5705 Delete type=2 #73
+2018/01/12-12:01:46.142 5705 Delete type=2 #75
+2018/01/12-12:01:46.142 5705 Delete type=2 #78
+2018/01/12-12:01:46.143 5705 Delete type=2 #81
+2018/01/12-12:01:46.143 5705 Delete type=2 #84

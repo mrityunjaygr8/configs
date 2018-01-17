@@ -1,0 +1,19 @@
+{
+   "app": {
+      "launch": {
+         "web_url": "https://futuramo.com/"
+      },
+      "urls": [ "https://futuramo.com/" ]
+   },
+   "author": "MODULUS Sp. z o.o.",
+   "description": "FUTURAMO Icons – The Invention in Icon Design",
+   "icons": {
+      "128": "logo-futuramo-01.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAipC2rMg6syqpOey0o/05Z120szc+1DovhLzI7MUweZWChXazlFzO5pavYx9x1PdMTMtdMW7KQHhgbhjZ/ScEoVtek6EHSijagmInc8C6YTyIvQJ+iL5xLa3ALeZNJEFzYqRuIqlFpFg074K8C4jQvTHeLML7neIn+PD5if15iCB7X+CZztG/d9EXQPLA4E2NkoVJrPsgKsMYr61B2YsdIQEGKBXqwY2T7Lb51/VOVA3N7bt71xu6RTqnbseN3FJY0zWzfRd1O8fl78XCcDVt9S8f6nPQsnmMB0i8QEdwujx4/iRUs5ChsWgRLnwdRBiUGyZNxqRZapSHcWyOePatRwIDAQAB",
+   "manifest_version": 2,
+   "name": "FUTURAMO Icons",
+   "short_name": "FUTURAMO",
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1.0"
+}

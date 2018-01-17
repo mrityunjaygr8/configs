@@ -1,0 +1,24 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "icon.png",
+      "default_title": "Click to turn on/off"
+   },
+   "description": "Prism is a redline tool for the web.",
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon16.png",
+      "48": "icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtKBGfP+e+QiiKUqx7gEJGhnYV+r3H2K3LD1g/en2InHin2WEY0LKamhTEjXLWyEi9tZPAS4HxriqI4H7OueQ/YJ+4LHrbHWvX/fPD/zZ1P4AX9Cvx9lzlrEW8+s59oL5w487VF/+7JO+C77YfVEgbpZw03RD25stIICioOfiHC/bDCxHlz4sQAtYmMoNcJ/qb5EDnVgv47mEA3bW872w74xdSf2IS/rXXsggsw02Yccg3OWpiSLWvFe9KlnJBGwNcYXoaNB87F5wS+rQXKrGal7ykt2rucxFi0Zh9iZef32gAFvDBHwYzmFoqZMx3B3M7iA6OKE13vtU7vYMlxV47QIDAQAB",
+   "manifest_version": 2,
+   "name": "Prism - Redline Tool",
+   "permissions": [ "\u003Call_urls>", "tabs" ],
+   "short_name": "Prism",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.6.1",
+   "web_accessible_resources": [ "*" ]
+}

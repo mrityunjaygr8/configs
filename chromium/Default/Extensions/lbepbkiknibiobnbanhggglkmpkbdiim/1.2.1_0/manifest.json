@@ -1,0 +1,19 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "index.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "19": "icons/icon19x.png",
+         "38": "icons/icon38x.png"
+      }
+   },
+   "description": "Browser extension for tachyons-debug",
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlpUxpj2STZPuRRNaCAYun1r91BYP0dYSjPxr8v11AuGlH2Xr1U7qAZS0IsntdMqp+iwiocSMXjOmT0FL+vWYAS7NDjR9U37cSzsMBrBjZpf7mkUhvh5DstNLVz6eXZZcKCfkH59B1XVJEoEMztt8xlm3zJkogyRkH5ixPNvDz0SviouFbw7JlmFB8dAdMCHkwhfqBn7u2JqtCT22sQRUF5GfhWc0bEfjVMfhRlOXVGaN6yfzCN6WznCOFaJd6Npjs1aCYJ8pcypRLu8FV04JBtePXuyRo22XWE/ZNzjHvorNqr1cuB5W+jzWUdGoM8kD9B8I+UbkoT62t3PGTTbbRwIDAQAB",
+   "manifest_version": 2,
+   "name": "tachyons-x-ray",
+   "permissions": [ "activeTab" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.2.1"
+}

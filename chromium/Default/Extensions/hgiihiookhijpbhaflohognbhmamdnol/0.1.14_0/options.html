@@ -1,0 +1,176 @@
+<html>
+  <head>
+    <title>WidgetBlock Options</title>
+    <style type="text/css">
+      body {
+        margin: 60px;
+        font-family: Helvetica;
+      }
+      .domain_container {
+        margin: 7px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>WidgetBlock Options</h1>
+    <div>
+      <p>Widgets/3rd party content served from <strong>ALL</strong> of the following domains are blocked by default. </p>
+      <p>Not all content from the following domains are actually widgets, but can still slow down page load speed. </p>
+      <p>Uncheck the boxes to enable a widget.</p>
+    </div>
+    <div id="options">
+    </div>
+    <script type="text/javascript">
+
+      checkboxes = [];
+
+      function $(_id) {
+        return document.getElementById(_id);
+      }
+
+      function newEl(el) {
+        return document.createElement(el);
+      }
+
+      function saveOptions() {
+        for(var i = 0; (i < checkboxes.length); i++) {
+          var checkbox = checkboxes[i]; 
+          localStorage[checkbox.getAttribute("data-domain")] = 
+            checkbox.checked;
+        }
+        $("success").innerHTML = "Saved!";
+        setTimeout(function() {
+          $("success").innerHTML = "";
+        }, 3000);
+      }
+
+      function restoreOptions() {
+        for(var domain in reverse_domains) {
+          var nd = newEl("div");
+          nd.className = "domain_container";
+          var ne = newEl("input");
+          ne.type = "checkbox";
+          ne.id = domain + "_checkbox";
+          ne.setAttribute("data-domain", domain);
+          var ss = newEl("span");
+          ss.id = domain + "_save_span";
+          if (localStorage[domain] === "true") {
+            ne.checked = localStorage[domain];
+          }
+          else if (localStorage[domain] === "false") {
+            ne.checked = false;
+          }
+          else {
+            ne.checked = true;
+          }
+          ne.onchange = function(e) {
+            var cb = e.currentTarget;
+            var s = $(cb.getAttribute("data-domain") + "_save_span");
+            s.innerHTML = " Saved.";
+            setTimeout(function() { s.innerHTML = ""; }, 750);
+            saveOptions(); 
+          };
+          checkboxes.push(ne);
+          nd.appendChild(ne);
+          var ns = newEl("span");
+          ns.innerHTML = " " + domain;
+          nd.appendChild(ne);
+          nd.appendChild(ns);
+          nd.appendChild(ss);
+          $("options").appendChild(nd);
+        }
+      }
+
+      window.onload = function() {
+        restoreOptions();
+      };
+    
+    </script>
+    <script type="text/javascript">
+
+domains = {
+  "facebook.com" : { "facebook.com" : true, "fbcdn.net" : true }, 
+  "facebook.net" : { "facebook.com" : true, "fbcdn.net" : true }, 
+  "fbcdn.net" : { "facebook.com" : true, "fbcdn.net" : true },
+  "fbshare.me" : {},
+  "platform.twitter.com" : { "twitter.com" : true },
+  "twitter.com" : { "twitter.com" : true },
+  "disqus.com" : {},
+  "digg.com" : {},
+  "meebo.com" : {},
+  "meebocdn.net" : { "meebo.com" : true },
+  "publitweet.com" : {},
+  "lijit.com" : {},
+  "chartbeat.com" : {},
+  "chartbeat.net" : { "chartbeat.com" : true },
+  "causes.com" : {},
+  "tweetup.com" : { "postup.com" : true },
+  "postup.com" : {},
+  "conduit.com" : {},
+  "conduit-banners.com" : { "conduit.com" : true },
+  "quantserve.com" : {},
+  "google-analytics.com" : {},
+  "gravatar.com" : {},
+  "google.com/buzz" : {},
+  "google.com/cse" : {},
+  "google.com/friendconnect" : {},
+  "stats.wordpress.com" : {},
+  "scorecardresearch.com" : {},
+  "speakertext.com" : {},
+  "snap.com" : {},
+  "snapabug.com" : {},
+  "revsci.net" : {},
+  "badgeville.com" : {},
+  "chomp.com" : {},
+  "wibiya.com" : {},
+  "addthis.com" : {},
+  "addthiscdn.com" : { "addthis.com" : true },
+  "woopra.com" : {},
+  "woopra-ns.com" : { "woopra.com" : true },
+  "apture.com/js/apture.js" : {},
+  "js-kit.com" : {},
+  "yaptor.com" : {},
+  "tweetmeme.com" : {},
+  "get-clicky.com" : { "getclicky.com" : true},
+  "getclicky.com" : {},
+  "fmpub.net" : {},
+  "typekit.com" : {},
+  "buysellads.com" : {},
+  "sharethis.com" : {},
+  "outbrain.com" : {},
+  "adtech.us" : {},
+  "mar.gy" : {},
+  "mixpanel.com" : {},
+  "kissmetrics.com" : {},
+  "viglink.com" : {},
+  "fyre.co" : {},
+  "assistly.com" : {},
+  "stumbleupon.com" : {},
+  "delicious.com" : {},
+  "uservoice.com" : {},
+  "platform.linkedin.com" : { "linkedin.com" : true },
+  "widgets.dzone.com" : { "dzone.com" : true },
+  "envolve.com" : {},
+  "vkontakte.ru" : {},
+  "apis.google.com/js/plusone" : {},
+  "amung.us" : {},
+
+};
+
+reverse_domains = {};
+
+for(var domain in domains) {
+  var hasone = false;
+  for(var reverse_domain in domains[domain]) {
+    reverse_domains[reverse_domain] = true;
+    hasone = true;
+  }
+  if (!hasone) {
+    // empty reverse domains
+    reverse_domains[domain] = true;
+  }
+}
+    </script>
+
+  </body>
+</html>

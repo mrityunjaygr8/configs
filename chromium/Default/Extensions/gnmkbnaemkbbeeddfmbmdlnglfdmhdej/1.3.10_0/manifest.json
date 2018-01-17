@@ -1,0 +1,20 @@
+{
+   "app": {
+      "background": {
+         "scripts": [ "background.js" ]
+      }
+   },
+   "description": "Front-end developer helper for specs reading",
+   "icons": {
+      "128": "slideapp-128.png",
+      "16": "slideapp-16.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCskSNvBHEuw4wdgliAUh5Nwx90GT7YYNPE/713lXX58urrkikNsAcadbCFZ49DWH/wsLN/Lo5gfoMO/Zm1FEoX68AX1SAyxaZ+7cNbTEV3dr/t2lqRrjn3zOojYIxREri8kaupw9rJA18SueTINAlBUFY2CgdYhMkuC4mgRTmPYwIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "23",
+   "name": "Image Tool",
+   "offline_enabled": true,
+   "permissions": [ "https://www.google-analytics.com/", "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.3.10"
+}

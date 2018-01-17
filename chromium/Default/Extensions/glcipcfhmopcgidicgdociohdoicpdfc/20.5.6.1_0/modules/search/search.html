@@ -1,0 +1,9 @@
+<div class="cf">
+  <h2 class="resultsHeading">Found {{items.length}} results for <span>{{searchText}}</span></h2>
+</div>
+
+<scrollable-feed items="items" ng-hide="errors.length" show-favorite>
+  <scrollable-feed-no-data>
+    <div id="oops" class="emptySearch">Nothing found</div>
+  </scrollable-feed-no-data>
+</scrollable-feed>

@@ -1,0 +1,21 @@
+[Desktop Entry]
+Categories=Audio;Music;Player;AudioVideo;
+Comment[en_IN]=Spotify streaming music client
+Comment=Spotify streaming music client
+Exec=spotify %U
+GenericName[en_IN]=Music Player
+GenericName=Music Player
+Icon=/usr/share/spotify/icons/spotify-linux-64.png
+MimeType=
+Name[en_IN]=Spotify
+Name=Spotify
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+TryExec=spotify
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-KDE-SubstituteUID=false
+X-KDE-Username=
