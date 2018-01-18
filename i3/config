@@ -251,4 +251,10 @@ bindsym $mod+Shift+Tab 		workspace prev
 
 bindsym XF86KbdBrightnessUp	exec --no-startup-id asus-kbd-backlight up
 bindsym XF86KbdBrightnessDown	exec --no-startup-id asus-kbd-backlight down
+exec --no-startup-id asus-kbd-backlight 1
 
+for_window [class="FXTerm"] floating enable
+bindsym $mod+c exec $term --class FXTerm
+
+exec $term; workspace $wp1
+exec firefox; workspace $wp2; workspace $wp1

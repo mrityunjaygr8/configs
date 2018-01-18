@@ -1,4 +1,4 @@
-URxvt.font: xft:Hack:size=12
+URxvt.font: xft:Input\ Mono:size=12
 URxvt.scrollBar: false
 URxvt.iso14755: false
 URxvt.iso14755_52: false
