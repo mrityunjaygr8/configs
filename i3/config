@@ -253,8 +253,9 @@ bindsym XF86KbdBrightnessUp	exec --no-startup-id asus-kbd-backlight up
 bindsym XF86KbdBrightnessDown	exec --no-startup-id asus-kbd-backlight down
 exec --no-startup-id asus-kbd-backlight 1
 
-for_window [class="FXTerm"] floating enable
-bindsym $mod+c exec $term --class FXTerm
+for_window [class="URxvt" instance="floating"] floating enable border pixel 3
+bindsym $mod+c exec $term -name floating; move center
+bindsym $mod+Shift+f exec firefox
 
+exec firefox; workspace $wp2
 exec $term; workspace $wp1
-exec firefox; workspace $wp2; workspace $wp1

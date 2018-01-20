@@ -1,7 +1,5 @@
-#set -x
-
 # If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
   export ZSH=/home/mrityunjaygr8/.oh-my-zsh
@@ -9,7 +7,7 @@
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="agnoster"
+# ZSH_THEME="random"
 
 # Set list of themes to load
 # Setting this variable when ZSH_THEME="spaceship"
@@ -26,7 +24,7 @@ ZSH_THEME="agnoster"
 # HYPHEN_INSENSITIVE="true"
 
 # Uncomment the following line to disable bi-weekly auto-update checks.
-# DISABLE_AUTO_UPDATE="true"
+DISABLE_AUTO_UPDATE="true"
 
 # Uncomment the following line to change how often to auto-update (in days).
 # export UPDATE_ZSH_DAYS=13
@@ -69,10 +67,10 @@ plugins=(
 
 # User configuration
 
-# export MANPATH="/usr/local/man:$MANPATH"
+export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
-# export LANG=en_US.UTF-8
+export LANG=en_US.UTF-8
 
 # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then
@@ -85,7 +83,7 @@ plugins=(
 # export ARCHFLAGS="-arch x86_64"
 
 # ssh
-# export SSH_KEY_PATH="~/.ssh/rsa_id"
+export SSH_KEY_PATH="~/.ssh/rsa_id"
 
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
@@ -96,8 +94,11 @@ plugins=(
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-alias llt="ls -lt"
-source "/home/mrityunjaygr8/.oh-my-zsh/custom/themes/spaceship.zsh-theme"
+autoload -U promptinit; promptinit
+#prompt spaceship
+
+alias lt="ls -lt"
+alias la="ls -al"
 
 # Change colors accorfing to wal
 (cat ~/.cache/wal/sequences &)
@@ -105,5 +106,26 @@ source "/home/mrityunjaygr8/.oh-my-zsh/custom/themes/spaceship.zsh-theme"
 export VISUAL=vim
 export EDITOR=vim
 
+fpath=($fpath "/home/mrityunjaygr8/.zfunctions")
 
-source "/home/mrityunjaygr8/.oh-my-zsh/custom/themes/spaceship.zsh-theme"
+autoload -U promptinit; promptinit
+prompt spaceship
+
+
+# Theme Options
+SPACESHIP_CHAR_SYMBOL='> '
+
+SPACESHIP_PROMPT_SEPARATE_LINE=false
+SPACESHIP_DIR_TRUNC=4
+
+# Fix until KubeContext is fixed
+SPACESHIP_KUBECONTEXT_SHOW=false
+SPACESHIP_BATTERY_THRESHOLD=34
+
+# Time section is disable by default
+SPACESHIP_TIME_SHOW=true
+
+
+NPM_PACKAGES="${HOME}/.npm-packages"
+
+PATH="$NPM_PACKAGES/bin:$PATH"
