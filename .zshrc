@@ -129,3 +129,16 @@ SPACESHIP_TIME_SHOW=true
 NPM_PACKAGES="${HOME}/.npm-packages"
 
 PATH="$NPM_PACKAGES/bin:$PATH"
+
+alias gstat="git status"
+
+
+alias ri="rifle"
+alias ezs="vim ~/.zshrc"
+alias wnx="wal -i ~/Pictures/slide"
+alias diff='diff --color=auto'
+
+alias grep='grep --color=auto'
+
+source /usr/bin/virtualenvwrapper.sh
+

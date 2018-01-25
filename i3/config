@@ -254,8 +254,26 @@ bindsym XF86KbdBrightnessDown	exec --no-startup-id asus-kbd-backlight down
 exec --no-startup-id asus-kbd-backlight 1
 
 for_window [class="URxvt" instance="floating"] floating enable border pixel 3
-bindsym $mod+c exec $term -name floating; move center
-bindsym $mod+Shift+f exec firefox
+bindsym $mod+c exec $term -name floating
 
-exec firefox; workspace $wp2
+# Send focused window to the scratchpad
+bindsym Mod1+c move scratchpad
+
+# Show all floating terms
+bindsym Mod1+Shift+c [instance="floating"] scratchpad show
+
+# Launch Firefox
+bindsym $mod+Shift+f exec chromium
+
+
+# Show the scratchpad
+bindsym Mod1+Shift+s scratchpad show
+
+# Launch File Explorer
+bindsym Mod1+e exec thunar
+
+# Change wallpaper
+bindsym $mod+Shift+w exec "wal -i $HOME/Pictures/slide"
+
+exec chromium; sleep 5; workspace $wp2
 exec $term; workspace $wp1

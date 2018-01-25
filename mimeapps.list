@@ -8,8 +8,10 @@ application/zip=org.gnome.FileRoller.desktop;
 
 [Default Applications]
 application/x-ms-dos-executable=wine-2.desktop;
-text/html=firefox.desktop
+text/html=chromium.desktop
 video/mp4=vlc.desktop;
 video/x-matroska=vlc-2.desktop;
-x-scheme-handler/http=chromium-browser.desktop;
-x-scheme-handler/https=chromium-browser.desktop;
+x-scheme-handler/http=chromium.desktop
+x-scheme-handler/https=chromium.desktop
+x-scheme-handler/about=chromium.desktop
+x-scheme-handler/unknown=chromium.desktop
