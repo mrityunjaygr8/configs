@@ -5,15 +5,15 @@
 		"Category": true,
 		"Summary": true,
 		"Banner": true,
-		"x": 19,
+		"x": 967,
 		"y": 44,
-		"width": 1882,
+		"width": 934,
 		"height": 1017,
 		"maximized": false,
 		"NthCategory": 0,
 		"NthStatus": 0,
 		"PanedPositionH": 359,
-		"PanedPositionV": 785
+		"PanedPositionV": 766
 	},
 	"Summary": {
 		"name": true,

@@ -187,7 +187,7 @@ bindsym XF86AudioRaiseVolume exec --no-startup-id pamixer -i 3
 bindsym XF86AudioMute exec --no-startup-id pamixer -t
 
 # Use wal colors on boot
-exec wal -R
+exec wal -l -R
 
 # Removing title bar
 for_window [class="^.*"] border pixel 0
@@ -273,7 +273,7 @@ bindsym Mod1+Shift+s scratchpad show
 bindsym Mod1+e exec thunar
 
 # Change wallpaper
-bindsym $mod+Shift+w exec "wal -i $HOME/Pictures/slide"
+bindsym $mod+Shift+w exec "wal -l -i $HOME/Pictures/slide"
 
 exec chromium; sleep 5; workspace $wp2
 exec $term; workspace $wp1

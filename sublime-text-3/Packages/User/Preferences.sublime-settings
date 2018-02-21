@@ -1,7 +1,7 @@
 {
 	"always_show_minimap_viewport": true,
 	"bold_folder_labels": true,
-	"color_scheme": "Packages/Materialize/schemes/Material Glacier.tmTheme",
+	"color_scheme": "Packages/Materialize/schemes/Material One Dark.tmTheme",
 	"font_face": "Hack",
 	"font_options":
 	[
@@ -20,5 +20,5 @@
 	"line_padding_bottom": 3,
 	"line_padding_top": 3,
 	"overlay_scroll_bars": "enabled",
-	"theme": "Material Glacier.sublime-theme"
+	"theme": "Material One Dark.sublime-theme"
 }

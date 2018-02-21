@@ -142,3 +142,4 @@ alias grep='grep --color=auto'
 
 source /usr/bin/virtualenvwrapper.sh
 
+SPACESHIP_BATTERY_SHOW="always"

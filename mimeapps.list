@@ -3,8 +3,9 @@ application/x-ms-dos-executable=wine-2.desktop;
 video/mp4=vlc.desktop;
 video/x-matroska=vlc-2.desktop;
 image/png=gpicview.desktop;
-text/plain=wine-extension-txt.desktop;
+text/plain=sublime_text.desktop;wine-extension-txt.desktop;
 application/zip=org.gnome.FileRoller.desktop;
+application/pdf=wine-extension-pdf.desktop;
 
 [Default Applications]
 application/x-ms-dos-executable=wine-2.desktop;

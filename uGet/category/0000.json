@@ -35,9 +35,9 @@
 	},
 	"children": [
 		{
-			"name": "Postman-linux-x64-5.5.0.tar.gz",
+			"name": "lineage-14.1-20180212-nightly-cheeseburger-signed.zip",
 			"type": 2,
-			"state": 72,
+			"state": 33,
 			"info": {
 				"relation": {
 					"task": {
@@ -46,20 +46,20 @@
 					}
 				},
 				"progress": {
-					"complete": 70112298,
-					"total": 70112298,
-					"elapsed": 22,
+					"complete": 16384,
+					"total": 546542488,
+					"elapsed": 5,
 					"uploaded": 0,
-					"percent": 100
+					"percent": 0
 				},
 				"log": {
-					"added-time": 1516800091,
-					"completed-time": 1516800113,
+					"added-time": 1518796245,
+					"completed-time": 0,
 					"messages": [
 						{
-							"string": "Not Resumable",
-							"type": 2,
-							"time": 1516800102
+							"string": "File can't be created (bad filename or file exist).",
+							"type": 3,
+							"time": 1519196657
 						}
 					]
 				},
@@ -71,9 +71,8 @@
 					"type": 0
 				},
 				"common": {
-					"uri": "https:\/\/dl.pstmn.io\/download\/latest\/linux64",
-					"file": "Postman-linux-x64-5.5.0.tar.gz",
-					"folder": "\/home\/mrityunjaygr8",
+					"uri": "https:\/\/mirrorbits.lineageos.org\/full\/cheeseburger\/20180212\/lineage-14.1-20180212-nightly-cheeseburger-signed.zip",
+					"folder": "\/media\/Storage\/mrityunjaygr8\/Downloads",
 					"connect-timeout": 15,
 					"transmit-timeout": 30,
 					"retry-delay": 6,
@@ -86,24 +85,6 @@
 				}
 			},
 			"children": [
-				{
-					"name": "\/home\/mrityunjaygr8\/Postman-linux-x64-5.5.0.tar.gz.aria2",
-					"type": 5,
-					"state": 0,
-					"info": {
-					},
-					"children": [
-					]
-				},
-				{
-					"name": "\/home\/mrityunjaygr8\/Postman-linux-x64-5.5.0.tar.gz",
-					"type": 0,
-					"state": 0,
-					"info": {
-					},
-					"children": [
-					]
-				}
 			]
 		}
 	]
