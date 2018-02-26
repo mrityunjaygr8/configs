@@ -49,19 +49,19 @@ module-margin-right = 2
 
 font-0 = Hack:size=10;1
 font-1 = Hack:fontformat=truetype:size=8:antialias=false;0
-font-2 = Ionicons:size=10;1
-font-3 = "Font Awesome 5 Free:style=Regular:pixelsize=8;1"
-font-4 = "Font Awesome 5 Free:style=Solid:pixelsize=8;1"
-font-5 = "Font Awesome 5 Brands:pixelsize=8;1"
+font-2 = "Font Awesome 5 Free:style=Regular:pixelsize=8;1"
+font-3 = "Font Awesome 5 Free:style=Solid:pixelsize=8;1"
+font-4 = "Font Awesome 5 Brands:pixelsize=8;1"
 
-modules-left = powermenu bspwm i3
+
+modules-left = powermenu i3
 modules-center = xwindow music
 modules-right = filesystem xbacklight volume memory cpu wlan eth battery temperature date
 
 tray-position = right
 tray-padding = 2
 ;tray-transparent = true
-tray-background = #0063ff
+tray-background = ${colors.background}
 
 ;wm-restack = bspwm
 wm-restack = i3
@@ -178,8 +178,9 @@ label-song-ellipsis = true
 [module/xbacklight]
 type = internal/xbacklight
 
-format = <label> <bar>
-label = BL
+format = <bar>
+format-prefix = " "
+
 
 bar-width = 10
 bar-indicator = |
@@ -200,7 +201,7 @@ card = intel_backlight
 [module/cpu]
 type = internal/cpu
 interval = 2
-format-prefix = "CPU:"
+format-prefix = " "
 format-prefix-foreground = ${colors.foreground}
 format-foreground = ${colors.primary}
 ; format-underline = #f90000
@@ -209,7 +210,7 @@ label = %percentage:2%%
 [module/memory]
 type = internal/memory
 interval = 2
-format-prefix = "RAM:"
+format-prefix = " "
 format-prefix-foreground = ${colors.foreground}
 format-foreground = ${colors.primary}
 ; format-underline = #4bffdc
@@ -223,7 +224,7 @@ interval = 3.0
 format-connected = <label-connected> 
 format-connected-foreground = ${colors.primary}
 ; format-connected-underline = #9f78e1
-label-connected = %local_ip% %essid%
+label-connected =  %essid% %local_ip%
 
 format-disconnected =
 ;format-disconnected = <label-disconnected>
@@ -264,8 +265,8 @@ date-alt = " %Y-%m-%d"
 time = %H:%M
 time-alt = %H:%M:%S
 
-format-prefix = 
-format-prefix-foreground = ${colors.foreground-alt}
+format-prefix =  
+format-prefix-foreground = ${colors.foreground}
 ; format-underline = #0a6cf5
 
 label = %date% %time%
@@ -274,8 +275,7 @@ label = %date% %time%
 type = internal/volume
 
 format-volume = <label-volume> <bar-volume>
-label-volume = VOL
-label-volume-foreground = ${root.foreground}
+label-volume = 
 
 format-muted-prefix = " "
 format-muted-foreground = ${colors.foreground-alt}
@@ -296,27 +296,27 @@ bar-volume-empty-foreground = ${colors.foreground-alt}
 type = internal/battery
 battery = BAT0
 adapter = AC0
-full-at = 98
+full-at = 100
 
-format-charging = <animation-charging> <label-charging>
-; format-charging-underline = #ffb52a
+format-charging = <label-charging>
+format-charging-prefix = " "
 
 format-discharging = <ramp-capacity> <label-discharging>
 ; format-discharging-underline = ${self.format-charging-underline}
 
-format-full-prefix = " "
+format-full-prefix = " "
 format-full-prefix-foreground = ${colors.foreground-alt}
 ; format-full-underline = ${self.format-charging-underline}
 
-ramp-capacity-0 = 
-ramp-capacity-1 = 
-ramp-capacity-2 = 
-ramp-capacity-foreground = ${colors.foreground-alt}
+ramp-capacity-0 =  
+ramp-capacity-1 = 
+ramp-capacity-2 = 
+ramp-capacity-foreground = ${colors.foreground}
 
 animation-charging-0 = 
 animation-charging-1 = 
 animation-charging-2 = 
-animation-charging-foreground = ${colors.foreground-alt}
+animation-charging-foreground = ${colors.foreground}
 animation-charging-framerate = 750
 
 [module/temperature]
@@ -329,7 +329,7 @@ format = <ramp> <label>
 format-warn = <ramp> <label-warn>
 ; format-warn-underline = ${self.format-underline}
 
-label = %temperature%
+label =  %temperature%
 label-warn = %temperature%
 label-warn-foreground = ${colors.secondary}
 
@@ -346,9 +346,10 @@ expand-right = true
 format-spacing = 1
 
 label-open = 
-label-open-padding = 2 
+label-open-padding = 1 
 label-open-foreground = ${colors.primary}
-label-close =  cancel
+label-close =  
+label-close-padding = 1
 label-close-foreground = ${colors.primary}
 label-separator = |
 label-separator-foreground = ${colors.foreground-alt}
