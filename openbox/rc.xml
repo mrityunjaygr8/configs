@@ -10,7 +10,7 @@
     <focusNew>yes</focusNew>
     <!-- always try to focus new windows when they appear. other rules do
        apply -->
-    <followMouse>no</followMouse>
+    <followMouse>yes</followMouse>
     <!-- move focus to a window when you move the mouse into it -->
     <focusLast>yes</focusLast>
     <!-- focus the last used window when changing desktops, instead of the one
@@ -20,7 +20,7 @@
     <focusDelay>200</focusDelay>
     <!-- when followMouse is enabled, the mouse must be inside the window for
        this many milliseconds (1000 = 1 sec) before moving focus to it -->
-    <raiseOnFocus>no</raiseOnFocus>
+    <raiseOnFocus>yes</raiseOnFocus>
     <!-- when followMouse is enabled, and a window is given focus by moving the
        mouse into it, also raise the window -->
   </focus>
@@ -42,7 +42,7 @@
                   'Active' - where the active window is -->
   </placement>
   <theme>
-    <name>ArchLabs-Light</name>
+    <name>ArchLabs-Dark</name>
     <titleLayout>NLIMC</titleLayout>
     <!--
       available characters are NDSLIMC, each can occur at most once.
@@ -57,57 +57,57 @@
     <keepBorder>yes</keepBorder>
     <animateIconify>yes</animateIconify>
     <font place="ActiveWindow">
-      <name>sans</name>
-      <size>8</size>
+      <name>Monaco for Powerline</name>
+      <size>10</size>
       <!-- font size in points -->
-      <weight>bold</weight>
+      <weight>Bold</weight>
       <!-- 'bold' or 'normal' -->
-      <slant>normal</slant>
+      <slant>Normal</slant>
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="InactiveWindow">
-      <name>sans</name>
+      <name>Monaco for Powerline</name>
       <size>8</size>
       <!-- font size in points -->
-      <weight>bold</weight>
+      <weight>Normal</weight>
       <!-- 'bold' or 'normal' -->
-      <slant>normal</slant>
+      <slant>Normal</slant>
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="MenuHeader">
-      <name>sans</name>
+      <name>Monaco for Powerline</name>
       <size>9</size>
       <!-- font size in points -->
-      <weight>normal</weight>
+      <weight>Normal</weight>
       <!-- 'bold' or 'normal' -->
-      <slant>normal</slant>
+      <slant>Normal</slant>
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="MenuItem">
-      <name>sans</name>
+      <name>Monaco for Powerline</name>
       <size>9</size>
       <!-- font size in points -->
-      <weight>normal</weight>
+      <weight>Normal</weight>
       <!-- 'bold' or 'normal' -->
-      <slant>normal</slant>
+      <slant>Normal</slant>
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="ActiveOnScreenDisplay">
-      <name>sans</name>
+      <name>Monaco for Powerline</name>
       <size>9</size>
       <!-- font size in points -->
-      <weight>bold</weight>
+      <weight>Bold</weight>
       <!-- 'bold' or 'normal' -->
-      <slant>normal</slant>
+      <slant>Normal</slant>
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="InactiveOnScreenDisplay">
-      <name>sans</name>
+      <name>Monaco for Powerline</name>
       <size>9</size>
       <!-- font size in points -->
-      <weight>bold</weight>
+      <weight>Bold</weight>
       <!-- 'bold' or 'normal' -->
-      <slant>normal</slant>
+      <slant>Normal</slant>
       <!-- 'italic' or 'normal' -->
     </font>
   </theme>
@@ -120,13 +120,15 @@
 
        use obconf if you want to change these without having to log out
        and back in -->
-    <number>4</number>
+    <number>6</number>
     <firstdesk>1</firstdesk>
     <names>
-      <!-- set names up here if you want to, like this:
-    <name>desktop 1</name>
-    <name>desktop 2</name>
-    -->
+      <name>Terminal</name>
+      <name>Browser</name>
+      <name>Code</name>
+      <name>Utilities</name>
+      <name>Music</name>
+      <name>Extra</name>
     </names>
     <popupTime>875</popupTime>
     <!-- The number of milliseconds to show the popup for when switching
@@ -134,7 +136,7 @@
   </desktops>
   <resize>
     <drawContents>yes</drawContents>
-    <popupShow>Nonpixel</popupShow>
+    <popupShow>NonPixel</popupShow>
     <!-- 'Always', 'Never', or 'Nonpixel' (xterms and such) -->
     <popupPosition>Center</popupPosition>
     <!-- 'Center', 'Top', or 'Fixed' -->
@@ -153,10 +155,10 @@
      Many programs reserve space automatically, but you can use this in other
      cases. -->
   <margins>
-    <top>0</top>
-    <bottom>0</bottom>
-    <left>0</left>
-    <right>0</right>
+    <top>60</top>
+    <bottom>25</bottom>
+    <left>25</left>
+    <right>25</right>
   </margins>
   <dock>
     <position>Bottom</position>
@@ -227,31 +229,34 @@
         <wrap>no</wrap>
       </action>
     </keybind>
-    <keybind key="W-F1">
+    <keybind key="W-1">
       <action name="GoToDesktop">
         <to>1</to>
       </action>
     </keybind>
-    <keybind key="W-F2">
+    <keybind key="W-2">
       <action name="GoToDesktop">
         <to>2</to>
       </action>
     </keybind>
-    <keybind key="W-F3">
+    <keybind key="W-3">
       <action name="GoToDesktop">
         <to>3</to>
       </action>
     </keybind>
-    <keybind key="W-F4">
+    <keybind key="W-4">
       <action name="GoToDesktop">
         <to>4</to>
       </action>
     </keybind>
-    <keybind key="W-d">
+    <keybind key="W-S-d">
       <action name="ToggleShowDesktop"/>
     </keybind>
     <!-- Keybindings for windows -->
     <keybind key="A-F4">
+      <action name="Close"/>
+    </keybind>
+    <keybind key="W-S-q">
       <action name="Close"/>
     </keybind>
     <keybind key="A-Escape">
@@ -316,19 +321,39 @@
       </action>
     </keybind>
     <!-- Keybindings for running applications -->
-    <keybind key="W-space">
+    <keybind key="W-d">
       <action name="Execute">
         <startupnotify>
           <enabled>true</enabled>
           <name>Rofi</name>
         </startupnotify>
-        <command>rofi -show run</command>
+        <command>rofi -combi-modi window#run#ssh -show combi </command>
       </action>
     </keybind>
-    <keybind key="W-F11">
+    <keybind key="W-S-r">
       <action name="Reconfigure"/>
     </keybind>
-
+    <keybind key="W-S-w">
+      <action name="Execute">
+        <command>sh ~/commands/wal.sh</command>
+      </action>
+    </keybind>
+    <keybind key="W-Return">
+      <action name="Execute">
+        <command>urxvt</command>
+      </action>
+    </keybind>
+    <!--<keybind key="W-S-w">
+      <action name="Execute">
+        <command>wal -l -i $HOME/Pictures/slide</command>
+      </action>
+    </keybind>
+    -->
+    <keybind key="W-c">
+      <action name="Execute">
+          <command>chromium</command>
+      </action>
+    </keybind>
   </keyboard>
   <mouse>
     <dragThreshold>1</dragThreshold>
@@ -402,7 +427,7 @@
         <action name="Move"/>
       </mousebind>
       <mousebind button="Left" action="DoubleClick">
-        <action name="ToggleMaximize"/>
+        <action xmlns="http://openbox.org/3.4/rc" name="ToggleMaximize"/>
       </mousebind>
       <mousebind button="Up" action="Click">
         <action name="if">

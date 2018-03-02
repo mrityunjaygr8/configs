@@ -8,29 +8,29 @@
 ;=====================================================
 
 [colors]
-background = #90000000
+background = ${xrdb:color7:#333} 
 ;background = #222
 background-alt = #88000000
-foreground = ${xrdb:color0:#222}
+foreground = ${xrdb:color0:#eee}
 ;foreground = #dfdfdf
 foreground-alt = ${xrdb:color7:#222}
 ;primary = ${xrdb:color4:#ffb52a}
 ;secondary = ${xrdb:color6:#e60053}
 ;alert = ${xrdb:color8:#bd2}
 
-primary = ${xrdb:color2:#222}
-secondary = ${xrdb:color4:#222}
-alert = ${xrdb:color6:#222}
+primary = ${xrdb:color1:#222}
+secondary = ${xrdb:color2:#222}
+alert = ${xrdb:color333:#222}
 
 
 [bar/example]
 ;monitor = ${env:MONITOR:HDMI-1}
 width = 100%
-height = 25
-offset-x = 0
+height = 35
+offset-x = 0 
 offset-y = 0
 radius = 0
-fixed-center = false
+fixed-center = false 
 enable = true
 background = ${colors.background}
 foreground = ${colors.foreground}
@@ -41,38 +41,39 @@ line-color = #f00
 border-size = 0
 border-color = #00000000
 
-padding-left = 0
+padding-left = 2 
 padding-right = 2
 
 module-margin-left = 1
 module-margin-right = 2
 
-font-0 = Hack:size=10;1
-font-1 = Hack:fontformat=truetype:size=8:antialias=false;0
-font-2 = "Font Awesome 5 Free:style=Regular:pixelsize=8;1"
-font-3 = "Font Awesome 5 Free:style=Solid:pixelsize=8;1"
-font-4 = "Font Awesome 5 Brands:pixelsize=8;1"
+font-0 = Monaco:size=10;1
+font-1 = Hack:fontformat=truetype:size=10:antialias=false;0
+font-2 = "Font Awesome 5 Free:style=Regular:pixelsize=10;1"
+font-3 = "Font Awesome 5 Free:style=Solid:pixelsize=10;1"
+font-4 = "Font Awesome 5 Brands:pixelsize=10;1"
 
 
-modules-left = powermenu i3
+modules-left = ewmh 
 modules-center = xwindow music
 modules-right = filesystem xbacklight volume memory cpu wlan eth battery temperature date
 
-tray-position = right
+tray-position = right 
 tray-padding = 2
 ;tray-transparent = true
 tray-background = ${colors.background}
+;tray-detached = true
 
 ;wm-restack = bspwm
-wm-restack = i3
+;wm-restack = i3
 
 ;override-redirect = true
 
 ;scroll-up = bspwm-desknext
 ;scroll-down = bspwm-deskprev
 
-scroll-up = i3wm-wsnext
-scroll-down = i3wm-wsprev
+;scroll-up = i3wm-wsnext
+;scroll-down = i3wm-wsprev
 
 cursor-click = pointer
 cursor-scroll = ns-resize
@@ -105,7 +106,9 @@ interval = 25
 
 mount-0 = /
 mount-1 = /home
-label-mounted = %{F#0a81f5}%mountpoint%%{F-}: %percentage_used%%
+mount-2 = /media/Storage
+
+label-mounted = %mountpoint%%: %percentage_used%%
 label-unmounted = %mountpoint% not mounted
 label-unmounted-foreground = ${colors.foreground-alt}
 
@@ -178,20 +181,11 @@ label-song-ellipsis = true
 [module/xbacklight]
 type = internal/xbacklight
 
-format = <bar>
+format = <label>
+label = %percentage%%
+label-foreground = ${colors.primary}
 format-prefix = " "
 
-
-bar-width = 10
-bar-indicator = |
-bar-indicator-foreground = #ff
-bar-indicator-font = 2
-bar-fill = ─
-bar-fill-font = 2
-bar-fill-foreground = ${colors.primary}
-bar-empty = ─
-bar-empty-font = 2
-bar-empty-foreground = ${colors.foreground-alt}
 
 [module/backlight-acpi]
 inherit = module/xbacklight
@@ -224,7 +218,9 @@ interval = 3.0
 format-connected = <label-connected> 
 format-connected-foreground = ${colors.primary}
 ; format-connected-underline = #9f78e1
-label-connected =  %essid% %local_ip%
+label-connected = %essid% 
+format-connected-prefix = " "      
+format-connected-prefix-foreground = ${colors.foreground}
 
 format-disconnected =
 ;format-disconnected = <label-disconnected>
@@ -245,7 +241,7 @@ interface = enp3s0f1
 interval = 3.0
 
 ; format-connected-underline = #55aa55
-format-connected-prefix = "LAN: "
+format-connected-prefix = " "
 format-connected-prefix-foreground = ${colors.primary}
 label-connected = %local_ip%
 
@@ -267,30 +263,24 @@ time-alt = %H:%M:%S
 
 format-prefix =  
 format-prefix-foreground = ${colors.foreground}
-; format-underline = #0a6cf5
+time-foreground = ${colors.primary} 
 
 label = %date% %time%
+label-foreground = ${colors.primary}
 
 [module/volume]
 type = internal/volume
 
-format-volume = <label-volume> <bar-volume>
-label-volume = 
+format-volume = <label-volume> 
+label-volume = %percentage%% 
+format-volume-prefix-foreground = ${colors.foreground}
+format-volume-prefix = " "
+format-volume-foreground = ${colors.primary}
 
-format-muted-prefix = " "
-format-muted-foreground = ${colors.foreground-alt}
-label-muted = sound muted
+format-muted-prefix = " "
+format-muted-foreground = ${colors.foreground}
+label-muted = muted
 
-bar-volume-width = 10
-bar-volume-foreground-0 = ${colors.primary}
-bar-volume-gradient = false
-bar-volume-indicator = |
-bar-volume-indicator-font = 2
-bar-volume-fill = ─
-bar-volume-fill-font = 2
-bar-volume-empty = ─
-bar-volume-empty-font = 2
-bar-volume-empty-foreground = ${colors.foreground-alt}
 
 [module/battery]
 type = internal/battery
@@ -300,12 +290,14 @@ full-at = 100
 
 format-charging = <label-charging>
 format-charging-prefix = " "
+format-charging-prefix-foreground = ${colors.primary}
 
 format-discharging = <ramp-capacity> <label-discharging>
-; format-discharging-underline = ${self.format-charging-underline}
+;format-discharging- = ${self.format-charging-underline}
+label-discharging-foreground = ${colors.primary}
 
 format-full-prefix = " "
-format-full-prefix-foreground = ${colors.foreground-alt}
+format-full-prefix-foreground = ${colors.secondary}
 ; format-full-underline = ${self.format-charging-underline}
 
 ramp-capacity-0 =  
@@ -324,19 +316,20 @@ type = internal/temperature
 thermal-zone = 0
 warn-temperature = 60
 
-format = <ramp> <label>
+format =  <label>
+format-prefix = " " 
+format-prefix-foreground = ${colors.foreground}
 ;format-underline = #f50a4d
-format-warn = <ramp> <label-warn>
+format-warn =  <label-warn>
+format-warn-prefix = " " 
+format-warn-prefix-foreground = ${colors.secondary}
 ; format-warn-underline = ${self.format-underline}
-
-label =  %temperature%
+;v
+label =  %temperature%
 label-warn = %temperature%
 label-warn-foreground = ${colors.secondary}
+label-foreground = ${colors.primary}
 
-ramp-0 = 
-ramp-1 = 
-ramp-2 = 
-ramp-foreground = ${colors.foreground-alt}
 
 [module/powermenu]
 type = custom/menu
@@ -368,6 +361,22 @@ menu-2-0 = power off
 menu-2-0-exec = sudo poweroff
 menu-2-1 = cancel
 menu-2-1-exec = menu-open-0
+
+[module/ewmh]
+type = internal/xworkspaces
+pin-workspaces = false 
+enable-click = true 
+icon-0 = Terminal;
+icon-1 = Browser;
+icon-2 = Code;
+icon-3 = Utilities;
+icon-4 = Music;
+icon-default = 
+
+label-active = "%icon% %name% "
+label-active-foreground = ${colors.primary}
+label-empty = "%icon%%index% "
+label-empty-foreground = ${colors.secondary}
 
 [module/music]
 type = custom/script

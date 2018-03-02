@@ -36,7 +36,7 @@ DISABLE_AUTO_UPDATE="true"
 # DISABLE_AUTO_TITLE="true"
 
 # Uncomment the following line to enable command auto-correction.
-# ENABLE_CORRECTION="true"
+ENABLE_CORRECTION="true"
 
 # Uncomment the following line to display red dots whilst waiting for completion.
 # COMPLETION_WAITING_DOTS="true"
@@ -60,10 +60,14 @@ DISABLE_AUTO_UPDATE="true"
 # Add wisely, as too many plugins slow down shell startup.
 
 plugins=(
-  git
+  git zsh-autosuggestions
 )
 
- source $ZSH/oh-my-zsh.sh
+# Loads the completion thingy
+autoload -U compinit && compinit
+
+source $ZSH/oh-my-zsh.sh
+export CONFIG="$HOME/.config"
 
 # User configuration
 
@@ -73,11 +77,11 @@ export MANPATH="/usr/local/man:$MANPATH"
 export LANG=en_US.UTF-8
 
 # Preferred editor for local and remote sessions
-# if [[ -n $SSH_CONNECTION ]]; then
-#   export EDITOR='vim'
-# else
-#   export EDITOR='mvim'
-# fi
+ if [[ -n $SSH_CONNECTION ]]; then
+     ZSH_THEME="robbyrussell"
+ else
+     ZSH_THEME="spaceship"
+ fi
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
@@ -94,8 +98,6 @@ export SSH_KEY_PATH="~/.ssh/rsa_id"
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-autoload -U promptinit; promptinit
-#prompt spaceship
 
 alias lt="ls -lt"
 alias la="ls -al"
@@ -113,9 +115,12 @@ prompt spaceship
 
 
 # Theme Options
-SPACESHIP_CHAR_SYMBOL='> '
+# SPACESHIP_CHAR_SYMBOL='>_< '
+SPACESHIP_CHAR_SYMBOL='❯ '
+SPACESHIP_BATTERY_SHOW='always'
+SPACESHIP_HOST_SHOW='always'
 
-SPACESHIP_PROMPT_SEPARATE_LINE=false
+#SPACESHIP_PROMPT_SEPARATE_LINE=false
 SPACESHIP_DIR_TRUNC=4
 
 # Fix until KubeContext is fixed
@@ -132,14 +137,17 @@ PATH="$NPM_PACKAGES/bin:$PATH"
 
 alias gstat="git status"
 
-
 alias ri="rifle"
 alias ezs="vim ~/.zshrc"
 alias wnx="wal -i ~/Pictures/slide"
 alias diff='diff --color=auto'
-
 alias grep='grep --color=auto'
 
 source /usr/bin/virtualenvwrapper.sh
 
 SPACESHIP_BATTERY_SHOW="always"
+
+alias xup="xrdb ~/.Xresources"
+
+alias z_source="source ~/.zshrc"
+

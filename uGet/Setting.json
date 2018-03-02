@@ -13,7 +13,7 @@
 		"NthCategory": 0,
 		"NthStatus": 0,
 		"PanedPositionH": 359,
-		"PanedPositionV": 785
+		"PanedPositionV": 767
 	},
 	"Summary": {
 		"name": true,
@@ -41,7 +41,7 @@
 		"SortNth": 0,
 		"Width": {
 			"state": 18,
-			"name": 766,
+			"name": 770,
 			"complete": 76,
 			"total": 70,
 			"percent": 60,
@@ -114,6 +114,7 @@
 		"OnError": null
 	},
 	"FolderHistory": [
+		"\/media\/Storage\/mrityunjaygr8\/Downloads\/apks",
 		"\/media\/Storage\/mrityunjaygr8\/Downloads",
 		"\/home\/mrityunjaygr8"
 	],

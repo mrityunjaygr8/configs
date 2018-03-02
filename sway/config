@@ -175,7 +175,7 @@ client.background       $bg
 
 
 # Rofi
-bindsym $mod+d exec rofi -combi-modi window#run#ssh -show combi
+bindsym $mod+d exec rofi -combi-modi window#drun#ssh -show combi
 
 # Configuring the gaps between the containers
 gaps outer 5

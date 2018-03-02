@@ -35,6 +35,78 @@
 	},
 	"children": [
 		{
+			"name": "parham-v.1.1.tar.0",
+			"type": 2,
+			"state": 3,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 4885943,
+					"total": 11071557,
+					"elapsed": 101,
+					"uploaded": 0,
+					"percent": 44
+				},
+				"log": {
+					"added-time": 1519800520,
+					"completed-time": 0,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1519800529
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "https:\/\/raw.githubusercontent.com\/mrityunjaygr8\/ftuff1\/sharadMalmanchi-scanningProfiles-parhamv1.1\/parham-v.1.1.tar?token=AN5hjwVwf5elFO7KVm5Wg588wq55iMKWks5an4sxwA%3D%3D",
+					"file": "parham-v.1.1.tar.0",
+					"folder": "\/media\/Storage\/mrityunjaygr8\/Downloads",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 16,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/media\/Storage\/mrityunjaygr8\/Downloads\/parham-v.1.1.tar.0.aria2",
+					"type": 5,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				},
+				{
+					"name": "\/media\/Storage\/mrityunjaygr8\/Downloads\/parham-v.1.1.tar.0",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
 			"name": "lineage-14.1-20180212-nightly-cheeseburger-signed.zip",
 			"type": 2,
 			"state": 33,
@@ -85,6 +157,150 @@
 				}
 			},
 			"children": [
+			]
+		},
+		{
+			"name": "TypeFace_1.1.9.apk",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 10348187,
+					"total": 10348187,
+					"elapsed": 33,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1519975717,
+					"completed-time": 1519975751,
+					"messages": [
+						{
+							"string": "Not Resumable",
+							"type": 2,
+							"time": 1519975718
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "http:\/\/down7.dailyuploads.net:182\/d\/yucjkmxgoghlriin6vd6uh2baxsnaupjh523nuvjcxqoajlifmd5vsnw\/TypeFace_1.1.9.apk",
+					"file": "TypeFace_1.1.9.apk",
+					"folder": "\/media\/Storage\/mrityunjaygr8\/Downloads\/apks",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 16,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/media\/Storage\/mrityunjaygr8\/Downloads\/apks\/TypeFace_1.1.9.apk.aria2",
+					"type": 5,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				},
+				{
+					"name": "\/media\/Storage\/mrityunjaygr8\/Downloads\/apks\/TypeFace_1.1.9.apk",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "Action Launcher v34.1.apk",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 13899805,
+					"total": 13899805,
+					"elapsed": 98,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1519973631,
+					"completed-time": 1519973729,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1519973632
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "http:\/\/download2.uploadocean.com:182\/d\/4tvwqgxl2tslvrtxor5p6qrlgu76ats4hxlf7jbvvjtzmn6zuwi3wwlyle5jejduym3rwr4j\/Action%20Launcher%20v34.1.apk",
+					"file": "Action Launcher v34.1.apk",
+					"folder": "\/media\/Storage\/mrityunjaygr8\/Downloads\/apks",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 16,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/media\/Storage\/mrityunjaygr8\/Downloads\/apks\/Action Launcher v34.1.apk.aria2",
+					"type": 5,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				},
+				{
+					"name": "\/media\/Storage\/mrityunjaygr8\/Downloads\/apks\/Action Launcher v34.1.apk",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
 			]
 		}
 	]
