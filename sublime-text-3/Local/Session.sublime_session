@@ -1,0 +1,1591 @@
+{
+	"folder_history":
+	[
+		"/home/mrityunjaygr8/Desktop/Stuff/SAIC",
+		"/home/mrityunjaygr8/Desktop/Stuff/ftuff1",
+		"/home/mrityunjaygr8/Desktop/Stuff/my_site",
+		"/home/mrityunjaygr8/Desktop/Stuff/py/report",
+		"/home/mrityunjaygr8/Desktop/Stuff/ftuff2"
+	],
+	"last_version": 3143,
+	"last_window_id": 24,
+	"log_indexing": false,
+	"settings":
+	{
+		"new_window_height": 1017.0,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"te",
+						"templates"
+					],
+					[
+						"req",
+						"requireAuth"
+					],
+					[
+						"api",
+						"apiRouter"
+					],
+					[
+						"find",
+						"find_one"
+					],
+					[
+						"al",
+						"alerts"
+					],
+					[
+						"res",
+						"result"
+					],
+					[
+						"u",
+						"urls"
+					],
+					[
+						"for",
+						"format"
+					],
+					[
+						"border",
+						"border-top"
+					],
+					[
+						"coun",
+						"countries"
+					],
+					[
+						"aler",
+						"alerts"
+					],
+					[
+						"font",
+						"font-family"
+					],
+					[
+						"text",
+						"text-align"
+					],
+					[
+						"margin",
+						"margin"
+					],
+					[
+						"fon",
+						"font-family"
+					],
+					[
+						"in",
+						"inline"
+					],
+					[
+						"man",
+						"margin-left"
+					],
+					[
+						"sty",
+						"style"
+					],
+					[
+						"con",
+						"console"
+					],
+					[
+						"cons",
+						"const"
+					],
+					[
+						"er",
+						"err"
+					],
+					[
+						"cat",
+						"catch"
+					],
+					[
+						"admin",
+						"adminCtrl"
+					],
+					[
+						"auth",
+						"authCtrl"
+					],
+					[
+						"reA",
+						"requireAuth"
+					],
+					[
+						"img",
+						"img_source"
+					],
+					[
+						"data",
+						"data_title"
+					],
+					[
+						"err",
+						"error"
+					],
+					[
+						"re",
+						"result"
+					],
+					[
+						"sc",
+						"scriptPath"
+					],
+					[
+						"da",
+						"date"
+					],
+					[
+						"d_",
+						"d_title"
+					],
+					[
+						"std",
+						"stderr"
+					],
+					[
+						"fun",
+						"function"
+					],
+					[
+						"de",
+						"device"
+					],
+					[
+						"pa",
+						"params"
+					],
+					[
+						"agg",
+						"aggregate"
+					],
+					[
+						"co",
+						"country"
+					],
+					[
+						"a",
+						"aggregateByTitle"
+					],
+					[
+						"ti",
+						"title"
+					],
+					[
+						"scan",
+						"scanResults"
+					],
+					[
+						"sca",
+						"scanResults"
+					],
+					[
+						"T",
+						"t_out"
+					],
+					[
+						"lo",
+						"log"
+					],
+					[
+						"to",
+						"toDate"
+					],
+					[
+						"page",
+						"pageSize"
+					],
+					[
+						"os",
+						"osSchema"
+					],
+					[
+						"f",
+						"fileData"
+					],
+					[
+						"file",
+						"fileData"
+					],
+					[
+						"plot",
+						"plot_series"
+					],
+					[
+						"pl",
+						"plot_series"
+					],
+					[
+						"layout",
+						"layout_ser"
+					],
+					[
+						"dat",
+						"data_s_spam"
+					],
+					[
+						"new",
+						"newPlot"
+					],
+					[
+						"s",
+						"series"
+					],
+					[
+						"ca",
+						"categories"
+					],
+					[
+						"if",
+						"if\tIf Condition"
+					],
+					[
+						"tex",
+						"text-accent"
+					],
+					[
+						"wid",
+						"width"
+					],
+					[
+						"date",
+						"date-picker"
+					],
+					[
+						"va",
+						"values"
+					],
+					[
+						"fill",
+						"fillcolor"
+					],
+					[
+						"get",
+						"getAlertsByDate"
+					],
+					[
+						"Lo",
+						"localStorage"
+					],
+					[
+						"time",
+						"timestamp"
+					],
+					[
+						"pri",
+						"primeFactors"
+					]
+				]
+			},
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 355.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"in",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 480.0
+			},
+			"console":
+			{
+				"height": 150.0,
+				"history":
+				[
+					"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
+					" import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/mrityunjaygr8/Desktop/mongo.py",
+				"/home/mrityunjaygr8/Desktop/Stuff/my_site/sass/style_c.scss",
+				"/home/mrityunjaygr8/Desktop/Stuff/my_site/sass/_typography.scss",
+				"/home/mrityunjaygr8/Desktop/Stuff/ftuff1/controllers/adminCtrl.js",
+				"/home/mrityunjaygr8/Desktop/Stuff/ftuff1/public/templates/partials/admin.html",
+				"/home/mrityunjaygr8/Desktop/Stuff/ftuff1/routes/api.js",
+				"/home/mrityunjaygr8/Desktop/Stuff/ftuff1/controllers/alertsCtrl.js",
+				"/home/mrityunjaygr8/Desktop/Stuff/ftuff1/public/javascripts/controllers.js",
+				"/home/mrityunjaygr8/Desktop/Stuff/ftuff1/.gitignore",
+				"/home/mrityunjaygr8/Desktop/Stuff/ftuff1/public/templates/partials/alerts.html",
+				"/home/mrityunjaygr8/Desktop/Stuff/ftuff1/app.js",
+				"/run/media/mrityunjaygr8/w_10_pro_rs3_1709_16299_192_x64/13/Torrent Pack/ReadMe.txt",
+				"/home/mrityunjaygr8/Downloads/Alert-collection-documents_updated.json",
+				"/home/mrityunjaygr8/commands/AndromedaScript-Linux-3.2/start_andromeda.sh",
+				"/tmp/ark-XVQueR/start_andromeda.sh",
+				"/home/mrityunjaygr8/Desktop/Stuff/ftuff1/scripts/test.html",
+				"/home/mrityunjaygr8/Desktop/Stuff/ftuff1/views/partials/footer.ejs",
+				"/home/mrityunjaygr8/Desktop/Stuff/ftuff1/public/stylesheets/_typography.scss",
+				"/home/mrityunjaygr8/Desktop/Stuff/ftuff1/views/index.ejs",
+				"/home/mrityunjaygr8/Desktop/Stuff/ftuff1/public/stylesheets/style.scss",
+				"/home/mrityunjaygr8/Desktop/Stuff/ftuff1/public/stylesheets/_header.scss",
+				"/home/mrityunjaygr8/Desktop/Stuff/ftuff1/public/stylesheets/print.scss",
+				"/home/mrityunjaygr8/Desktop/Stuff/ftuff1/test.html",
+				"/home/mrityunjaygr8/Desktop/Stuff/py/country_action_mongo_insert.py",
+				"/home/mrityunjaygr8/Desktop/Stuff/ftuff1/public/javascripts/services.js",
+				"/home/mrityunjaygr8/Desktop/Stuff/ftuff1/scripts/scanning.py",
+				"/home/mrityunjaygr8/Desktop/Stuff/ftuff1/public/javascripts/app.js",
+				"/home/mrityunjaygr8/Desktop/Stuff/ftuff1/scripts/mail.config",
+				"/home/mrityunjaygr8/Desktop/Stuff/ftuff1/scripts/pie.py",
+				"/home/mrityunjaygr8/Desktop/Stuff/ftuff1/controllers/scanCtrl.js",
+				"/home/mrityunjaygr8/Desktop/Stuff/py/report/RSA-SA_Alert_Script.py",
+				"/home/mrityunjaygr8/Desktop/Stuff/py/report/Py_Gmail_SMTP.py",
+				"/home/mrityunjaygr8/Desktop/Stuff/ftuff1/views/partials/header.ejs",
+				"/home/mrityunjaygr8/Desktop/Stuff/JS/table-responsive/index.html",
+				"/home/mrityunjaygr8/Desktop/Stuff/ftuff1/public/templates/partials/assets.html",
+				"/home/mrityunjaygr8/Desktop/Stuff/ftuff1/public/templates/partials/actions.html",
+				"/home/mrityunjaygr8/Desktop/Stuff/ftuff1/models/scans.js",
+				"/home/mrityunjaygr8/Desktop/Stuff/ftuff1/scripts/scan_192.168.1.1_24.json",
+				"/home/mrityunjaygr8/Desktop/Stuff/ftuff1/scripts/scan_-O.json",
+				"/home/mrityunjaygr8/Desktop/Stuff/ftuff1/controllers/actionsCtrl.js",
+				"/home/mrityunjaygr8/Desktop/Stuff/JS/timeseries.html",
+				"/home/mrityunjaygr8/Desktop/Stuff/ftuff1/public/templates/partials/home.html",
+				"/home/mrityunjaygr8/Desktop/Stuff/ftuff1/public/stylesheets/_grid.scss",
+				"/home/mrityunjaygr8/Desktop/Stuff/ftuff1/public/javascripts/plotly.js",
+				"/home/mrityunjaygr8/Desktop/Stuff/ftuff1/controllers/seriesCtrl.js",
+				"/home/mrityunjaygr8/Desktop/Stuff/ftuff1/models/alerts.js",
+				"/home/mrityunjaygr8/Desktop/Stuff/ftuff1/models/series.js",
+				"/home/mrityunjaygr8/Desktop/_input.scss",
+				"/home/mrityunjaygr8/Desktop/Stuff/ftuff1/public/stylesheets/_flatpickr.scss",
+				"/home/mrityunjaygr8/Desktop/Stuff/ftuff1/public/javascripts/flatpickr.min.js",
+				"/home/mrityunjaygr8/Desktop/Stuff/ftuff1/public/javascripts/classList.min.js",
+				"/home/mrityunjaygr8/Desktop/Stuff/ftuff1/classList.min.js",
+				"/home/mrityunjaygr8/Desktop/Stuff/ftuff1/public/javascripts/angular-datepicker.min.js",
+				"/home/mrityunjaygr8/Desktop/Stuff/ftuff1/public/stylesheets/_input.scss",
+				"/home/mrityunjaygr8/Desktop/raw_log",
+				"/home/mrityunjaygr8/Desktop/Stuff/JS/plotly.min.js",
+				"/home/mrityunjaygr8/Desktop/Stuff/ftuff1/public/stylesheets/_angular-datepicker.scss",
+				"/home/mrityunjaygr8/Desktop/Stuff/ftuff1/views/partials/alerts.ejs",
+				"/home/mrityunjaygr8/Desktop/Stuff/ftuff1/views/partials/scan.ejs",
+				"/home/mrityunjaygr8/Desktop/Stuff/ftuff1/public/javascripts/ngStorage.js",
+				"/home/mrityunjaygr8/Desktop/Stuff/SAIC/templates/team.html",
+				"/home/mrityunjaygr8/Desktop/Stuff/SAIC/templates/base.html",
+				"/home/mrityunjaygr8/Desktop/Stuff/SAIC/static/admin/css/base.css",
+				"/home/mrityunjaygr8/Desktop/Stuff/SAIC/static/css/main.min.css",
+				"/home/mrityunjaygr8/Desktop/Stuff/SAIC/templates/base3.html",
+				"/home/mrityunjaygr8/.config/sublime-text-3/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
+				"/home/mrityunjaygr8/Desktop/Stuff/ftuff1/node_modules/color-convert/route.js",
+				"/home/mrityunjaygr8/Desktop/Stuff/ftuff1/config/passport.js",
+				"/home/mrityunjaygr8/Desktop/Stuff/ftuff1/bin/www",
+				"/home/mrityunjaygr8/Desktop/Stuff/py/euler_1.py",
+				"/home/mrityunjaygr8/Desktop/Stuff/py/e_2.py",
+				"/home/mrityunjaygr8/Desktop/Stuff/py/e_3.py"
+			],
+			"find":
+			{
+				"height": 36.0
+			},
+			"find_in_files":
+			{
+				"height": 190.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"start",
+					"SourceIP",
+					"series"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 36.0
+			},
+			"input":
+			{
+				"height": 104.0
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"output.git":
+			{
+				"height": 180.0
+			},
+			"output.mdpopups":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"replace":
+			{
+				"height": 68.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"app",
+						"public/javascripts/app.js"
+					],
+					[
+						"api",
+						"routes/api.js"
+					],
+					[
+						"series",
+						"models/series.js"
+					],
+					[
+						"seri",
+						"controllers/seriesCtrl.js"
+					],
+					[
+						"contr",
+						"public/javascripts/controllers.js"
+					],
+					[
+						"home.ht",
+						"public/templates/partials/home.html"
+					],
+					[
+						"test",
+						"scripts/test.html"
+					],
+					[
+						"alerts",
+						"controllers/alertsCtrl.js"
+					],
+					[
+						"alertsc",
+						"controllers/alertsCtrl.js"
+					],
+					[
+						"controll",
+						"public/javascripts/controllers.js"
+					],
+					[
+						"admin",
+						"public/templates/partials/admin.html"
+					],
+					[
+						"authc",
+						"controllers/authCtrl.js"
+					],
+					[
+						"users",
+						"models/users.js"
+					],
+					[
+						"aler",
+						"controllers/alertsCtrl.js"
+					],
+					[
+						"_color",
+						"public/stylesheets/_colors.scss"
+					],
+					[
+						"sty",
+						"public/stylesheets/style.scss"
+					],
+					[
+						"_tables",
+						"public/stylesheets/_tables.scss"
+					],
+					[
+						"al",
+						"controllers/alertsCtrl.js"
+					],
+					[
+						"footer",
+						"views/partials/footer.ejs"
+					],
+					[
+						"service",
+						"public/javascripts/services.js"
+					],
+					[
+						".git",
+						".gitignore"
+					],
+					[
+						"scan",
+						"controllers/scanCtrl.js"
+					],
+					[
+						"py",
+						"py-reportlab-PI-Chart.py"
+					],
+					[
+						"header",
+						"views/partials/header.ejs"
+					],
+					[
+						"sc",
+						"controllers/scanCtrl.js"
+					],
+					[
+						"assets",
+						"public/templates/partials/assets.html"
+					],
+					[
+						"con",
+						"public/javascripts/controllers.js"
+					],
+					[
+						"ser",
+						"public/javascripts/services.js"
+					],
+					[
+						"index",
+						"views/index.ejs"
+					],
+					[
+						"sca",
+						"controllers/scanCtrl.js"
+					],
+					[
+						"_grid",
+						"public/stylesheets/_grid.scss"
+					],
+					[
+						"ac",
+						"controllers/actionsCtrl.js"
+					],
+					[
+						"input",
+						"public/stylesheets/_input.scss"
+					],
+					[
+						"flatpickr",
+						"public/javascripts/flatpickr.min.js"
+					],
+					[
+						"flatpi",
+						"public/stylesheets/_flatpickr.scss"
+					],
+					[
+						"class",
+						"classList.min.js"
+					],
+					[
+						"style",
+						"public/stylesheets/style.scss"
+					],
+					[
+						"inde",
+						"views/index.ejs"
+					],
+					[
+						"index.ejs",
+						"views/index.ejs"
+					],
+					[
+						"alerts.html",
+						"public/templates/partials/alerts.html"
+					],
+					[
+						"pp.js",
+						"public/javascripts/app.js"
+					],
+					[
+						"css",
+						"static/admin/css/base.css"
+					],
+					[
+						"rou",
+						"node_modules/color-convert/route.js"
+					],
+					[
+						"pass",
+						"config/passport.js"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 210.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 1882.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"te",
+						"templates"
+					],
+					[
+						"req",
+						"requireAuth"
+					],
+					[
+						"api",
+						"apiRouter"
+					],
+					[
+						"find",
+						"find_one"
+					],
+					[
+						"al",
+						"alerts"
+					],
+					[
+						"res",
+						"result"
+					],
+					[
+						"u",
+						"urls"
+					],
+					[
+						"for",
+						"format"
+					],
+					[
+						"border",
+						"border-top"
+					],
+					[
+						"coun",
+						"countries"
+					],
+					[
+						"aler",
+						"alerts"
+					],
+					[
+						"font",
+						"font-family"
+					],
+					[
+						"text",
+						"text-align"
+					],
+					[
+						"margin",
+						"margin"
+					],
+					[
+						"fon",
+						"font-family"
+					],
+					[
+						"in",
+						"inline"
+					],
+					[
+						"man",
+						"margin-left"
+					],
+					[
+						"sty",
+						"style"
+					],
+					[
+						"con",
+						"console"
+					],
+					[
+						"cons",
+						"const"
+					],
+					[
+						"er",
+						"err"
+					],
+					[
+						"cat",
+						"catch"
+					],
+					[
+						"admin",
+						"adminCtrl"
+					],
+					[
+						"auth",
+						"authCtrl"
+					],
+					[
+						"reA",
+						"requireAuth"
+					],
+					[
+						"img",
+						"img_source"
+					],
+					[
+						"data",
+						"data_title"
+					],
+					[
+						"err",
+						"error"
+					],
+					[
+						"re",
+						"result"
+					],
+					[
+						"sc",
+						"scriptPath"
+					],
+					[
+						"da",
+						"date"
+					],
+					[
+						"d_",
+						"d_title"
+					],
+					[
+						"std",
+						"stderr"
+					],
+					[
+						"fun",
+						"function"
+					],
+					[
+						"de",
+						"device"
+					],
+					[
+						"pa",
+						"params"
+					],
+					[
+						"agg",
+						"aggregate"
+					],
+					[
+						"co",
+						"country"
+					],
+					[
+						"a",
+						"aggregateByTitle"
+					],
+					[
+						"ti",
+						"title"
+					],
+					[
+						"scan",
+						"scanResults"
+					],
+					[
+						"sca",
+						"scanResults"
+					],
+					[
+						"T",
+						"t_out"
+					],
+					[
+						"lo",
+						"log"
+					],
+					[
+						"to",
+						"toDate"
+					],
+					[
+						"page",
+						"pageSize"
+					],
+					[
+						"os",
+						"osSchema"
+					],
+					[
+						"f",
+						"fileData"
+					],
+					[
+						"file",
+						"fileData"
+					],
+					[
+						"plot",
+						"plot_series"
+					],
+					[
+						"pl",
+						"plot_series"
+					],
+					[
+						"layout",
+						"layout_ser"
+					],
+					[
+						"dat",
+						"data_s_spam"
+					],
+					[
+						"new",
+						"newPlot"
+					],
+					[
+						"s",
+						"series"
+					],
+					[
+						"ca",
+						"categories"
+					],
+					[
+						"if",
+						"if\tIf Condition"
+					],
+					[
+						"tex",
+						"text-accent"
+					],
+					[
+						"wid",
+						"width"
+					],
+					[
+						"date",
+						"date-picker"
+					],
+					[
+						"va",
+						"values"
+					],
+					[
+						"fill",
+						"fillcolor"
+					],
+					[
+						"get",
+						"getAlertsByDate"
+					],
+					[
+						"Lo",
+						"localStorage"
+					],
+					[
+						"time",
+						"timestamp"
+					],
+					[
+						"pri",
+						"primeFactors"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/home/mrityunjaygr8/Desktop/Stuff/SAIC/saic/settings.py",
+					"settings":
+					{
+						"buffer_size": 12960,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"contents": "Searching 2386 files for \">>>>>\"\n\n/home/mrityunjaygr8/Desktop/Stuff/SAIC/templates/team.html:\n   66  =======\n   67  \t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/core team/shashwat-shrivastava-meta.jpg\">\n   68: >>>>>>> master\n   69  \t\t\t\t\t\t<div class=\"caption\">\n   70  \t\t\t\t\t\t\t<h4>Shashwat Shrivastava<br></h4>\n   ..\n  147  \t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/web/himanshu-dayani-cera-3.jpg\">\n  148  \t\t\t\t\t\t<div class=\"caption\">\n  149: >>>>>>> master\n  150  \t\t\t\t\t\t\t<h4>Himanshu Dayani<br></h4>\n  151                               Ceramic Engineering Part III<br>\n  ...\n  358  =======\n  359  \t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/dr/ceramic/shaikh-zaeem-3.jpg\">\n  360: >>>>>>> master\n  361  \t\t\t\t\t\t<div class=\"caption\">\n  362  \t\t\t\t\t\t\t<h4>Md.Zaeem<br></h4>\n  ...\n  397  =======\n  398  \t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"static/Team members/dr/chemical/shubham-agrawal-2.jpg\">\n  399: >>>>>>> master\n  400  \t\t\t\t\t\t<div class=\"caption\">\n  401  \t\t\t\t\t\t\t<h4>Shubham Agrawal<br></h4>\n  ...\n  426  =======\n  427  \t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/dr/metallurgical/anant-jian-2.jpg\">\n  428: >>>>>>> master\n  429  \t\t\t\t\t\t<div class=\"caption\">\n  430  \t\t\t\t\t\t\t<h4>Anant Jain<br></h4>\n  ...\n  440  =======\n  441  \t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/dr/metallurgical/devank-singhai-2.jpg\">\n  442: >>>>>>> master\n  443  \t\t\t\t\t\t<div class=\"caption\">\n  444  \t\t\t\t\t\t\t<h4>Devank Singhai<br></h4>\n  ...\n  522  =======\n  523  \t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/dr/mst/rajat-kumar-singh-4.jpg\">\n  524: >>>>>>> master\n  525  \t\t\t\t\t\t<div class=\"caption\">\n  526  \t\t\t\t\t\t\t<h4>Rajat Kumar Singh<br></h4>\n  ...\n  591  =======\n  592  \t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/dr/electronics/tansih-jain-2.jpg\">\n  593: >>>>>>> master\n  594  \t\t\t\t\t\t<div class=\"caption\">\n  595  \t\t\t\t\t\t\t<h4>Tanish Jain<br></h4>\n  ...\n  710  \t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/dr/industrial-chemistry/mohit-patil-2.jpg\">\n  711  \t\t\t\t\t\t<div class=\"caption\">\n  712: >>>>>>> master\n  713  \t\t\t\t\t\t\t<h4>Mohit Patil<br></h4>\n  714                            Industrial Chemistry Part II<br>\n  ...\n  749  =======\n  750  \t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/volunteers/samiksha-jain-cera.jpg\">\n  751: >>>>>>> master\n  752  \t\t\t\t\t\t<div class=\"caption\">\n  753  \t\t\t\t\t\t\t<h4>Samiksha Jain<br></h4>\n  ...\n  763  =======\n  764  \t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/volunteers/prakhar-bhatnagar-chem.jpg\">\n  765: >>>>>>> master\n  766  \t\t\t\t\t\t<div class=\"caption\">\n  767  \t\t\t\t\t\t\t<h4>Prakhar Bhatnagar<br></h4>\n\n11 matches in 1 file\n",
+					"settings":
+					{
+						"buffer_size": 3060,
+						"line_ending": "Unix",
+						"name": "Find Results",
+						"scratch": true
+					}
+				},
+				{
+					"contents": "{% extends \"base.html\" %}\n\n\n      {% block title %}IIT BHU Alumni Portal {% endblock %}\n         \n   {% block body %}\n\t <style>html,body{height:100%}.nis{text-align:center;font-family:sans-serif;margin-top:20px;font-size:40px}#nishith{text-align:center;font-family:sans-serif;margin-top:20px;font-size:15px}#way{font-family:sans-serif;text-decoration-color:red;font-size:10px}hr{display:block;margin-top:.5em;margin-bottom:.5em;margin-left:auto;margin-right:auto;border-style:inset;border-width:1px}#photo{height:250px;width:25opx}.ni{width:200px;height:200px}.tumbnail{max-width:304px;max-height:236px}.wrapper{min-height:100%;height:auto!important;height:100%;margin:0 auto -120px}.push{height:120px}@media only screen and (max-width:768px){.rows{margin-left:10%;margin-right:10%}.thumbnails{max-width:280px}.rows h4{font-size:14px;padding-top:25px}.col-xs-12 .caption h4{margin:0}}@media only screen and (max-width:768px) and (min-width:500px){.rows{margin-left:25%;margin-right:25%}}</style>\n\t <div class=\"container\">\n    <h3 class=\"nis\"> OUR TEAM</h3>\n\t<ul class=\"nav nav-pills\" id=\"nishith\">\n\t\t<li class=\"active\"><a data-toggle=\"pill\" href=\"#CORE\">CORE TEAM</a></li>\n\t\t<li><a data-toggle=\"pill\" href=\"#WEB\">WEB TEAM</a></li>\n\t\t<li><a data-toggle=\"pill\" href=\"#PR\">PUBLIC RELATIONS</a></li>\n\t\t<li><a data-toggle=\"pill\" href=\"#LOGISTICS\">LOGISTICS</a></li>\n\t\t<li><a data-toggle=\"pill\" href=\"#DR\">DEPARTMENTAL REPRESENTATIVES</a></li>\n\t\t<li><a data-toggle=\"pill\" href=\"#VOLUNTEERS\">VOLUNTEERS</a></li>\n\t</ul>\n    <hr>\n  \n  <div class=\"tab-content\">\n    <div id=\"CORE\" class=\"tab-pane fade in active\">\n         <div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\n\t\t\t\t\t<div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/core team/ayush-jain-cera.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Ayush Jain<br></h4>\n                            Ceramic Engineering Part IV<br>\n                            +91-9761947044\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n         <div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\n\t\t\t\t\t<div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/core team/rajat-bhargava-min.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Rajat Bhargava<br></h4>\n                              Mining Engineering Part IV<br>\n                             +91-9919041807\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n         <div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\n\t\t\t\t\t<div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/core team/shashank-agarwal-meta.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Shashank Agarwal</h4>\n                            Metallurgical Engineering Part IV<br>\n                             +91-8171287653\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\n\t\t\t\t\t<div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/core team/ashay-jain-min.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Ashay Jain<br></h4>\n                            Mining Engineering Part III<br>\n                            +91-9455536839\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\t\t\n\t\t<div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\n\t\t\t\t\t<div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/core team/b1.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Shashwat Shrivastava<br></h4>\n                            Metallurgical Engineering Part III<br>\n                            +91-8602466105\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\t\t\n\t\t<div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\n\t\t\t\t\t<div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/core team/gauri-katiyar-pharma.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Gauri Katiyar<br></h4>\n                            Pharmaceutical Engineering Part II<br>\n                            +91-7054151685\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\t\t\n    </div>\n      \n      \n    <div id=\"WEB\" class=\"tab-pane fade\">\n       <div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\n\t\t\t\t\t<div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/web/b1.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Mrityunjay Saxena<br></h4>\n                            Metallurgical Engineering Part IV<br>\n                            \n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n         <div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\n\t\t\t\t\t<div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/web/b1.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Shreyans Jain<br></h4>\n                             Ceramic Engineering Part IV<br>\n                          \n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\n\t\t\t\t\t<div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/web/b1.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Abhishek Singh<br></h4>\n                             Mining Engineering Part III<br>\n                          \n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t\t<div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\n\t\t\t\t\t<div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/web/himanshu-dayani-cera-3.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Himanshu Dayani<br></h4>\n                             Ceramic Engineering Part III<br>\n                          \n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\n\t\t\t\t\t<div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/web/shah-rachit-chem-2.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Shah Rachit<br></h4>\n                             Chemical Engineering Part II<br>\n                          \n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n      </div>\n        \n            \n    <div id=\"PR\" class=\"tab-pane fade\">\n       <div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\n\t\t\t\t\t<div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/pr/shubhi-srivastava-civil-3.JPG\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Shubhi Srivastava</h4>\n                         Civil Engineering Part III<br>\n                                \n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n         <div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\n\t\t\t\t\t<div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/pr/pranav-vyas-cera-3.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Pranav Vyas</h4>\n                            Ceramic Engineering Part III<br>\n                            \n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n         <div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\n\t\t\t\t\t<div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/pr/himanshu-choudhary-min-2.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Himanshu Choudhary<br></h4>\n                            Mining Engineering Part II<br>\n                           \n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n         <div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\n\t\t\t\t\t<div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/pr/manthan-jain-electronics-2.jpeg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Manthan Jain<br></h4>\n                             Electronics Engineering Part II<br>\n                         \n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n         <div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\n\t\t\t\t\t<div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/pr/vipul-chandra-meta-2.jpeg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Vipul Chandra<br></h4>\n                             Metallurgical Engineering Part II<br>\n                            \n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\n\t\t\t\t\t<div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/pr/vyom-agarwal-meta-2.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Vyom Agarwal<br></h4>\n                             Metallurgical Engineering Part II<br>\n                            \n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n      </div>\n   \n      \n            \n    <div id=\"LOGISTICS\" class=\"tab-pane fade\">\n       <div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\n\t\t\t\t\t<div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/logistics/hrishikesh-krishna-cera-4.png\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Hrishikesh Krishna<br></h4>\n                             Ceramic Engineering Part IV<br>\n                         \n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n         <div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\n\t\t\t\t\t<div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/logistics/aman-sapharia-civil-3.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Aman Sapharia<br></h4>\n                            Civil Engineering Part III<br>\n                           \n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n         <div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\n\t\t\t\t\t<div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/logistics/bharat-jain-civil-2.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Bharat Jain<br></h4>\n                           Civil Engineering Part II<br>\n                         \n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n        \n         <div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\n\t\t\t\t\t<div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/logistics/dhruva-agarwal-meta-2.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Dhruva Agarwal<br></h4>\n                           Metallurgical  Engineering Part II<br>\n                            \n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n         \n      </div>\n      \n                 \n      <div id=\"DR\" class=\"tab-pane fade\">\n    <ul class=\"list-inline\" id=\"way\">\n    <li class=\"active\"><a data-toggle=\"tab\" href=\"#CIVIL\">CIVIL</a></li>\n    <li><a data-toggle=\"tab\" href=\"#CSE\">CSE</a></li>\n    <li><a data-toggle=\"tab\" href=\"#CERA\">CERAMICS</a></li>\n    <li><a data-toggle=\"tab\" href=\"#CHEM\">CHEMICAL</a></li>\n    <li><a data-toggle=\"tab\" href=\"#META\">METALLURGY</a></li>            \n    <li><a data-toggle=\"tab\" href=\"#MIN\">MINING</a></li>\n    <li><a data-toggle=\"tab\" href=\"#MECH\">MECHANICAL</a></li>\n    <li><a data-toggle=\"tab\" href=\"#MST\">MATERIAL SCIENCE</a></li>\n    <li><a data-toggle=\"tab\" href=\"#ELECTRICAL\">ELECTRICAL</a></li>\n    <li><a data-toggle=\"tab\" href=\"#ELECTRONICS\"> ELECTRONICS</a></li>\n    \n    <li><a data-toggle=\"tab\" href=\"#BM\">BIOMEDICAL</a></li>\n    <li><a data-toggle=\"tab\" href=\"#PH\">PHARMACEUTICS</a></li>\n    <li><a data-toggle=\"tab\" href=\"#IC\">INDUSTRIALCHEMISTRY</a></li>\n         </ul>\n         <hr>\n      \n      \n           <div class=\"tab-content\">\n            <div id=\"CIVIL\" class=\"tab-pane fade in active\">\n       <div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\n\t\t\t\t\t<div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/dr/civil/shekhar-shivhare-3.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Shekhar Shivhare<br></h4>\n                            Civil Engineering Part III<br>\n                            \n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n         <div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\n\t\t\t\t\t<div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/dr/civil/harshit-chaudhary-2.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Harshit Chaudhary<br></h4>\n                            Civil Engineering Part II<br>\n                            \n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n        \n           </div>\n                \n           \n               \n             <div id=\"CSE\" class=\"tab-pane fade\">   \n           <div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\t\n              <div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/dr/cse/atishay-jain-4.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Atishay Jain<br></h4>\n                            Computer Science And Engineering Part IV<br>\n                            \n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n           \n           </div>\n                  \n    \n                   \n           <div id=\"CERA\" class=\"tab-pane fade\">\n           <div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\t\n              <div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/dr/ceramic/aditya-rana-3.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Aditya Rana<br></h4>\n                            Ceramic Engineering Part III<br>\n                            \n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n           <div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\t\n              <div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/dr/ceramic/shaikh-zaeem-cera-3.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Md.Zaeem<br></h4>\n                            Ceramic Engineering Part III<br>\n                            \n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n           <div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\t\n              <div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/dr/ceramic/keval-mehta-2.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Keval Mehta<br></h4>\n                            Ceramic Engineering Part II<br>\n                            \n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n           </div>\n                       \n        \n                       \n           <div id=\"CHEM\" class=\"tab-pane fade\">\n           <div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\t\n              <div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" class=\"ni\" alt=\"270x170\" src=\"/static/Team members/dr/chemical/avnish-singh-2.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Avnish Singh<br></h4>\n                            Chemical Engineering  Btech Part II<br>\n                           \n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n           <div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\t\n              <div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/volunteers/b1.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Shubham Agrawal<br></h4>\n                            Chemical Engineering  Btech Part II<br>\n                            \n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n           <div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\t\n              <div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/dr/chemical/shubham-bhalotia-2.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Shubham Bhalotia<br></h4>\n                            Chemical Engineering  Btech Part II<br>\n                            \n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n           </div>\n                            \n  \n                           \n          <div id=\"META\" class=\"tab-pane fade\"> \n           <div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\t\n              <div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/dr/metallugical/anant-jian-2.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Anant Jain<br></h4>\n                           Metallurgical Engineering Part II<br>\n                            \n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n           <div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\t\n              <div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/dr/metallugical/devank-singhai-2.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Devank Singhai<br></h4>\n                           Metallurgical Engineering Part II<br>\n                           \n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n           </div>\n           \n           </div>\n                            \n        \n                               \n           <div id=\"MIN\" class=\"tab-pane fade\">\n      \n           \n           <div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\t\n              <div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/dr/b1.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Jeet Parekh<br></h4>\n                           Mining Engineering Part IV<br>\n                            \n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div> \n\t\t\t\t<div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\t\n              <div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/dr/minig/divyansh-sharma-2.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Divyansh Sharma<br></h4>\n                           Mining Engineering  Btech Part II<br>\n                            \n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>   \n           </div>\n                                    \n             \n                                   \n            <div id=\"MECH\" class=\"tab-pane fade\">\n           <div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\t\n              <div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/dr/b1.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Shivam Kumar<br></h4>\n                           Mechanical Engineering Part III<br>\n                        \n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n           <div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\t\n              <div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/dr/b1.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Jishnu D I<br></h4>\n                           Mechanical engineering   Btech Part II<br>\n                            \n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n           <div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\t\n              <div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/dr/mechanical/naman-jain-2.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Naman Jain<br></h4>\n                          Mechanical Engineering Part II<br>\n                            \n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n           </div>\n                                       \n            \n                                       \n             <div id=\"MST\" class=\"tab-pane fade\">\n           <div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\t\n              <div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/dr/mst/rajat-kumar-singh-4.jpeg\">\n \n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Rajat Kumar Singh<br></h4>\n                           Material Science and Technology Part IV<br>\n                            \n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n           <div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\t\n              <div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/dr/mst/anirudh-ingle-2.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Anirudh Ingle<br></h4>\n                           Material Science and Technology Part II<br>\n                            \n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n           </div>\n                                           \n       \n                                          \n         <div id=\"ELECTRICAL\" class=\"tab-pane fade\">\n            <div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\t\n              <div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/dr/b1.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Durgesh Kumar<br></h4>\n\t\t\t\t\t\t\t<h4><br></h4>\n                           Electrical Engineering Part IV<br>\n                            \n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>  \n                \n            <div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\t\n              <div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/dr/electrical/paritosh-saroj-2.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Paritosh Saroj<br></h4>\n                           Electrical Engineering Part II<br>\n                            \n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>  \n                \n            <div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\t\n              <div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/dr/electrical/prabhakar-singh-2.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Prabhakar Singh<br></h4>\n                           Electrical Engineering Part II<br>\n                            \n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div> \n           </div>\n                                            \n           \n                                               \n            <div id=\"ELECTRONICS\" class=\"tab-pane fade\">\n          \n                \n           <div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\t\n              <div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/dr/electronics/tanish-jain-2.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Tanish Jain<br></h4>\n                           Electronics Engineering Part II<br>\n                            \n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>  \n           </div>\n                                                    \n           \n                                                   \n            <div id=\"EP\" class=\"tab-pane fade\">\n           <div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\t\n              <div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/dr/PRASHANTHI Ep.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>M. Prashanthi<br></h4>\n                           Engineering Physics  IMD Part IV<br>\n                            +91-9454214170\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n           </div>\n                \n               <div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\t\n              <div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/dr/Shyam Ep.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Shyam Harimohan Menon<br></h4>\n                           Engineering Physics  IMD Part IV<br>\n                            +91-8874597917\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n           </div>\n                \n               <div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\t\n              <div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/dr/b1.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>M. Prashanthi<br></h4>\n                           Engineering Physics  IMD Part III<br>\n                            +91-9670000239\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n           </div>\n           </div>\n                                                        \n        \n                                                       \n         <div id=\"BM\" class=\"tab-pane fade\">\n           <div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\t\n              <div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/dr/biomedical/arshad-kazi-2.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Arshad Kazi<br></h4>\n                          Biomedical Engineering Part II<br>\n                          \n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n           </div>\n           <div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\t\n              <div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/dr/b1.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Vinayak<br></h4>\n                          Biomedical Engineering Part II<br>\n                            \n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n           </div>\n           </div>\n                                                            \n          \n                                                          \n            <div id=\"PH\" class=\"tab-pane fade\">\n          <div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\t\n              <div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/dr/pharma/shubham-jain-2.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Shubham Jain<br></h4>\n                         PHARMACEUTICS Part II<br>\n                            \n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n           </div> \n           </div>\n                                                              \n           \n                                                              \n            <div id=\"IC\" class=\"tab-pane fade\">\n            <div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\t\n              <div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/dr/industrial-chemistry/atul-dorge-2.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Atul Dorge<br></h4>\n                          Industrial Chemistry Part II<br>\n                            \n\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n           </div>\n\t\t   <div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\t\n              <div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/dr/industrial-chemistry/mohit-patil-2.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Mohit Patil<br></h4>\n                          Industrial Chemistry Part II<br>\n                            \n\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n           </div>\n                                                                   </div>\n                                                                    </div>\n                   \n    </div>\n\t\t<div id=\"VOLUNTEERS\" class=\"tab-pane fade\">\n\t\t\t<div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\n\t\t\t\t\t<div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/volunteers/b1.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Abhas Jain<br></h4>\n                             Biochemical Engineering Part I<br>\n                         \n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t<div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\n\t\t\t\t\t<div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/volunteers/pulkit-jain-biochem.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Pulkit Jain<br></h4>\n                             Biochemical Engineering Part I<br>\n                         \n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\t\n\t\t\t<div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\n\t\t\t\t\t<div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/volunteers/samiksha-jain-cera.jpeg\">\n\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Samiksha Jain<br></h4>\n                             Ceramic Engineering Part I<br>\n                         \n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t<div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\n\t\t\t\t\t<div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/volunteers/prakhar-bhatnagar-chem.jpeg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Prakhar Bhatnagar<br></h4>\n                             Chemical Engineering Part I<br>\n                         \n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\t\n\t\t\t<div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\n\t\t\t\t\t<div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/volunteers/sajal-srivastava-civil.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Sajal Srivastava<br></h4>\n                             Civil Engineering Part I<br>\n                         \n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\t\n\t\t\t<div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\n\t\t\t\t\t<div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/volunteers/hritwik-singhai-compu.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Hritwik Singhai<br></h4>\n                             Computer Science Engineering Part I<br>\n                         \n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\t\n\t\t\t\t<div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\n\t\t\t\t\t<div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/volunteers/lovish-bansal-compu.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Lovish Bansal<br></h4>\n                             Computer Science Engineering Part I<br>\n                         \n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\n\t\t\t\t\t<div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/volunteers/umang-jain-compu.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Umang Jain<br></h4>\n                            Computer Science Engineering Part I<br>\n                         \n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\n\t\t\t\t\t<div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/volunteers/keshav-sharma-meta.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Keshav Sharma<br></h4>\n                             Metallurgical Engineering Part I<br>\n                         \n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\n\t\t\t\t\t<div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/volunteers/vidhan-garg-pharma.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Vidhan Garg</h4>\n                             Pharmaceutical Engineering Part I<br>\n                         \n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t</div>\n  </div>\n  \n</div>\n\n\t\n{% endblock %}\n\n{% block scripts %}\n{% endblock %}\n",
+					"file": "/home/mrityunjaygr8/Desktop/Stuff/SAIC/templates/team.html",
+					"file_size": 30909,
+					"file_write_time": 131635022330619721,
+					"settings":
+					{
+						"buffer_size": 30910,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 355.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"in",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 480.0
+			},
+			"console":
+			{
+				"height": 150.0,
+				"history":
+				[
+					"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
+					" import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"expanded_folders":
+			[
+				"/home/mrityunjaygr8/Desktop/Stuff/SAIC",
+				"/home/mrityunjaygr8/Desktop/Stuff/SAIC/saic",
+				"/home/mrityunjaygr8/Desktop/Stuff/SAIC/static",
+				"/home/mrityunjaygr8/Desktop/Stuff/SAIC/static/Team members",
+				"/home/mrityunjaygr8/Desktop/Stuff/SAIC/static/Team members/core team"
+			],
+			"file_history":
+			[
+				"/home/mrityunjaygr8/Desktop/mongo.py",
+				"/home/mrityunjaygr8/Desktop/Stuff/my_site/sass/style_c.scss",
+				"/home/mrityunjaygr8/Desktop/Stuff/my_site/sass/_typography.scss",
+				"/home/mrityunjaygr8/Desktop/Stuff/ftuff1/controllers/adminCtrl.js",
+				"/home/mrityunjaygr8/Desktop/Stuff/ftuff1/public/templates/partials/admin.html",
+				"/home/mrityunjaygr8/Desktop/Stuff/ftuff1/routes/api.js",
+				"/home/mrityunjaygr8/Desktop/Stuff/ftuff1/controllers/alertsCtrl.js",
+				"/home/mrityunjaygr8/Desktop/Stuff/ftuff1/public/javascripts/controllers.js",
+				"/home/mrityunjaygr8/Desktop/Stuff/ftuff1/.gitignore",
+				"/home/mrityunjaygr8/Desktop/Stuff/ftuff1/public/templates/partials/alerts.html",
+				"/home/mrityunjaygr8/Desktop/Stuff/ftuff1/app.js",
+				"/run/media/mrityunjaygr8/w_10_pro_rs3_1709_16299_192_x64/13/Torrent Pack/ReadMe.txt",
+				"/home/mrityunjaygr8/Downloads/Alert-collection-documents_updated.json",
+				"/home/mrityunjaygr8/commands/AndromedaScript-Linux-3.2/start_andromeda.sh",
+				"/tmp/ark-XVQueR/start_andromeda.sh",
+				"/home/mrityunjaygr8/Desktop/Stuff/ftuff1/scripts/test.html",
+				"/home/mrityunjaygr8/Desktop/Stuff/ftuff1/views/partials/footer.ejs",
+				"/home/mrityunjaygr8/Desktop/Stuff/ftuff1/public/stylesheets/_typography.scss",
+				"/home/mrityunjaygr8/Desktop/Stuff/ftuff1/views/index.ejs",
+				"/home/mrityunjaygr8/Desktop/Stuff/ftuff1/public/stylesheets/style.scss",
+				"/home/mrityunjaygr8/Desktop/Stuff/ftuff1/public/stylesheets/_header.scss",
+				"/home/mrityunjaygr8/Desktop/Stuff/ftuff1/public/stylesheets/print.scss",
+				"/home/mrityunjaygr8/Desktop/Stuff/ftuff1/test.html",
+				"/home/mrityunjaygr8/Desktop/Stuff/py/country_action_mongo_insert.py",
+				"/home/mrityunjaygr8/Desktop/Stuff/ftuff1/public/javascripts/services.js",
+				"/home/mrityunjaygr8/Desktop/Stuff/ftuff1/scripts/scanning.py",
+				"/home/mrityunjaygr8/Desktop/Stuff/ftuff1/public/javascripts/app.js",
+				"/home/mrityunjaygr8/Desktop/Stuff/ftuff1/scripts/mail.config",
+				"/home/mrityunjaygr8/Desktop/Stuff/ftuff1/scripts/pie.py",
+				"/home/mrityunjaygr8/Desktop/Stuff/ftuff1/controllers/scanCtrl.js",
+				"/home/mrityunjaygr8/Desktop/Stuff/py/report/RSA-SA_Alert_Script.py",
+				"/home/mrityunjaygr8/Desktop/Stuff/py/report/Py_Gmail_SMTP.py",
+				"/home/mrityunjaygr8/Desktop/Stuff/ftuff1/views/partials/header.ejs",
+				"/home/mrityunjaygr8/Desktop/Stuff/JS/table-responsive/index.html",
+				"/home/mrityunjaygr8/Desktop/Stuff/ftuff1/public/templates/partials/assets.html",
+				"/home/mrityunjaygr8/Desktop/Stuff/ftuff1/public/templates/partials/actions.html",
+				"/home/mrityunjaygr8/Desktop/Stuff/ftuff1/models/scans.js",
+				"/home/mrityunjaygr8/Desktop/Stuff/ftuff1/scripts/scan_192.168.1.1_24.json",
+				"/home/mrityunjaygr8/Desktop/Stuff/ftuff1/scripts/scan_-O.json",
+				"/home/mrityunjaygr8/Desktop/Stuff/ftuff1/controllers/actionsCtrl.js",
+				"/home/mrityunjaygr8/Desktop/Stuff/JS/timeseries.html",
+				"/home/mrityunjaygr8/Desktop/Stuff/ftuff1/public/templates/partials/home.html",
+				"/home/mrityunjaygr8/Desktop/Stuff/ftuff1/public/stylesheets/_grid.scss",
+				"/home/mrityunjaygr8/Desktop/Stuff/ftuff1/public/javascripts/plotly.js",
+				"/home/mrityunjaygr8/Desktop/Stuff/ftuff1/controllers/seriesCtrl.js",
+				"/home/mrityunjaygr8/Desktop/Stuff/ftuff1/models/alerts.js",
+				"/home/mrityunjaygr8/Desktop/Stuff/ftuff1/models/series.js",
+				"/home/mrityunjaygr8/Desktop/_input.scss",
+				"/home/mrityunjaygr8/Desktop/Stuff/ftuff1/public/stylesheets/_flatpickr.scss",
+				"/home/mrityunjaygr8/Desktop/Stuff/ftuff1/public/javascripts/flatpickr.min.js",
+				"/home/mrityunjaygr8/Desktop/Stuff/ftuff1/public/javascripts/classList.min.js",
+				"/home/mrityunjaygr8/Desktop/Stuff/ftuff1/classList.min.js",
+				"/home/mrityunjaygr8/Desktop/Stuff/ftuff1/public/javascripts/angular-datepicker.min.js",
+				"/home/mrityunjaygr8/Desktop/Stuff/ftuff1/public/stylesheets/_input.scss",
+				"/home/mrityunjaygr8/Desktop/raw_log",
+				"/home/mrityunjaygr8/Desktop/Stuff/JS/plotly.min.js",
+				"/home/mrityunjaygr8/Desktop/Stuff/ftuff1/public/stylesheets/_angular-datepicker.scss",
+				"/home/mrityunjaygr8/Desktop/Stuff/ftuff1/views/partials/alerts.ejs",
+				"/home/mrityunjaygr8/Desktop/Stuff/ftuff1/views/partials/scan.ejs",
+				"/home/mrityunjaygr8/Desktop/Stuff/ftuff1/public/javascripts/ngStorage.js",
+				"/home/mrityunjaygr8/Desktop/Stuff/SAIC/templates/team.html",
+				"/home/mrityunjaygr8/Desktop/Stuff/SAIC/templates/base.html",
+				"/home/mrityunjaygr8/Desktop/Stuff/SAIC/static/admin/css/base.css",
+				"/home/mrityunjaygr8/Desktop/Stuff/SAIC/static/css/main.min.css",
+				"/home/mrityunjaygr8/Desktop/Stuff/SAIC/templates/base3.html",
+				"/home/mrityunjaygr8/.config/sublime-text-3/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
+				"/home/mrityunjaygr8/Desktop/Stuff/ftuff1/node_modules/color-convert/route.js",
+				"/home/mrityunjaygr8/Desktop/Stuff/ftuff1/config/passport.js",
+				"/home/mrityunjaygr8/Desktop/Stuff/ftuff1/bin/www",
+				"/home/mrityunjaygr8/Desktop/Stuff/py/euler_1.py",
+				"/home/mrityunjaygr8/Desktop/Stuff/py/e_2.py",
+				"/home/mrityunjaygr8/Desktop/Stuff/py/e_3.py"
+			],
+			"find":
+			{
+				"height": 75.0
+			},
+			"find_in_files":
+			{
+				"height": 190.0,
+				"where_history":
+				[
+					""
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"<<<<<<< HEAD",
+					"<<<<<<< HEAD\n=======\n\n>>>>>>> development",
+					"<<<<<<<",
+					"<<<",
+					">>>>>"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+					""
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"folders":
+			[
+				{
+					"path": "/home/mrityunjaygr8/Desktop/Stuff/SAIC"
+				}
+			],
+			"groups":
+			[
+				{
+					"selected": 2,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/home/mrityunjaygr8/Desktop/Stuff/SAIC/saic/settings.py",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 12960,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										3549,
+										3549
+									]
+								],
+								"settings":
+								{
+									"git_gutter_is_enabled": true,
+									"syntax": "Packages/Python/Python.sublime-syntax",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 2,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 3060,
+								"regions":
+								{
+									"match":
+									{
+										"flags": 112,
+										"regions":
+										[
+											[
+												260,
+												265
+											],
+											[
+												541,
+												546
+											],
+											[
+												830,
+												835
+											],
+											[
+												1081,
+												1086
+											],
+											[
+												1340,
+												1345
+											],
+											[
+												1598,
+												1603
+											],
+											[
+												1853,
+												1858
+											],
+											[
+												2113,
+												2118
+											],
+											[
+												2396,
+												2401
+											],
+											[
+												2682,
+												2687
+											],
+											[
+												2943,
+												2948
+											]
+										],
+										"scope": ""
+									}
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									],
+									[
+										56,
+										56
+									],
+									[
+										67,
+										67
+									],
+									[
+										252,
+										252
+									]
+								],
+								"settings":
+								{
+									"default_dir": "/home/mrityunjaygr8/Desktop/Stuff/SAIC",
+									"detect_indentation": false,
+									"git_gutter_is_enabled": false,
+									"line_numbers": false,
+									"output_tag": 1,
+									"result_base_dir": "",
+									"result_file_regex": "^([^ \t].*):$",
+									"result_line_regex": "^ +([0-9]+):",
+									"scroll_past_end": true,
+									"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/home/mrityunjaygr8/Desktop/Stuff/SAIC/templates/team.html",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 30910,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										19545,
+										19545
+									]
+								],
+								"settings":
+								{
+									"git_gutter_is_enabled": true,
+									"syntax": "Packages/HTML/HTML.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 1479.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 36.0
+			},
+			"input":
+			{
+				"height": 104.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"output.git":
+			{
+				"height": 180.0
+			},
+			"output.mdpopups":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"position": "0,0,0,0,0,19,44,1901,1061,1920,1080",
+			"project": "",
+			"replace":
+			{
+				"height": 124.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"team.html",
+						"templates/team.html"
+					],
+					[
+						"app",
+						"public/javascripts/app.js"
+					],
+					[
+						"api",
+						"routes/api.js"
+					],
+					[
+						"series",
+						"models/series.js"
+					],
+					[
+						"seri",
+						"controllers/seriesCtrl.js"
+					],
+					[
+						"contr",
+						"public/javascripts/controllers.js"
+					],
+					[
+						"home.ht",
+						"public/templates/partials/home.html"
+					],
+					[
+						"test",
+						"scripts/test.html"
+					],
+					[
+						"alerts",
+						"controllers/alertsCtrl.js"
+					],
+					[
+						"alertsc",
+						"controllers/alertsCtrl.js"
+					],
+					[
+						"controll",
+						"public/javascripts/controllers.js"
+					],
+					[
+						"admin",
+						"public/templates/partials/admin.html"
+					],
+					[
+						"authc",
+						"controllers/authCtrl.js"
+					],
+					[
+						"users",
+						"models/users.js"
+					],
+					[
+						"aler",
+						"controllers/alertsCtrl.js"
+					],
+					[
+						"_color",
+						"public/stylesheets/_colors.scss"
+					],
+					[
+						"sty",
+						"public/stylesheets/style.scss"
+					],
+					[
+						"_tables",
+						"public/stylesheets/_tables.scss"
+					],
+					[
+						"al",
+						"controllers/alertsCtrl.js"
+					],
+					[
+						"footer",
+						"views/partials/footer.ejs"
+					],
+					[
+						"service",
+						"public/javascripts/services.js"
+					],
+					[
+						".git",
+						".gitignore"
+					],
+					[
+						"scan",
+						"controllers/scanCtrl.js"
+					],
+					[
+						"py",
+						"py-reportlab-PI-Chart.py"
+					],
+					[
+						"header",
+						"views/partials/header.ejs"
+					],
+					[
+						"sc",
+						"controllers/scanCtrl.js"
+					],
+					[
+						"assets",
+						"public/templates/partials/assets.html"
+					],
+					[
+						"con",
+						"public/javascripts/controllers.js"
+					],
+					[
+						"ser",
+						"public/javascripts/services.js"
+					],
+					[
+						"index",
+						"views/index.ejs"
+					],
+					[
+						"sca",
+						"controllers/scanCtrl.js"
+					],
+					[
+						"_grid",
+						"public/stylesheets/_grid.scss"
+					],
+					[
+						"ac",
+						"controllers/actionsCtrl.js"
+					],
+					[
+						"input",
+						"public/stylesheets/_input.scss"
+					],
+					[
+						"flatpickr",
+						"public/javascripts/flatpickr.min.js"
+					],
+					[
+						"flatpi",
+						"public/stylesheets/_flatpickr.scss"
+					],
+					[
+						"class",
+						"classList.min.js"
+					],
+					[
+						"style",
+						"public/stylesheets/style.scss"
+					],
+					[
+						"inde",
+						"views/index.ejs"
+					],
+					[
+						"index.ejs",
+						"views/index.ejs"
+					],
+					[
+						"alerts.html",
+						"public/templates/partials/alerts.html"
+					],
+					[
+						"pp.js",
+						"public/javascripts/app.js"
+					],
+					[
+						"css",
+						"static/admin/css/base.css"
+					],
+					[
+						"rou",
+						"node_modules/color-convert/route.js"
+					],
+					[
+						"pass",
+						"config/passport.js"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 210.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 24,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}
