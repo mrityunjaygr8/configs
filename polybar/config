@@ -25,11 +25,11 @@ alert = ${xrdb:color333:#222}
 
 [bar/example]
 ;monitor = ${env:MONITOR:HDMI-1}
-width = 94%
+width = 96%
 height = 35
-offset-x = 3% 
+offset-x = 2% 
 offset-y = 10 
-radius = 0
+radius = 0 
 fixed-center = false 
 enable = true
 background = ${colors.background}
@@ -375,7 +375,7 @@ icon-default = 
 
 label-active = "%icon% %name% "
 label-active-foreground = ${colors.primary}
-label-empty = "%icon%%index% "
+label-empty = "%icon% %index% "
 label-empty-foreground = ${colors.secondary}
 
 [module/music]
