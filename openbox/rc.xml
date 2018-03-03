@@ -20,7 +20,7 @@
     <focusDelay>200</focusDelay>
     <!-- when followMouse is enabled, the mouse must be inside the window for
        this many milliseconds (1000 = 1 sec) before moving focus to it -->
-    <raiseOnFocus>yes</raiseOnFocus>
+    <raiseOnFocus>no</raiseOnFocus>
     <!-- when followMouse is enabled, and a window is given focus by moving the
        mouse into it, also raise the window -->
   </focus>
@@ -42,7 +42,7 @@
                   'Active' - where the active window is -->
   </placement>
   <theme>
-    <name>ArchLabs-Dark</name>
+    <name>Vent</name>
     <titleLayout>NLIMC</titleLayout>
     <!--
       available characters are NDSLIMC, each can occur at most once.
@@ -361,53 +361,52 @@
     </keybind>
     <keybind key="XF86AudioLowerVolume">
       <action name="Execute">
-       <command>pamixer -d 3</command>
+        <command>pamixer -d 3</command>
       </action>
     </keybind>
     <keybind key="XF86AudioMute">
       <action name="Execute">
-       <command>pamixer -t</command>
+        <command>pamixer -t</command>
       </action>
     </keybind>
     <keybind key="XF86MonBrightnessUp">
       <action name="Execute">
-       <command>xbacklight -inc 10</command>
+        <command>xbacklight -inc 10</command>
       </action>
     </keybind>
     <keybind key="XF86MonBrightnessDown">
       <action name="Execute">
-       <command>xbacklight -dec 10</command>
+        <command>xbacklight -dec 10</command>
       </action>
     </keybind>
-       
     <keybind key="S-C-A-space">
       <action name="Execute">
-       <command>playerctl play-pause</command>
+        <command>playerctl play-pause</command>
       </action>
     </keybind>
     <keybind key="S-C-A-Left">
       <action name="Execute">
-       <command>playerctl previous</command>
+        <command>playerctl previous</command>
       </action>
     </keybind>
     <keybind key="S-C-A-Right">
       <action name="Execute">
-       <command>playerctl next</command>
+        <command>playerctl next</command>
       </action>
     </keybind>
     <keybind key="XF86KbdBrightnessUp">
       <action name="Execute">
-       <command>asus-kbd-backlight up</command>
+        <command>asus-kbd-backlight up</command>
       </action>
     </keybind>
     <keybind key="XF86KbdBrightnessDown">
       <action name="Execute">
-       <command>asus-kbd-backlight down</command>
+        <command>asus-kbd-backlight down</command>
       </action>
     </keybind>
     <keybind key="W-e">
       <action name="Execute">
-       <command>thunar</command>
+        <command>thunar</command>
       </action>
     </keybind>
   </keyboard>

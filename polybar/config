@@ -25,9 +25,9 @@ alert = ${xrdb:color333:#222}
 
 [bar/example]
 ;monitor = ${env:MONITOR:HDMI-1}
-width = 96%
+width = 98%
 height = 35
-offset-x = 2% 
+offset-x = 1% 
 offset-y = 10 
 radius = 0 
 fixed-center = false 
@@ -54,7 +54,7 @@ font-3 = "Font Awesome 5 Free:style=Solid:pixelsize=10;1"
 font-4 = "Font Awesome 5 Brands:pixelsize=10;1"
 
 
-modules-left = ewmh 
+modules-left = powermenu ewmh 
 modules-center = xwindow music
 modules-right = filesystem xbacklight volume memory cpu wlan eth battery temperature date
 
@@ -355,10 +355,10 @@ menu-0-1-exec = menu-open-2
 menu-1-0 = cancel
 menu-1-0-exec = menu-open-0
 menu-1-1 = reboot
-menu-1-1-exec = sudo reboot
+menu-1-1-exec = sudo shutdown now -r
 
 menu-2-0 = power off
-menu-2-0-exec = sudo poweroff
+menu-2-0-exec = sudo shutdown now 
 menu-2-1 = cancel
 menu-2-1-exec = menu-open-0
 
