@@ -137,6 +137,7 @@ PATH="$NPM_PACKAGES/bin:$PATH"
 
 alias gstat="git status"
 alias gcom="git commit -a -m"
+alias gpus="git push -u origin master"
 
 alias ri="rifle"
 alias ezs="vim ~/.zshrc"
