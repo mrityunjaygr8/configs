@@ -6,6 +6,7 @@ image/png=gpicview.desktop;
 text/plain=sublime_text.desktop;wine-extension-txt.desktop;
 application/zip=org.gnome.FileRoller.desktop;
 application/pdf=wine-extension-pdf.desktop;
+image/jpeg=wine-extension-jpe.desktop;
 
 [Default Applications]
 application/x-ms-dos-executable=wine-2.desktop;

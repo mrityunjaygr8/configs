@@ -1,47 +1,56 @@
-VirtualBox XPCOM Server 5.1.30_SUSE r118389 linux.amd64 (openSUSE Buildservice) release log
-00:00:00.001927 main     Log opened 2018-01-12T05:23:51.611508000Z
-00:00:00.001930 main     Build Type: release
-00:00:00.001933 main     OS Product: Linux
-00:00:00.001934 main     OS Release: 4.14.8-1-default
-00:00:00.001935 main     OS Version: #1 SMP PREEMPT Wed Dec 20 10:40:41 UTC 2017 (674981b)
-00:00:00.001955 main     DMI Product Name: GL552VW
-00:00:00.001963 main     DMI Product Version: 1.0       
-00:00:00.001999 main     Host RAM: 15942MB (15.5GB) total, 14386MB (14.0GB) available
-00:00:00.002003 main     Executable: /usr/lib/virtualbox/VBoxSVC
-00:00:00.002003 main     Process ID: 3813
-00:00:00.002004 main     Package type: LINUX_64BITS_GENERIC (OSE)
-00:00:00.003398 main     IPC socket path: /tmp/.vbox-mrityunjaygr8-ipc/ipcd
-00:00:00.107434 nspr-2   VirtualBox: object creation starts
-00:00:00.107594 nspr-2   Home directory: '/home/mrityunjaygr8/.config/VirtualBox'
-00:00:00.108347 nspr-2   Loading settings file "/home/mrityunjaygr8/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-00:00:00.109986 nspr-2   USB: Unknown USB device detected (idVendor: 0x8087, idProduct: 0x0a2b)
-00:00:00.110078 nspr-2   Successfully initialised host USB using sysfs
-00:00:00.118801 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp2s0: VBoxNetAdpCtl: ioctl failed: Operation not supported
-00:00:00.128261 nspr-2   NAT: resolv.conf: nameserver 8.8.8.8
-00:00:00.128299 nspr-2   NAT: resolv.conf: nameserver 4.2.2.2
-00:00:00.128335 nspr-2   HostDnsMonitor: old information
-00:00:00.128343 nspr-2     no server entries
-00:00:00.128350 nspr-2     no domain set
-00:00:00.128355 nspr-2     no search string entries
-00:00:00.128362 nspr-2   HostDnsMonitor: new information
-00:00:00.128368 nspr-2     server 1: 8.8.8.8
-00:00:00.128375 nspr-2     server 2: 4.2.2.2
-00:00:00.128382 nspr-2     domain: iitbhu.ac.in
-00:00:00.128388 nspr-2     search string 1: iitbhu.ac.in
-00:00:00.128402 nspr-2   HostDnsMonitorProxy::notify
-00:00:00.136668 nspr-2   VD: VDInit finished
-00:00:00.136852 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={0eb668d2-495e-5a36-8890-29999b5f030c} aComponent={SystemPropertiesWrap} aText={Cannot determine default Guest Additions ISO location. Most likely they are not available}, preserve=false aResultDetail=0
-00:00:00.146801 nspr-2   Loading settings file "/home/mrityunjaygr8/VirtualBox VMs/kali/kali.vbox" with version "1.16-linux"
-00:00:00.148139 nspr-2   Loading settings file "/home/mrityunjaygr8/VirtualBox VMs/arch/arch.vbox" with version "1.16-linux"
-00:00:00.149594 nspr-2   VirtualBox: object created
-00:00:01.434966 nspr-4   Load [/usr/lib/virtualbox/ExtensionPacks/Oracle_VM_VirtualBox_Extension_Pack/linux.amd64/VBoxHostWebcam.so] rc VINF_SUCCESS
-00:00:01.644953 nspr-4   ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={b2547866-a0a1-4391-8b86-6952d82efaa0} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=0
-00:00:01.661341 nspr-4   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp2s0: VBoxNetAdpCtl: ioctl failed: Operation not supported
-00:00:16.866489 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp2s0: VBoxNetAdpCtl: ioctl failed: Operation not supported
-00:00:16.873212 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp2s0: VBoxNetAdpCtl: ioctl failed: Operation not supported
-00:00:37.770095 nspr-5   Load [/usr/lib/virtualbox/ExtensionPacks/Oracle_VM_VirtualBox_Extension_Pack/linux.amd64/VBoxHostWebcam.so] rc VINF_SUCCESS
-00:00:37.925707 nspr-7   ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={b2547866-a0a1-4391-8b86-6952d82efaa0} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=0
-00:00:37.942229 nspr-4   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp2s0: VBoxNetAdpCtl: ioctl failed: Operation not supported
-01:15:09.063142 nspr-6   Load [/usr/lib/virtualbox/ExtensionPacks/Oracle_VM_VirtualBox_Extension_Pack/linux.amd64/VBoxHostWebcam.so] rc VINF_SUCCESS
-01:15:09.249408 nspr-7   ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={b2547866-a0a1-4391-8b86-6952d82efaa0} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=0
-01:15:09.268856 nspr-5   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp2s0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+VirtualBox XPCOM Server 5.2.8 r120774 linux.amd64 (Feb 28 2018 07:46:09) release log
+00:00:00.002278 main     Log opened 2018-03-04T05:48:49.695717000Z
+00:00:00.002281 main     Build Type: release
+00:00:00.002285 main     OS Product: Linux
+00:00:00.002288 main     OS Release: 4.14.20-1-lts
+00:00:00.002290 main     OS Version: #1 SMP Sat Feb 17 21:35:28 CET 2018
+00:00:00.002324 main     DMI Product Name: GL552VW
+00:00:00.002343 main     DMI Product Version: 1.0       
+00:00:00.002421 main     Host RAM: 15942MB (15.5GB) total, 15410MB (15.0GB) available
+00:00:00.002429 main     Executable: /usr/lib/virtualbox/VBoxSVC
+00:00:00.002430 main     Process ID: 1553
+00:00:00.002432 main     Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.006171 main     IPC socket path: /tmp/.vbox-mrityunjaygr8-ipc/ipcd
+00:00:00.125064 nspr-2   VirtualBox: object creation starts
+00:00:00.126019 nspr-2   Home directory: '/home/mrityunjaygr8/.config/VirtualBox'
+00:00:00.126418 nspr-2   Loading settings file "/home/mrityunjaygr8/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:00.155852 nspr-2   NAT: resolv.conf: nameserver 192.168.1.1
+00:00:00.155909 nspr-2   HostDnsMonitor: old information
+00:00:00.155916 nspr-2     no server entries
+00:00:00.155924 nspr-2     no domain set
+00:00:00.155929 nspr-2     no search string entries
+00:00:00.155936 nspr-2   HostDnsMonitor: new information
+00:00:00.155942 nspr-2     server 1: 192.168.1.1
+00:00:00.155949 nspr-2     no domain set
+00:00:00.155954 nspr-2     no search string entries
+00:00:00.155963 nspr-2   HostDnsMonitorProxy::notify
+00:00:00.160304 nspr-2   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:00:00.161739 nspr-2   VD: VDInit finished with VINF_SUCCESS
+00:00:00.162355 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={0eb668d2-495e-5a36-8890-29999b5f030c} aComponent={SystemPropertiesWrap} aText={Cannot determine default Guest Additions ISO location. Most likely they are not available}, preserve=false aResultDetail=0
+00:00:00.173603 nspr-2   Loading settings file "/home/mrityunjaygr8/VirtualBox VMs/ub/ub.vbox" with version "1.16-linux"
+00:00:00.175461 nspr-2   VirtualBox: object created
+00:00:00.487170 nspr-3   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9570b9d5-f1a1-448a-10c5-e12f5285adad} aComponent={VirtualBoxWrap} aText={Could not find a registered machine named 'arch'}, preserve=false aResultDetail=0
+00:00:00.794028 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={afca788c-4477-787d-60b2-3fa70e56fbbc} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:00.826000 nspr-2   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:00:01.034790 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={afca788c-4477-787d-60b2-3fa70e56fbbc} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:01.037190 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={afca788c-4477-787d-60b2-3fa70e56fbbc} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:01.039314 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={afca788c-4477-787d-60b2-3fa70e56fbbc} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:01.939891 nspr-3   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:00:01.965030 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={afca788c-4477-787d-60b2-3fa70e56fbbc} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:01.967345 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={afca788c-4477-787d-60b2-3fa70e56fbbc} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:01.969212 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={afca788c-4477-787d-60b2-3fa70e56fbbc} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:02.404718 Watcher  ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={85cd948e-a71f-4289-281e-0ca7ad48cd89} aComponent={MachineWrap} aText={The virtual machine 'ub' has terminated unexpectedly during startup with exit code 1 (0x1)}, preserve=false aResultDetail=0
+00:00:03.017328 nspr-3   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:00:03.040476 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={afca788c-4477-787d-60b2-3fa70e56fbbc} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:03.042295 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={afca788c-4477-787d-60b2-3fa70e56fbbc} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:03.043720 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={afca788c-4477-787d-60b2-3fa70e56fbbc} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:08.852867 nspr-3   Saving settings file "/home/mrityunjaygr8/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:09.390529 nspr-4   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={4afe423b-43e0-e9d0-82e8-ceb307940dda} aComponent={MediumWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:00:10.662613 nspr-2   Saving settings file "/home/mrityunjaygr8/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:10.679252 nspr-4   Saving settings file "/home/mrityunjaygr8/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:10.690851 nspr-2   Saving settings file "/home/mrityunjaygr8/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:10.707222 nspr-4   Saving settings file "/home/mrityunjaygr8/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:16.232452 main     VirtualBox: object deletion starts
+00:00:16.410069 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={9570b9d5-f1a1-448a-10c5-e12f5285adad} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:00:21.233047 main     {00007f2cc8018410} HostPowerServiceLinux::~HostPowerServiceLinux: RTThreadWait() for 5000 ms failed with VERR_TIMEOUT
+00:00:21.233676 main     VirtualBox: object deleted

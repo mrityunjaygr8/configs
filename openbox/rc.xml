@@ -249,6 +249,16 @@
         <to>4</to>
       </action>
     </keybind>
+    <keybind key="W-5">
+      <action name="GoToDesktop">
+        <to>5</to>
+      </action>
+    </keybind>
+    <keybind key="W-6">
+      <action name="GoToDesktop">
+        <to>6</to>
+      </action>
+    </keybind>
     <keybind key="W-S-d">
       <action name="ToggleShowDesktop"/>
     </keybind>
@@ -364,6 +374,16 @@
         <command>pamixer -d 3</command>
       </action>
     </keybind>
+    <keybind key="C-S-A-Up">
+      <action name="Execute">
+        <command>pamixer -i 3</command>
+      </action>
+    </keybind>
+    <keybind key="C-S-A-Down">
+      <action name="Execute">
+        <command>pamixer -d 3</command>
+      </action>
+    </keybind>
     <keybind key="XF86AudioMute">
       <action name="Execute">
         <command>pamixer -t</command>
@@ -409,6 +429,36 @@
         <command>thunar</command>
       </action>
     </keybind>
+    <keybind key="W-l">
+      <action name="Execute">
+        <command>oblogout</command>
+      </action>
+    </keybind>
+    <keybind key="W-Tab">     
+      <action name="NextWindow">
+        <allDesktops>yes</allDesktops>
+      </action>
+    </keybind>
+    <keybind key="W-S-Tab">   
+      <action name="PreviousWindow">
+        <allDesktops>yes</allDesktops>
+      </action>
+    </keybind>
+    <keybind key="W-m">
+      <action name="Focus" />
+      <action name="Raise" />
+      <action name="ToggleMaximizeFull" />
+    </keybind>
+    <keybind key="W-KP_Divide"> 
+      <action name="MoveResizeTo">
+        <width>960</width>
+      </action>
+    </keybind>
+    <keybind key="W-A-KP_Divide">
+      <action name="MoveResizeTo">
+        <width>1200</width>
+      </action>
+  </keybind>
   </keyboard>
   <mouse>
     <dragThreshold>1</dragThreshold>

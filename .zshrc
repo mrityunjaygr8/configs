@@ -136,12 +136,15 @@ NPM_PACKAGES="${HOME}/.npm-packages"
 PATH="$NPM_PACKAGES/bin:$PATH"
 
 alias gstat="git status"
+alias gcom="git commit -a -m"
 
 alias ri="rifle"
 alias ezs="vim ~/.zshrc"
 alias wnx="wal -i ~/Pictures/slide"
 alias diff='diff --color=auto'
 alias grep='grep --color=auto'
+alias app='adb push -p'
+alias arr="adb reboot recovery"
 
 source /usr/bin/virtualenvwrapper.sh
 
@@ -151,3 +154,6 @@ alias xup="xrdb ~/.Xresources"
 
 alias z_source="source ~/.zshrc"
 
+alias eor="vim .config/openbox/rc.xml"
+alias rpy="pkill polybar && (.config/openbox/autostart &)"
+alias epc="vim .config/polybar/config"

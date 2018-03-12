@@ -13,7 +13,7 @@
 		"NthCategory": 0,
 		"NthStatus": 0,
 		"PanedPositionH": 359,
-		"PanedPositionV": 767
+		"PanedPositionV": 653
 	},
 	"Summary": {
 		"name": true,
@@ -29,7 +29,7 @@
 		"elapsed": true,
 		"left": true,
 		"speed": true,
-		"UploadSpeed": true,
+		"UploadSpeed": false,
 		"uploaded": false,
 		"ratio": true,
 		"retry": true,
@@ -37,18 +37,18 @@
 		"uri": false,
 		"AddedOn": true,
 		"CompletedOn": false,
-		"SortType": 1,
-		"SortNth": 0,
+		"SortType": 0,
+		"SortNth": 3,
 		"Width": {
 			"state": 18,
-			"name": 770,
+			"name": 838,
 			"complete": 76,
 			"total": 70,
 			"percent": 60,
 			"elapsed": 65,
 			"left": 65,
 			"speed": 80,
-			"UploadSpeed": 80,
+			"UploadSpeed": 0,
 			"uploaded": 0,
 			"ratio": 47,
 			"retry": 47,
@@ -114,6 +114,9 @@
 		"OnError": null
 	},
 	"FolderHistory": [
+		"\/home\/mrityunjaygr8\/Downloads\/Compressed",
+		"\/home\/mrityunjaygr8\/Videos",
+		"\/home\/mrityunjaygr8\/Downloads\/Images",
 		"\/media\/Storage\/mrityunjaygr8\/Downloads\/apks",
 		"\/media\/Storage\/mrityunjaygr8\/Downloads",
 		"\/home\/mrityunjaygr8"

@@ -19,6 +19,6 @@ URxvt.tabbed.autohide:  yes
 URxvt.tabbed.new-button:  no
 URxvt.tabbed.title: yes
 
-URxvt*depth: 32
-URxvt*background: [75]#000000
-URxvt.fading: 20 
+URxvt*depth: 256
+URxvt*background: [25]#ffffff
+URxvt.fading: 1000 

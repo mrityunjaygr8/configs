@@ -1,8 +1,8 @@
 {
 	"folder_history":
 	[
-		"/home/mrityunjaygr8/Desktop/Stuff/SAIC",
 		"/home/mrityunjaygr8/Desktop/Stuff/ftuff1",
+		"/home/mrityunjaygr8/Desktop/Stuff/SAIC",
 		"/home/mrityunjaygr8/Desktop/Stuff/my_site",
 		"/home/mrityunjaygr8/Desktop/Stuff/py/report",
 		"/home/mrityunjaygr8/Desktop/Stuff/ftuff2"
@@ -946,31 +946,10 @@
 			"buffers":
 			[
 				{
-					"file": "/home/mrityunjaygr8/Desktop/Stuff/SAIC/saic/settings.py",
+					"file": "/home/mrityunjaygr8/ftuff1.json",
 					"settings":
 					{
-						"buffer_size": 12960,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"contents": "Searching 2386 files for \">>>>>\"\n\n/home/mrityunjaygr8/Desktop/Stuff/SAIC/templates/team.html:\n   66  =======\n   67  \t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/core team/shashwat-shrivastava-meta.jpg\">\n   68: >>>>>>> master\n   69  \t\t\t\t\t\t<div class=\"caption\">\n   70  \t\t\t\t\t\t\t<h4>Shashwat Shrivastava<br></h4>\n   ..\n  147  \t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/web/himanshu-dayani-cera-3.jpg\">\n  148  \t\t\t\t\t\t<div class=\"caption\">\n  149: >>>>>>> master\n  150  \t\t\t\t\t\t\t<h4>Himanshu Dayani<br></h4>\n  151                               Ceramic Engineering Part III<br>\n  ...\n  358  =======\n  359  \t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/dr/ceramic/shaikh-zaeem-3.jpg\">\n  360: >>>>>>> master\n  361  \t\t\t\t\t\t<div class=\"caption\">\n  362  \t\t\t\t\t\t\t<h4>Md.Zaeem<br></h4>\n  ...\n  397  =======\n  398  \t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"static/Team members/dr/chemical/shubham-agrawal-2.jpg\">\n  399: >>>>>>> master\n  400  \t\t\t\t\t\t<div class=\"caption\">\n  401  \t\t\t\t\t\t\t<h4>Shubham Agrawal<br></h4>\n  ...\n  426  =======\n  427  \t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/dr/metallurgical/anant-jian-2.jpg\">\n  428: >>>>>>> master\n  429  \t\t\t\t\t\t<div class=\"caption\">\n  430  \t\t\t\t\t\t\t<h4>Anant Jain<br></h4>\n  ...\n  440  =======\n  441  \t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/dr/metallurgical/devank-singhai-2.jpg\">\n  442: >>>>>>> master\n  443  \t\t\t\t\t\t<div class=\"caption\">\n  444  \t\t\t\t\t\t\t<h4>Devank Singhai<br></h4>\n  ...\n  522  =======\n  523  \t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/dr/mst/rajat-kumar-singh-4.jpg\">\n  524: >>>>>>> master\n  525  \t\t\t\t\t\t<div class=\"caption\">\n  526  \t\t\t\t\t\t\t<h4>Rajat Kumar Singh<br></h4>\n  ...\n  591  =======\n  592  \t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/dr/electronics/tansih-jain-2.jpg\">\n  593: >>>>>>> master\n  594  \t\t\t\t\t\t<div class=\"caption\">\n  595  \t\t\t\t\t\t\t<h4>Tanish Jain<br></h4>\n  ...\n  710  \t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/dr/industrial-chemistry/mohit-patil-2.jpg\">\n  711  \t\t\t\t\t\t<div class=\"caption\">\n  712: >>>>>>> master\n  713  \t\t\t\t\t\t\t<h4>Mohit Patil<br></h4>\n  714                            Industrial Chemistry Part II<br>\n  ...\n  749  =======\n  750  \t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/volunteers/samiksha-jain-cera.jpg\">\n  751: >>>>>>> master\n  752  \t\t\t\t\t\t<div class=\"caption\">\n  753  \t\t\t\t\t\t\t<h4>Samiksha Jain<br></h4>\n  ...\n  763  =======\n  764  \t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/volunteers/prakhar-bhatnagar-chem.jpg\">\n  765: >>>>>>> master\n  766  \t\t\t\t\t\t<div class=\"caption\">\n  767  \t\t\t\t\t\t\t<h4>Prakhar Bhatnagar<br></h4>\n\n11 matches in 1 file\n",
-					"settings":
-					{
-						"buffer_size": 3060,
-						"line_ending": "Unix",
-						"name": "Find Results",
-						"scratch": true
-					}
-				},
-				{
-					"contents": "{% extends \"base.html\" %}\n\n\n      {% block title %}IIT BHU Alumni Portal {% endblock %}\n         \n   {% block body %}\n\t <style>html,body{height:100%}.nis{text-align:center;font-family:sans-serif;margin-top:20px;font-size:40px}#nishith{text-align:center;font-family:sans-serif;margin-top:20px;font-size:15px}#way{font-family:sans-serif;text-decoration-color:red;font-size:10px}hr{display:block;margin-top:.5em;margin-bottom:.5em;margin-left:auto;margin-right:auto;border-style:inset;border-width:1px}#photo{height:250px;width:25opx}.ni{width:200px;height:200px}.tumbnail{max-width:304px;max-height:236px}.wrapper{min-height:100%;height:auto!important;height:100%;margin:0 auto -120px}.push{height:120px}@media only screen and (max-width:768px){.rows{margin-left:10%;margin-right:10%}.thumbnails{max-width:280px}.rows h4{font-size:14px;padding-top:25px}.col-xs-12 .caption h4{margin:0}}@media only screen and (max-width:768px) and (min-width:500px){.rows{margin-left:25%;margin-right:25%}}</style>\n\t <div class=\"container\">\n    <h3 class=\"nis\"> OUR TEAM</h3>\n\t<ul class=\"nav nav-pills\" id=\"nishith\">\n\t\t<li class=\"active\"><a data-toggle=\"pill\" href=\"#CORE\">CORE TEAM</a></li>\n\t\t<li><a data-toggle=\"pill\" href=\"#WEB\">WEB TEAM</a></li>\n\t\t<li><a data-toggle=\"pill\" href=\"#PR\">PUBLIC RELATIONS</a></li>\n\t\t<li><a data-toggle=\"pill\" href=\"#LOGISTICS\">LOGISTICS</a></li>\n\t\t<li><a data-toggle=\"pill\" href=\"#DR\">DEPARTMENTAL REPRESENTATIVES</a></li>\n\t\t<li><a data-toggle=\"pill\" href=\"#VOLUNTEERS\">VOLUNTEERS</a></li>\n\t</ul>\n    <hr>\n  \n  <div class=\"tab-content\">\n    <div id=\"CORE\" class=\"tab-pane fade in active\">\n         <div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\n\t\t\t\t\t<div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/core team/ayush-jain-cera.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Ayush Jain<br></h4>\n                            Ceramic Engineering Part IV<br>\n                            +91-9761947044\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n         <div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\n\t\t\t\t\t<div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/core team/rajat-bhargava-min.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Rajat Bhargava<br></h4>\n                              Mining Engineering Part IV<br>\n                             +91-9919041807\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n         <div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\n\t\t\t\t\t<div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/core team/shashank-agarwal-meta.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Shashank Agarwal</h4>\n                            Metallurgical Engineering Part IV<br>\n                             +91-8171287653\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\n\t\t\t\t\t<div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/core team/ashay-jain-min.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Ashay Jain<br></h4>\n                            Mining Engineering Part III<br>\n                            +91-9455536839\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\t\t\n\t\t<div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\n\t\t\t\t\t<div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/core team/b1.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Shashwat Shrivastava<br></h4>\n                            Metallurgical Engineering Part III<br>\n                            +91-8602466105\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\t\t\n\t\t<div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\n\t\t\t\t\t<div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/core team/gauri-katiyar-pharma.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Gauri Katiyar<br></h4>\n                            Pharmaceutical Engineering Part II<br>\n                            +91-7054151685\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\t\t\n    </div>\n      \n      \n    <div id=\"WEB\" class=\"tab-pane fade\">\n       <div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\n\t\t\t\t\t<div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/web/b1.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Mrityunjay Saxena<br></h4>\n                            Metallurgical Engineering Part IV<br>\n                            \n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n         <div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\n\t\t\t\t\t<div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/web/b1.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Shreyans Jain<br></h4>\n                             Ceramic Engineering Part IV<br>\n                          \n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\n\t\t\t\t\t<div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/web/b1.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Abhishek Singh<br></h4>\n                             Mining Engineering Part III<br>\n                          \n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t\t<div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\n\t\t\t\t\t<div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/web/himanshu-dayani-cera-3.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Himanshu Dayani<br></h4>\n                             Ceramic Engineering Part III<br>\n                          \n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\n\t\t\t\t\t<div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/web/shah-rachit-chem-2.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Shah Rachit<br></h4>\n                             Chemical Engineering Part II<br>\n                          \n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n      </div>\n        \n            \n    <div id=\"PR\" class=\"tab-pane fade\">\n       <div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\n\t\t\t\t\t<div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/pr/shubhi-srivastava-civil-3.JPG\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Shubhi Srivastava</h4>\n                         Civil Engineering Part III<br>\n                                \n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n         <div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\n\t\t\t\t\t<div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/pr/pranav-vyas-cera-3.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Pranav Vyas</h4>\n                            Ceramic Engineering Part III<br>\n                            \n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n         <div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\n\t\t\t\t\t<div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/pr/himanshu-choudhary-min-2.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Himanshu Choudhary<br></h4>\n                            Mining Engineering Part II<br>\n                           \n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n         <div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\n\t\t\t\t\t<div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/pr/manthan-jain-electronics-2.jpeg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Manthan Jain<br></h4>\n                             Electronics Engineering Part II<br>\n                         \n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n         <div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\n\t\t\t\t\t<div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/pr/vipul-chandra-meta-2.jpeg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Vipul Chandra<br></h4>\n                             Metallurgical Engineering Part II<br>\n                            \n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\n\t\t\t\t\t<div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/pr/vyom-agarwal-meta-2.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Vyom Agarwal<br></h4>\n                             Metallurgical Engineering Part II<br>\n                            \n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n      </div>\n   \n      \n            \n    <div id=\"LOGISTICS\" class=\"tab-pane fade\">\n       <div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\n\t\t\t\t\t<div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/logistics/hrishikesh-krishna-cera-4.png\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Hrishikesh Krishna<br></h4>\n                             Ceramic Engineering Part IV<br>\n                         \n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n         <div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\n\t\t\t\t\t<div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/logistics/aman-sapharia-civil-3.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Aman Sapharia<br></h4>\n                            Civil Engineering Part III<br>\n                           \n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n         <div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\n\t\t\t\t\t<div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/logistics/bharat-jain-civil-2.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Bharat Jain<br></h4>\n                           Civil Engineering Part II<br>\n                         \n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n        \n         <div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\n\t\t\t\t\t<div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/logistics/dhruva-agarwal-meta-2.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Dhruva Agarwal<br></h4>\n                           Metallurgical  Engineering Part II<br>\n                            \n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n         \n      </div>\n      \n                 \n      <div id=\"DR\" class=\"tab-pane fade\">\n    <ul class=\"list-inline\" id=\"way\">\n    <li class=\"active\"><a data-toggle=\"tab\" href=\"#CIVIL\">CIVIL</a></li>\n    <li><a data-toggle=\"tab\" href=\"#CSE\">CSE</a></li>\n    <li><a data-toggle=\"tab\" href=\"#CERA\">CERAMICS</a></li>\n    <li><a data-toggle=\"tab\" href=\"#CHEM\">CHEMICAL</a></li>\n    <li><a data-toggle=\"tab\" href=\"#META\">METALLURGY</a></li>            \n    <li><a data-toggle=\"tab\" href=\"#MIN\">MINING</a></li>\n    <li><a data-toggle=\"tab\" href=\"#MECH\">MECHANICAL</a></li>\n    <li><a data-toggle=\"tab\" href=\"#MST\">MATERIAL SCIENCE</a></li>\n    <li><a data-toggle=\"tab\" href=\"#ELECTRICAL\">ELECTRICAL</a></li>\n    <li><a data-toggle=\"tab\" href=\"#ELECTRONICS\"> ELECTRONICS</a></li>\n    \n    <li><a data-toggle=\"tab\" href=\"#BM\">BIOMEDICAL</a></li>\n    <li><a data-toggle=\"tab\" href=\"#PH\">PHARMACEUTICS</a></li>\n    <li><a data-toggle=\"tab\" href=\"#IC\">INDUSTRIALCHEMISTRY</a></li>\n         </ul>\n         <hr>\n      \n      \n           <div class=\"tab-content\">\n            <div id=\"CIVIL\" class=\"tab-pane fade in active\">\n       <div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\n\t\t\t\t\t<div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/dr/civil/shekhar-shivhare-3.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Shekhar Shivhare<br></h4>\n                            Civil Engineering Part III<br>\n                            \n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n         <div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\n\t\t\t\t\t<div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/dr/civil/harshit-chaudhary-2.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Harshit Chaudhary<br></h4>\n                            Civil Engineering Part II<br>\n                            \n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n        \n           </div>\n                \n           \n               \n             <div id=\"CSE\" class=\"tab-pane fade\">   \n           <div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\t\n              <div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/dr/cse/atishay-jain-4.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Atishay Jain<br></h4>\n                            Computer Science And Engineering Part IV<br>\n                            \n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n           \n           </div>\n                  \n    \n                   \n           <div id=\"CERA\" class=\"tab-pane fade\">\n           <div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\t\n              <div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/dr/ceramic/aditya-rana-3.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Aditya Rana<br></h4>\n                            Ceramic Engineering Part III<br>\n                            \n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n           <div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\t\n              <div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/dr/ceramic/shaikh-zaeem-cera-3.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Md.Zaeem<br></h4>\n                            Ceramic Engineering Part III<br>\n                            \n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n           <div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\t\n              <div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/dr/ceramic/keval-mehta-2.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Keval Mehta<br></h4>\n                            Ceramic Engineering Part II<br>\n                            \n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n           </div>\n                       \n        \n                       \n           <div id=\"CHEM\" class=\"tab-pane fade\">\n           <div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\t\n              <div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" class=\"ni\" alt=\"270x170\" src=\"/static/Team members/dr/chemical/avnish-singh-2.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Avnish Singh<br></h4>\n                            Chemical Engineering  Btech Part II<br>\n                           \n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n           <div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\t\n              <div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/volunteers/b1.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Shubham Agrawal<br></h4>\n                            Chemical Engineering  Btech Part II<br>\n                            \n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n           <div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\t\n              <div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/dr/chemical/shubham-bhalotia-2.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Shubham Bhalotia<br></h4>\n                            Chemical Engineering  Btech Part II<br>\n                            \n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n           </div>\n                            \n  \n                           \n          <div id=\"META\" class=\"tab-pane fade\"> \n           <div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\t\n              <div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/dr/metallugical/anant-jian-2.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Anant Jain<br></h4>\n                           Metallurgical Engineering Part II<br>\n                            \n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n           <div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\t\n              <div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/dr/metallugical/devank-singhai-2.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Devank Singhai<br></h4>\n                           Metallurgical Engineering Part II<br>\n                           \n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n           </div>\n           \n           </div>\n                            \n        \n                               \n           <div id=\"MIN\" class=\"tab-pane fade\">\n      \n           \n           <div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\t\n              <div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/dr/b1.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Jeet Parekh<br></h4>\n                           Mining Engineering Part IV<br>\n                            \n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div> \n\t\t\t\t<div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\t\n              <div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/dr/minig/divyansh-sharma-2.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Divyansh Sharma<br></h4>\n                           Mining Engineering  Btech Part II<br>\n                            \n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>   \n           </div>\n                                    \n             \n                                   \n            <div id=\"MECH\" class=\"tab-pane fade\">\n           <div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\t\n              <div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/dr/b1.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Shivam Kumar<br></h4>\n                           Mechanical Engineering Part III<br>\n                        \n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n           <div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\t\n              <div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/dr/b1.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Jishnu D I<br></h4>\n                           Mechanical engineering   Btech Part II<br>\n                            \n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n           <div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\t\n              <div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/dr/mechanical/naman-jain-2.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Naman Jain<br></h4>\n                          Mechanical Engineering Part II<br>\n                            \n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n           </div>\n                                       \n            \n                                       \n             <div id=\"MST\" class=\"tab-pane fade\">\n           <div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\t\n              <div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/dr/mst/rajat-kumar-singh-4.jpeg\">\n \n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Rajat Kumar Singh<br></h4>\n                           Material Science and Technology Part IV<br>\n                            \n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n           <div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\t\n              <div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/dr/mst/anirudh-ingle-2.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Anirudh Ingle<br></h4>\n                           Material Science and Technology Part II<br>\n                            \n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n           </div>\n                                           \n       \n                                          \n         <div id=\"ELECTRICAL\" class=\"tab-pane fade\">\n            <div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\t\n              <div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/dr/b1.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Durgesh Kumar<br></h4>\n\t\t\t\t\t\t\t<h4><br></h4>\n                           Electrical Engineering Part IV<br>\n                            \n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>  \n                \n            <div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\t\n              <div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/dr/electrical/paritosh-saroj-2.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Paritosh Saroj<br></h4>\n                           Electrical Engineering Part II<br>\n                            \n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>  \n                \n            <div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\t\n              <div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/dr/electrical/prabhakar-singh-2.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Prabhakar Singh<br></h4>\n                           Electrical Engineering Part II<br>\n                            \n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div> \n           </div>\n                                            \n           \n                                               \n            <div id=\"ELECTRONICS\" class=\"tab-pane fade\">\n          \n                \n           <div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\t\n              <div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/dr/electronics/tanish-jain-2.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Tanish Jain<br></h4>\n                           Electronics Engineering Part II<br>\n                            \n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>  \n           </div>\n                                                    \n           \n                                                   \n            <div id=\"EP\" class=\"tab-pane fade\">\n           <div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\t\n              <div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/dr/PRASHANTHI Ep.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>M. Prashanthi<br></h4>\n                           Engineering Physics  IMD Part IV<br>\n                            +91-9454214170\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n           </div>\n                \n               <div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\t\n              <div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/dr/Shyam Ep.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Shyam Harimohan Menon<br></h4>\n                           Engineering Physics  IMD Part IV<br>\n                            +91-8874597917\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n           </div>\n                \n               <div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\t\n              <div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/dr/b1.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>M. Prashanthi<br></h4>\n                           Engineering Physics  IMD Part III<br>\n                            +91-9670000239\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n           </div>\n           </div>\n                                                        \n        \n                                                       \n         <div id=\"BM\" class=\"tab-pane fade\">\n           <div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\t\n              <div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/dr/biomedical/arshad-kazi-2.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Arshad Kazi<br></h4>\n                          Biomedical Engineering Part II<br>\n                          \n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n           </div>\n           <div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\t\n              <div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/dr/b1.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Vinayak<br></h4>\n                          Biomedical Engineering Part II<br>\n                            \n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n           </div>\n           </div>\n                                                            \n          \n                                                          \n            <div id=\"PH\" class=\"tab-pane fade\">\n          <div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\t\n              <div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/dr/pharma/shubham-jain-2.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Shubham Jain<br></h4>\n                         PHARMACEUTICS Part II<br>\n                            \n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n           </div> \n           </div>\n                                                              \n           \n                                                              \n            <div id=\"IC\" class=\"tab-pane fade\">\n            <div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\t\n              <div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/dr/industrial-chemistry/atul-dorge-2.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Atul Dorge<br></h4>\n                          Industrial Chemistry Part II<br>\n                            \n\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n           </div>\n\t\t   <div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\t\n              <div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/dr/industrial-chemistry/mohit-patil-2.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Mohit Patil<br></h4>\n                          Industrial Chemistry Part II<br>\n                            \n\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n           </div>\n                                                                   </div>\n                                                                    </div>\n                   \n    </div>\n\t\t<div id=\"VOLUNTEERS\" class=\"tab-pane fade\">\n\t\t\t<div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\n\t\t\t\t\t<div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/volunteers/b1.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Abhas Jain<br></h4>\n                             Biochemical Engineering Part I<br>\n                         \n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t<div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\n\t\t\t\t\t<div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/volunteers/pulkit-jain-biochem.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Pulkit Jain<br></h4>\n                             Biochemical Engineering Part I<br>\n                         \n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\t\n\t\t\t<div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\n\t\t\t\t\t<div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/volunteers/samiksha-jain-cera.jpeg\">\n\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Samiksha Jain<br></h4>\n                             Ceramic Engineering Part I<br>\n                         \n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t<div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\n\t\t\t\t\t<div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/volunteers/prakhar-bhatnagar-chem.jpeg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Prakhar Bhatnagar<br></h4>\n                             Chemical Engineering Part I<br>\n                         \n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\t\n\t\t\t<div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\n\t\t\t\t\t<div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/volunteers/sajal-srivastava-civil.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Sajal Srivastava<br></h4>\n                             Civil Engineering Part I<br>\n                         \n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\t\n\t\t\t<div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\n\t\t\t\t\t<div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/volunteers/hritwik-singhai-compu.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Hritwik Singhai<br></h4>\n                             Computer Science Engineering Part I<br>\n                         \n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\t\n\t\t\t\t<div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\n\t\t\t\t\t<div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/volunteers/lovish-bansal-compu.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Lovish Bansal<br></h4>\n                             Computer Science Engineering Part I<br>\n                         \n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\n\t\t\t\t\t<div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/volunteers/umang-jain-compu.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Umang Jain<br></h4>\n                            Computer Science Engineering Part I<br>\n                         \n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\n\t\t\t\t\t<div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/volunteers/keshav-sharma-meta.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Keshav Sharma<br></h4>\n                             Metallurgical Engineering Part I<br>\n                         \n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"col-md-3 col-sm-4 col-xs-12\" data-tag=\"art\">\n\t\t\t\t\t<div class=\"thumbnail\">\n\t\t\t\t\t\t<img class=\"img-round img-responsive\" id=\"photo\" alt=\"270x170\" src=\"/static/Team members/volunteers/vidhan-garg-pharma.jpg\">\n\t\t\t\t\t\t<div class=\"caption\">\n\t\t\t\t\t\t\t<h4>Vidhan Garg</h4>\n                             Pharmaceutical Engineering Part I<br>\n                         \n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t</div>\n  </div>\n  \n</div>\n\n\t\n{% endblock %}\n\n{% block scripts %}\n{% endblock %}\n",
-					"file": "/home/mrityunjaygr8/Desktop/Stuff/SAIC/templates/team.html",
-					"file_size": 30909,
-					"file_write_time": 131635022330619721,
-					"settings":
-					{
-						"buffer_size": 30910,
+						"buffer_size": 15910,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
@@ -1014,14 +993,12 @@
 			},
 			"expanded_folders":
 			[
-				"/home/mrityunjaygr8/Desktop/Stuff/SAIC",
-				"/home/mrityunjaygr8/Desktop/Stuff/SAIC/saic",
-				"/home/mrityunjaygr8/Desktop/Stuff/SAIC/static",
-				"/home/mrityunjaygr8/Desktop/Stuff/SAIC/static/Team members",
-				"/home/mrityunjaygr8/Desktop/Stuff/SAIC/static/Team members/core team"
+				"/home/mrityunjaygr8/Desktop/Stuff/ftuff1"
 			],
 			"file_history":
 			[
+				"/home/mrityunjaygr8/Desktop/Stuff/SAIC/saic/settings.py",
+				"/home/mrityunjaygr8/Desktop/Stuff/SAIC/templates/team.html",
 				"/home/mrityunjaygr8/Desktop/mongo.py",
 				"/home/mrityunjaygr8/Desktop/Stuff/my_site/sass/style_c.scss",
 				"/home/mrityunjaygr8/Desktop/Stuff/my_site/sass/_typography.scss",
@@ -1082,7 +1059,6 @@
 				"/home/mrityunjaygr8/Desktop/Stuff/ftuff1/views/partials/alerts.ejs",
 				"/home/mrityunjaygr8/Desktop/Stuff/ftuff1/views/partials/scan.ejs",
 				"/home/mrityunjaygr8/Desktop/Stuff/ftuff1/public/javascripts/ngStorage.js",
-				"/home/mrityunjaygr8/Desktop/Stuff/SAIC/templates/team.html",
 				"/home/mrityunjaygr8/Desktop/Stuff/SAIC/templates/base.html",
 				"/home/mrityunjaygr8/Desktop/Stuff/SAIC/static/admin/css/base.css",
 				"/home/mrityunjaygr8/Desktop/Stuff/SAIC/static/css/main.min.css",
@@ -1097,7 +1073,7 @@
 			],
 			"find":
 			{
-				"height": 75.0
+				"height": 36.0
 			},
 			"find_in_files":
 			{
@@ -1112,6 +1088,7 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"},",
 					"<<<<<<< HEAD",
 					"<<<<<<< HEAD\n=======\n\n>>>>>>> development",
 					"<<<<<<<",
@@ -1124,6 +1101,7 @@
 				"regex": false,
 				"replace_history":
 				[
+					"},",
 					""
 				],
 				"reverse": false,
@@ -1135,170 +1113,39 @@
 			"folders":
 			[
 				{
-					"path": "/home/mrityunjaygr8/Desktop/Stuff/SAIC"
+					"path": "/home/mrityunjaygr8/Desktop/Stuff/ftuff1"
 				}
 			],
 			"groups":
 			[
 				{
-					"selected": 2,
+					"selected": 0,
 					"sheets":
 					[
 						{
 							"buffer": 0,
-							"file": "/home/mrityunjaygr8/Desktop/Stuff/SAIC/saic/settings.py",
+							"file": "/home/mrityunjaygr8/ftuff1.json",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 12960,
+								"buffer_size": 15910,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										3549,
-										3549
+										15910,
+										15910
 									]
 								],
 								"settings":
 								{
-									"git_gutter_is_enabled": true,
-									"syntax": "Packages/Python/Python.sublime-syntax",
-									"tab_size": 4,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 2,
-							"type": "text"
-						},
-						{
-							"buffer": 1,
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 3060,
-								"regions":
-								{
-									"match":
-									{
-										"flags": 112,
-										"regions":
-										[
-											[
-												260,
-												265
-											],
-											[
-												541,
-												546
-											],
-											[
-												830,
-												835
-											],
-											[
-												1081,
-												1086
-											],
-											[
-												1340,
-												1345
-											],
-											[
-												1598,
-												1603
-											],
-											[
-												1853,
-												1858
-											],
-											[
-												2113,
-												2118
-											],
-											[
-												2396,
-												2401
-											],
-											[
-												2682,
-												2687
-											],
-											[
-												2943,
-												2948
-											]
-										],
-										"scope": ""
-									}
-								},
-								"selection":
-								[
-									[
-										0,
-										0
-									],
-									[
-										56,
-										56
-									],
-									[
-										67,
-										67
-									],
-									[
-										252,
-										252
-									]
-								],
-								"settings":
-								{
-									"default_dir": "/home/mrityunjaygr8/Desktop/Stuff/SAIC",
-									"detect_indentation": false,
 									"git_gutter_is_enabled": false,
-									"line_numbers": false,
-									"output_tag": 1,
-									"result_base_dir": "",
-									"result_file_regex": "^([^ \t].*):$",
-									"result_line_regex": "^ +([0-9]+):",
-									"scroll_past_end": true,
-									"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+									"syntax": "Packages/JavaScript/JSON.sublime-syntax"
 								},
 								"translation.x": 0.0,
 								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 1,
-							"type": "text"
-						},
-						{
-							"buffer": 2,
-							"file": "/home/mrityunjaygr8/Desktop/Stuff/SAIC/templates/team.html",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 30910,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										19545,
-										19545
-									]
-								],
-								"settings":
-								{
-									"git_gutter_is_enabled": true,
-									"syntax": "Packages/HTML/HTML.sublime-syntax"
-								},
-								"translation.x": 0.0,
-								"translation.y": 1479.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 0,
@@ -1351,7 +1198,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,19,44,1901,1061,1920,1080",
+			"position": "0,0,0,0,0,25,60,1891,1023,1920,1080",
 			"project": "",
 			"replace":
 			{

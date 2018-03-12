@@ -9,18 +9,13 @@
 
 [colors]
 background = ${xrdb:color7:#333} 
-;background = #222
-background-alt = #88000000
+background-alt = #88000001
 foreground = ${xrdb:color0:#eee}
-;foreground = #dfdfdf
 foreground-alt = ${xrdb:color7:#222}
-;primary = ${xrdb:color4:#ffb52a}
-;secondary = ${xrdb:color6:#e60053}
-;alert = ${xrdb:color8:#bd2}
 
 primary = ${xrdb:color1:#222}
 secondary = ${xrdb:color2:#222}
-alert = ${xrdb:color333:#222}
+alert = ${xrdb:color3:#222}
 
 
 [bar/example]
@@ -43,9 +38,10 @@ border-color = #00000000
 
 padding-left = 2 
 padding-right = 2
+;separator = "|"
 
-module-margin-left = 1
-module-margin-right = 2
+module-margin-left = 1 
+module-margin-right = 1
 
 font-0 = Monaco:size=9;1
 font-1 = Hack:fontformat=truetype:size=10:antialias=false;0
@@ -55,8 +51,8 @@ font-4 = "Font Awesome 5 Brands:pixelsize=10;1"
 
 
 modules-left = powermenu ewmh 
-modules-center = xwindow music
-modules-right = filesystem xbacklight volume memory cpu wlan eth battery temperature date
+modules-center = date xwindow music
+modules-right = filesystem xbacklight volume memory cpu wlan eth battery temperature 
 
 tray-position = right 
 tray-padding = 2
@@ -83,10 +79,14 @@ enable-ipc = true
 [module/xwindow]
 type = internal/xwindow
 label = %title:0:30:...%
+label-background = ${colors.secondary}
+label-padding = 2
+format-background = ${colors.secondary}
 
 [module/xkeyboard]
 type = internal/xkeyboard
 blacklist-0 = num lock
+;-left = 0
 
 format-prefix = " "
 format-prefix-foreground = ${colors.foreground-alt}
@@ -262,11 +262,15 @@ time = %H:%M
 time-alt = %H:%M:%S
 
 format-prefix =  
-format-prefix-foreground = ${colors.foreground}
-time-foreground = ${colors.primary} 
+format-prefix-foreground = ${colors.primary}
+;time-foreground = ${colors.primary} 
+;format-background = ${colors.secondary}
+format-padding = 1
+label-padding = 1
 
 label = %date% %time%
 label-foreground = ${colors.primary}
+;label-background = ${colors.secondary}
 
 [module/volume]
 type = internal/volume
@@ -340,10 +344,10 @@ format-spacing = 1
 
 label-open = 
 label-open-padding = 1 
-label-open-foreground = ${colors.primary}
+label-open-foreground = ${colors.alert}
 label-close =  
 label-close-padding = 1
-label-close-foreground = ${colors.primary}
+label-close-foreground = ${colors.alert}
 label-separator = |
 label-separator-foreground = ${colors.foreground-alt}
 
@@ -376,7 +380,7 @@ icon-default = 
 label-active = "%icon% %name% "
 label-active-foreground = ${colors.primary}
 label-empty = "%icon% %index% "
-label-empty-foreground = ${colors.secondary}
+label-empty-foreground = ${colors.foreground}
 
 [module/music]
 type = custom/script
